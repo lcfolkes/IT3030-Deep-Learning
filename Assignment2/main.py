@@ -3,25 +3,37 @@ import numpy as np
 from tensorflow import keras
 import matplotlib.pyplot as plt
 
+from Assignment2.Classifier import Classifier
+from Assignment2.Preprocessing import Data
+from Assignment2.Autoencoder import Autoencoder
+from Assignment2.Encoder import Encoder
+from Assignment2.Decoder import Decoder
 
-#design model with one hidden layer and activation functions relu and softmax (output)
-#model = keras.models.Sequential([keras.layers.Flatten(),
-#                                    keras.layers.Dense(128, activation=tf.nn.relu),
-#                                    keras.layers.Dense(10, activation=tf.nn.softmax)])
 
-#build model and decide on optimizer and loss function
-#model.compile(optimizer = 'adam',
-#              loss = 'sparse_categorical_crossentropy',
-#              metrics=['accuracy'])
 
-#train model
-#model.fit(training_images, training_labels, epochs=5)
+class Main:
 
-#evaluate model
-#model.evaluate(test_images, test_labels)
+	def __init__(self, dataset, learning_rate_autoencoder, learning_rate_classifier, loss_function_autoencoder,
+				 loss_function_classifier, optimizer_autoencoder, optimizer_classifier, size_latent_vector,
+				 epochs_autoencoder, epochs_classifier, dss_split,d2_train_frac,d2_val_frac, freeze,
+				 no_reconstructions, tSNE):
 
-#classifications = model.predict(test_images)
+		#D1 = unlabeled, D2 = labeled
+		data = Data(dataset, dss_split, d2_train_frac,d2_val_frac)
+		encoder = Encoder(data.d1_x, size_latent_vector)
+		autoencoder = Autoencoder(encoder, learning_rate_autoencoder, loss_function_autoencoder, optimizer_autoencoder,
+								  epochs_autoencoder)
 
-#print(classifications[0].argmax())
-#print(test_labels[0])
+		classifier_pretrained = Classifier(autoencoder.encoder, learning_rate_classifier, loss_function_classifier, optimizer_classifier,
+								epochs_classifier, size_latent_vector,freeze)
 
+		classifier = Classifier(encoder, learning_rate_classifier, loss_function_classifier, optimizer_classifier,
+								epochs_classifier, size_latent_vector, freeze)
+
+		self.__display_reconstructions(no_reconstructions)
+
+
+
+	def __display_reconstructions(self, no):
+		#display given number or reconstructions
+		pass

@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Assignment_2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Decoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/testing.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/deep-lecture-ch-11-12.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Deep Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deep Learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slides/deep-lecture-7.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/slides/deep-lecture-7.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +58,9 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -82,6 +80,9 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -167,8 +168,17 @@
       <workItem from="1582668675474" duration="1295000" />
       <workItem from="1582747905852" duration="3379000" />
       <workItem from="1583767435537" duration="8073000" />
-      <workItem from="1583846988125" duration="8576000" />
+      <workItem from="1583846988125" duration="9013000" />
+      <workItem from="1583945758488" duration="5989000" />
     </task>
+    <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
+      <created>1583921525325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583921525325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +199,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="imported datasets in preprocessing. started to build encoder" />
+    <option name="LAST_COMMIT_MESSAGE" value="imported datasets in preprocessing. started to build encoder" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Preprocessing.coverage" NAME="Preprocessing Coverage Results" MODIFIED="1583836959579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />

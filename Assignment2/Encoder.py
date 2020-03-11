@@ -10,9 +10,6 @@ from keras.utils import np_utils
 class Encoder:
 
 	def __init__(self,dataset):
-			data = Data(dataset)
-			(self.x_train, self.y_train), (self.x_test, self.y_test) = (data.x_train, data.y_train), (data.x_test, data.y_test)
-			self.num_classes = self.y_test.shape[1]
 			self.input_shape = self.__modify_input_shape((self.x_test.shape[1:]))
 			self.model = Sequential()
 			print(self.input_shape)
@@ -43,7 +40,6 @@ class Encoder:
 		self.model.add(Dropout(0.2))
 		self.model.add(Dense(512, activation='relu', kernel_constraint=maxnorm(3)))
 		self.model.add(Dropout(0.2))
+		#this is decode, where to stop encode?
 		self.model.add(Dense(self.num_classes, activation='softmax'))
 
-	def get_model_summary(self):
-		print(self.model.summary())
