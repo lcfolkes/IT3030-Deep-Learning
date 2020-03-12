@@ -46,8 +46,6 @@ class Data:
 		# concatenate dataset to data and labels
 		data = np.concatenate([x_train,x_test])
 		labels = np.concatenate([y_train, y_test])
-		print(data.shape)
-
 
 		# Split into D1 and D2
 		d1_x, d2_x, d1_y, d2_y = train_test_split(data,labels,test_size=self.dss_split)

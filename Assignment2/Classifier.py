@@ -1,4 +1,5 @@
 from keras import Sequential
+from keras.layers import Dense,Dropout,Flatten,Conv2D,MaxPooling2D
 
 
 class Classifier:

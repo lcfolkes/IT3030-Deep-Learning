@@ -24,8 +24,8 @@ class Main:
 		autoencoder = Autoencoder(encoder, learning_rate_autoencoder, loss_function_autoencoder, optimizer_autoencoder,
 								  epochs_autoencoder)
 
-		classifier_pretrained = Classifier(autoencoder.encoder, learning_rate_classifier, loss_function_classifier, optimizer_classifier,
-								epochs_classifier, size_latent_vector,freeze)
+		classifier_pretrained = Classifier(autoencoder.encoder, learning_rate_classifier, loss_function_classifier,
+										   optimizer_classifier, epochs_classifier, size_latent_vector,freeze)
 
 		classifier = Classifier(encoder, learning_rate_classifier, loss_function_classifier, optimizer_classifier,
 								epochs_classifier, size_latent_vector, freeze)
