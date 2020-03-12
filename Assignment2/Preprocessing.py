@@ -10,7 +10,7 @@ from keras.utils import np_utils
 class Data:
 
 	# Initializer / Instance Attributes
-	def __init__(self, dataset, dss_split, d2_train_frac,d2_val_frac):
+	def __init__(self, dataset, dss_split=0.3, d2_train_frac=0.3, d2_val_frac=0.3):
 		self.dss_split = dss_split
 		self.d2_train_frac = d2_train_frac
 		self.d2_val_frac = d2_val_frac
@@ -43,9 +43,11 @@ class Data:
 		y_train = self.one_hot_encode(y_train)
 		y_test = self.one_hot_encode(y_test)
 
-		# concatenate dataset to data an labels
-		data = x_train+x_test
-		labels = y_train + y_test
+		# concatenate dataset to data and labels
+		data = np.concatenate([x_train,x_test])
+		labels = np.concatenate([y_train, y_test])
+		print(data.shape)
+
 
 		# Split into D1 and D2
 		d1_x, d2_x, d1_y, d2_y = train_test_split(data,labels,test_size=self.dss_split)
@@ -69,10 +71,10 @@ class Data:
 		return np.argmax(images, axis=1)
 
 
-	#def get_data_description(self):
-	#	print("x_train: {0} {1}\ny_train: {2} {3}\nx_test: {4} {5}\ny_train: {6} {7}".format(
-	#		self.x_train.size, self.x_train.shape, self.y_train.size, self.y_train.shape,
-	#		self.x_test.size, self.x_test.shape, self.y_test.size, self.y_test.shape))
+	def get_data_description(self):
+		print("d1_x: {0}\nd1_y: {1}\nd2_x_train: {2}\nd2_y_train: {3}\nd2_x_val: {4}\nd2_y_val: {5}\n"
+			  "d2_y_test: {6}\nd2_y_test: {7}".format(self.d1_x.shape, self.d1_y.shape, self.d2_x_train.shape,
+			self.d2_y_train.shape, self.d2_x_val.shape, self.d2_y_val.shape, self.d2_x_test.shape, self.d2_y_test.shape))
 
 	#def print_image_example(self):
 	#	plt.imshow(self.x_train[0])
