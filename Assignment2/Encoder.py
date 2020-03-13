@@ -1,6 +1,6 @@
 import numpy as np
 from keras.models import Model
-from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D
+from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, UpSampling2D, Reshape, Conv2DTranspose
 
 
 class Encoder:
@@ -15,6 +15,12 @@ class Encoder:
 			return input + (1,)
 		return input
 
+	def __get_conv_shape(self, encoder):
+		for l in encoder.layers:
+			if len(l.input_shape) > len(l.output_shape):
+				print(l.input_shape)
+				return l.input_shape
+
 	def __encode(self, size_latent_vector):
 		# Encode
 		input = Input(shape=self.input_shape)
@@ -26,6 +32,8 @@ class Encoder:
 		x = Flatten()(x)
 		x = Dense(128, activation='relu')(x)
 		x = Dropout(0.5)(x)
-		output = Dense(size_latent_vector, activation='relu')(x)
-		encoded = Model(inputs=input, outputs=output)
-		return encoded
+		encoded = Dense(size_latent_vector, activation='relu')(x)
+		encoder = Model(inputs=input, outputs=encoded)
+		print(encoder.summary())
+		return encoder
+

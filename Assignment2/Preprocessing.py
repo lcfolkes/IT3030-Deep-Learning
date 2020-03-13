@@ -21,7 +21,6 @@ class Data:
 			self.dataset = keras.datasets.fashion_mnist
 		elif (dataset == 'cifar10'):
 			self.dataset = keras.datasets.cifar10
-
 		elif (dataset == 'cifar100'):
 			self.dataset = keras.datasets.cifar100
 
