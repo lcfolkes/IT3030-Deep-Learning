@@ -33,9 +33,9 @@ class Autoencoder:
 		x = Dense(flat_dim, activation='relu')(x)
 		x = Reshape(conv_shape)(x)
 		x = Dropout(0.25)(x)
-		x = UpSampling2D((2, 2))(x)
+		#x = UpSampling2D((2, 2))(x)
 		x = Conv2DTranspose(32, kernel_size=(3, 3), activation='relu')(x)
-		x = UpSampling2D((2, 2))(x)
+		#x = UpSampling2D((2, 2))(x)
 		x = Conv2DTranspose(64, kernel_size=(3, 3), activation='relu')(x)
 		decoded = Conv2DTranspose(1, (3, 3), activation='sigmoid', padding='same')(x)
 		return decoded

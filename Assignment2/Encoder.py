@@ -25,9 +25,9 @@ class Encoder:
 		# Encode
 		input = Input(shape=self.input_shape)
 		x = Conv2D(32, kernel_size=(3, 3), activation='relu')(input)
-		x = MaxPooling2D(pool_size=(2, 2))(x)
+		#x = MaxPooling2D(pool_size=(2, 2))(x)
 		x = Conv2D(64, kernel_size=(3, 3), activation='relu')(x)
-		x = MaxPooling2D(pool_size=(2, 2))(x)
+		#x = MaxPooling2D(pool_size=(2, 2))(x)
 		x = Dropout(0.25)(x)
 		x = Flatten()(x)
 		x = Dense(128, activation='relu')(x)
