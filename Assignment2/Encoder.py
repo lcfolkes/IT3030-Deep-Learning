@@ -4,10 +4,10 @@ from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 
 
 class Encoder:
-	def __init__(self, data, size_latent_vector):
+	def __init__(self, dataset, size_latent_vector):
+		data = dataset.d1_x
 		self.input_shape = self.__modify_input_shape((data.shape[1:]))
-		self.encoder = self.__build_model(size_latent_vector)
-		self.data = data
+		self.encoder = self.__encode(size_latent_vector)
 
 	# check add single channel to input_shape
 	def __modify_input_shape(self, input):
@@ -15,16 +15,17 @@ class Encoder:
 			return input + (1,)
 		return input
 
-	def __build_model(self, size_latent_vector):
+	def __encode(self, size_latent_vector):
 		# Encode
-		visible = Input(shape=self.input_shape)
-		conv1 = Conv2D(32, kernel_size=(3, 3), activation='relu')(visible)
-		conv2 = Conv2D(64, (3, 3), activation='relu')(conv1)
-		pool1 = MaxPooling2D(pool_size=(2, 2))(conv2)
-		dropout1 = Dropout(0.25)(pool1)
-		flat = Flatten()(dropout1)
-		hidden1 = Dense(128, activation='relu')(flat)
-		dropout2 = Dropout(0.5)(hidden1)
-		output = Dense(size_latent_vector, activation='relu')(dropout2)
-		model = Model(inputs=visible, outputs=output)
-		return model
+		input = Input(shape=self.input_shape)
+		x = Conv2D(32, kernel_size=(3, 3), activation='relu')(input)
+		x = MaxPooling2D(pool_size=(2, 2))(x)
+		x = Conv2D(64, kernel_size=(3, 3), activation='relu')(x)
+		x = MaxPooling2D(pool_size=(2, 2))(x)
+		x = Dropout(0.25)(x)
+		x = Flatten()(x)
+		x = Dense(128, activation='relu')(x)
+		x = Dropout(0.5)(x)
+		output = Dense(size_latent_vector, activation='relu')(x)
+		encoded = Model(inputs=input, outputs=output)
+		return encoded

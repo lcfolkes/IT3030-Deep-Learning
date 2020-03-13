@@ -20,7 +20,7 @@ class Main:
 
 		#D1 = unlabeled, D2 = labeled
 		data = Data(dataset, dss_split, d2_train_frac,d2_val_frac)
-		encoder = Encoder(data.d1_x, size_latent_vector)
+		encoder = Encoder(data, size_latent_vector)
 		autoencoder = Autoencoder(encoder, learning_rate_autoencoder, loss_function_autoencoder, optimizer_autoencoder,
 								  epochs_autoencoder)
 
@@ -31,7 +31,6 @@ class Main:
 								epochs_classifier, size_latent_vector, freeze)
 
 		self.__display_reconstructions(no_reconstructions)
-
 
 
 	def __display_reconstructions(self, no):
