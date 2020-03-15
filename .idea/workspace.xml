@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment2/.ipynb_checkpoints/testing-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Classifier1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/Classifier2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Deep Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deep Learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/testing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/testing.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,6 +173,7 @@
       <workItem from="1584112203672" duration="10171000" />
       <workItem from="1584277391097" duration="14790000" />
       <workItem from="1584311575042" duration="825000" />
+      <workItem from="1584312464912" duration="490000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
