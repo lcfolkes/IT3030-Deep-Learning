@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Decoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,14 +52,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Encoder">
+  <component name="RunManager" selected="Python.Autoencoder">
+    <configuration name="Autoencoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Deep Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/Autoencoder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Encoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -144,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Autoencoder" />
         <item itemvalue="Python.Encoder" />
-        <item itemvalue="Python.Encoder" />
-        <item itemvalue="Python.Preprocessing" />
-        <item itemvalue="Python.Preprocessing" />
-        <item itemvalue="Python.Preprocessing" />
+        <item itemvalue="Python.Autoencoder" />
+        <item itemvalue="Python.Autoencoder" />
+        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +184,9 @@
       <workItem from="1582747905852" duration="3379000" />
       <workItem from="1583767435537" duration="8073000" />
       <workItem from="1583846988125" duration="9013000" />
-      <workItem from="1583945758488" duration="5989000" />
+      <workItem from="1583945758488" duration="6301000" />
+      <workItem from="1584022984951" duration="17995000" />
+      <workItem from="1584103983002" duration="27260000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
@@ -203,9 +220,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="imported datasets in preprocessing. started to build encoder" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder.coverage" NAME="Autoencoder Coverage Results" MODIFIED="1584101463683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Preprocessing.coverage" NAME="Preprocessing Coverage Results" MODIFIED="1583836959579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/Deep_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1581252030524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 1" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1582752939024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584096299309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Encoder.coverage" NAME="Encoder Coverage Results" MODIFIED="1583768888720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$encoder2.coverage" NAME="encoder2 Coverage Results" MODIFIED="1584034363611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
   </component>
 </project>
