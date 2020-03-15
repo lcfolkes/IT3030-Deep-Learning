@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/.ipynb_checkpoints/testing-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/Classifier1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/Classifier2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Deep Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deep Learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Decoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/testing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/testing.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +37,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Encoder">
+  <component name="RunManager" selected="Python.Preprocessing">
     <configuration name="Encoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,9 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Encoder" />
-        <item itemvalue="Python.Encoder" />
         <item itemvalue="Python.Preprocessing" />
+        <item itemvalue="Python.Encoder" />
+        <item itemvalue="Python.Encoder" />
         <item itemvalue="Python.Preprocessing" />
         <item itemvalue="Python.Preprocessing" />
       </list>
@@ -170,6 +176,10 @@
       <workItem from="1583767435537" duration="8073000" />
       <workItem from="1583846988125" duration="9013000" />
       <workItem from="1583945758488" duration="5989000" />
+      <workItem from="1584095949773" duration="8807000" />
+      <workItem from="1584112203672" duration="10171000" />
+      <workItem from="1584277391097" duration="14790000" />
+      <workItem from="1584311575042" duration="825000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
