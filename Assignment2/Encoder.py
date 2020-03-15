@@ -9,9 +9,8 @@ def modify_input_shape(input_shape):
 	return input_shape
 
 class Encoder:
-	def __init__(self, dataset, size_latent_vector):
-		self.data = dataset.d1_x
-		self.input_shape = modify_input_shape((self.data.shape[1:]))
+	def __init__(self, data, size_latent_vector):
+		self.input_shape = modify_input_shape((data.shape[1:]))
 		self.encoder = self.__encode(size_latent_vector)
 
 	def __encode(self, size_latent_vector):

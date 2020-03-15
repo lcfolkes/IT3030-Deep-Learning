@@ -5,34 +5,31 @@ from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, U
 
 from Assignment2 import Preprocessing
 from Assignment2.Decoder import Decoder
+from Assignment2.Encoder import Encoder
 
 
 class Autoencoder:
 
-	def __init__(self, encoder, learning_rate=0.01, loss_function='binary_crossentropy', optimizer='adadelta', epochs=50,
+	def __init__(self, data, size_latent_vector, learning_rate=0.01, loss_function='binary_crossentropy',
+				 optimizer='adadelta', epochs=20,
 				 encoded_layer=None):
-		self.e = encoder.encoder
-		self.e.summary()
+		self.e = Encoder(data, size_latent_vector).encoder
+		# self.e.summary()
 
 		self.d = Decoder(self.e).decoder
-		self.d.summary()
+		# self.d.summary()
 
 		enc_input_layer = self.e.get_input_at(0)
 		enc_output_layer = self.e.get_output_at(-1)
-		self.a = Model(enc_input_layer, self.d(enc_output_layer))
-		self.a.summary()
-		#self.autoencoder.summary()
-		#self.a.compile(optimizer=optimizer, loss = loss_function)
+		self.autoencoder = Model(enc_input_layer, self.d(enc_output_layer))
+		# self.autoencoder.summary()
+		self.autoencoder.compile(optimizer=optimizer, loss=loss_function)
 
-		#x_train = np.expand_dims(encoder.data, axis=len(encoder.data.shape))
-		#print(x_train.shape)
-		#self.autoencoder.fit(x_train, x_train, epochs=epochs, batch_size=128, shuffle=True,
-		#					 validation_data=(x_train, x_train))
-		pass
+		self.x_train = np.expand_dims(data, axis=len(data.shape))[:10000]
+		# x_train1000 = x_train[:1000]
 
+		self.autoencoder.fit(self.x_train, self.x_train, epochs=epochs, batch_size=1000, shuffle=True,
+							 validation_data=(self.x_train, self.x_train))
 
-
-
-
-
-
+	def get_data_predictions(self, n):
+		return self.x_train[:n], self.autoencoder.predict(self.x_train[:n])
