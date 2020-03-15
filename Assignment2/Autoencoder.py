@@ -1,48 +1,35 @@
 import numpy as np
 import tensorflow as tf
 from keras.models import Model
-from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, UpSampling2D
+from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, UpSampling2D, Reshape, Conv2DTranspose
+
+from Assignment2 import Preprocessing
+from Assignment2.Decoder import Decoder
+from Assignment2.Encoder import Encoder
+
 
 class Autoencoder:
 
-	def __init__(self, encoder, learning_rate=0.01, loss_function='binary_crossentropy', optimizer='adadelta', epochs='500'):
-		self.encoded = encoder.encoder
-		self.decoded = self.__decode()
-		input_layer = self.encoded.layers[0]
-		self.autoencoder = Model(input_layer,self.decoded)
+	def __init__(self, data, size_latent_vector, learning_rate=0.01, loss_function='binary_crossentropy',
+				 optimizer='adadelta', epochs=20,
+				 encoded_layer=None):
+		self.e = Encoder(data, size_latent_vector).encoder
+		# self.e.summary()
 
-		#self.autoencoder.compile(optimizer=optimizer, loss = loss_function)
+		self.d = Decoder(self.e).decoder
+		# self.d.summary()
 
-		#x_train = encoder.data.d1_x
-		#self.autoencoder.fit(x_train, x_train, epochs=epochs, batch_size=256, shuffle=True,
-		#					 validation_data=(x_train, x_train))
-		pass
+		enc_input_layer = self.e.get_input_at(0)
+		enc_output_layer = self.e.get_output_at(-1)
+		self.autoencoder = Model(enc_input_layer, self.d(enc_output_layer))
+		# self.autoencoder.summary()
+		self.autoencoder.compile(optimizer=optimizer, loss=loss_function)
 
-	def __get_conv_shape(self):
-		for l in self.encoded.layers:
-			if(len(l.input_shape) > len(l.output_shape)):
-				print(l.input_shape)
-				return l.input_shape
+		self.x_train = np.expand_dims(data, axis=len(data.shape))[:10000]
+		# x_train1000 = x_train[:1000]
 
-	def __decode(self):
-	 	# Decode
-		#x = Dropout(0.5)(self.encoded)
-		encoded = tf.convert_to_tensor(self.encoded.layers[-1])
-		x = Dense(128, activation='relu')(encoded)
-		conv_shape = self.__get_conv_shape()
-		x = x.reshape(conv_shape)
-		x = Dropout(0.25)(x)
-		x = UpSampling2D(pool_size=(2, 2))(x)
-		x = Conv2D(32, kernel_size=(3, 3), activation='relu')(x)
-		x = UpSampling2D(pool_size=(2, 2))(x)
-		x = Conv2D(64, kernel_size=(3, 3), activation='relu')(x)
-		decoded = Conv2D(1, (3, 3), activation='sigmoid', padding='same')(x)
-		return decoded
+		self.autoencoder.fit(self.x_train, self.x_train, epochs=epochs, batch_size=1000, shuffle=True,
+							 validation_data=(self.x_train, self.x_train))
 
-
-
-
-
-
-
-
+	def get_data_predictions(self, n):
+		return self.x_train[:n], self.autoencoder.predict(self.x_train[:n])
