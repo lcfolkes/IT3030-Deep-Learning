@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment2/run_files.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Main.py" afterDir="false" />
-    </list>
+    <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +138,9 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -189,7 +186,7 @@
       <workItem from="1583945758488" duration="6301000" />
       <workItem from="1584022984951" duration="17995000" />
       <workItem from="1584103983002" duration="27437000" />
-      <workItem from="1584289304676" duration="10259000" />
+      <workItem from="1584289304676" duration="10444000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
