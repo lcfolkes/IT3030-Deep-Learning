@@ -7,26 +7,26 @@ from Assignment2.Help_functions import modify_input_shape
 
 
 class Classifier:
+	def __init__(self, x, y, encoder, learning_rate=0.01, loss="categorical_crossentropy",
+				 optimizer="adam", epochs=10, freeze=False):
+		self.x = modify_input_shape(x)
+		self.y = y
+		self.no_classes = y.shape[1]
+		self.classifier_head = self.__classifier_head(encoder)
+		enc_input_layer = encoder.get_input_at(0)
+		enc_output_layer = encoder.get_output_at(-1)
+		self.model = Model(enc_input_layer, self.classifier_head(enc_output_layer))
+		self.model.compile(optimizer, loss="categorical_crossentropy")
+		self.model.fit(self.x, y, epochs=epochs, batch_size=1000)
 
-    def __init__(self, x, y, encoder, optimizer="adam", no_epochs=5, batch_size=1000):
-        self.x = modify_input_shape(x)
-        self.y = y
-        self.size_latent_vector = 32
-        self.no_classes = y.shape[1]
-        self.encoder = encoder
-        self.model = self.__build_network(self.no_classes, encoder)
-        self.model.compile(optimizer, loss="categorical_crossentropy")
-        self.model.fit(self.x, y, epochs=no_epochs, batch_size=batch_size)
-
-    def __build_network(self, no_classes, encoder):
-        inputs = Input(shape=self.x.shape[1:])
-        x = encoder.encoder(inputs)
-        x = Dense(no_classes, activation='relu')(x)
-        output = Dense(no_classes, activation='softmax')(x)
-        model = Model(inputs=inputs, outputs=output)
-        return model
-
-
-
-
-
+	def __classifier_head(self, encoder):
+		# Create classifier head
+		encoded_output_shape = encoder.get_output_shape_at(-1)[1:]
+		inputs = Input(encoded_output_shape)
+		# inputs = Input(shape=self.x.shape[1:])
+		# x = encoder.encoder(inputs)
+		x = Dense(128, activation='relu')(inputs)
+		x = Dense(self.no_classes, activation='relu')(x)
+		classified = Dense(self.no_classes, activation='softmax')(x)
+		classifier = Model(inputs=inputs, outputs=classified)
+		return classifier
