@@ -8,7 +8,7 @@ from Assignment2.Help_functions import modify_input_shape
 
 class Classifier:
 	def __init__(self, x, y, encoder, learning_rate=0.01, loss="categorical_crossentropy",
-				 optimizer="adam", epochs=20,freeze=False):
+				 optimizer="adam", epochs=10, freeze=False):
 		self.x = modify_input_shape(x)
 		self.y = y
 		self.no_classes = y.shape[1]

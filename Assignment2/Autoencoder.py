@@ -18,7 +18,7 @@ class Autoencoder:
 
 		decoder = Decoder(encoder).model
 		#decoder.summary()
-
+		self.encoder = encoder
 		enc_input_layer = encoder.get_input_at(0)
 		enc_output_layer = encoder.get_output_at(-1)
 		self.model = Model(inputs=enc_input_layer, outputs=decoder(enc_output_layer))
@@ -30,6 +30,7 @@ class Autoencoder:
 
 		self.model.fit(self.x_train, self.x_train, epochs=epochs, batch_size=1000, shuffle=True,
 							 validation_data=(self.x_train, self.x_train))
+
 
 	def get_data_predictions(self, n):
 		return self.x_train[:n], self.model.predict(self.x_train[:n])
