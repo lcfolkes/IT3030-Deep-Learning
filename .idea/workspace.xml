@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment2/Help_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Classifier2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Classifier2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/.ipynb_checkpoints/testing-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/run_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/run_files.py" afterDir="false" />
     </list>
@@ -202,6 +202,9 @@
       <workItem from="1584315527166" duration="6020000" />
       <workItem from="1584357749715" duration="1258000" />
       <workItem from="1584359013898" duration="3136000" />
+      <workItem from="1584362804679" duration="1408000" />
+      <workItem from="1584364248519" duration="1762000" />
+      <workItem from="1584367306476" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>

@@ -6,7 +6,7 @@ from Assignment2 import Encoder
 from Assignment2.Help_functions import modify_input_shape
 
 
-class Classifier2:
+class Classifier:
 
     def __init__(self, x, y, encoder, optimizer="adam", no_epochs=5, batch_size=1000):
         self.x = modify_input_shape(x)

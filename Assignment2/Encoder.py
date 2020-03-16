@@ -12,13 +12,13 @@ from Assignment2.Help_functions import modify_input_shape
 
 class Encoder:
     def __init__(self, data, size_latent_vector):
-        self.input = modify_input_shape(data.d2_x_train)
+        self.input = modify_input_shape(data)
         self.encoder = self.__encode(size_latent_vector)
 
     def __encode(self, size_latent_vector):
         inputs = Input(shape=self.input.shape[1:])
         x = Conv2D(64, kernel_size=(3, 3), activation='relu')(inputs)
-        x = MaxPooling2D(pool_size=(2, 2))(x)
+        #x = MaxPooling2D(pool_size=(2, 2))(x)
         x = Conv2D(32, kernel_size=(3, 3), activation='relu')(x)
         # x = MaxPooling2D(pool_size=(2, 2))(x)
         x = Dropout(0.25)(x)
