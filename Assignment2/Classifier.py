@@ -9,15 +9,15 @@ from Assignment2.Help_functions import modify_input_shape
 class Classifier:
 	def __init__(self, x, y, encoder, learning_rate=0.01, loss="categorical_crossentropy",
 				 optimizer="adam", epochs=20,freeze=False):
-		self.x = modify_input_shape(x)
-		self.y = y
+		x = modify_input_shape(x)
+		y = y
 		self.no_classes = y.shape[1]
 		self.classifier_head = self.__classifier_head(encoder)
 		enc_input_layer = encoder.get_input_at(0)
 		enc_output_layer = encoder.get_output_at(-1)
 		self.model = Model(enc_input_layer, self.classifier_head(enc_output_layer))
 		self.model.compile(optimizer, loss="categorical_crossentropy")
-		self.model.fit(self.x, y, epochs=epochs, batch_size=1000)
+		self.model.fit(x, y, epochs=epochs, batch_size=1000)
 
 	def __classifier_head(self, encoder):
 		# Create classifier head

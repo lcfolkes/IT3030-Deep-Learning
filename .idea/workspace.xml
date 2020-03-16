@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Deep Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deep Learning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/.idea/Assignment2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/.ipynb_checkpoints/testing-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Decoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Help_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/run_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/run_files.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -211,7 +199,7 @@
       <workItem from="1584315527166" duration="6020000" />
       <workItem from="1584357749715" duration="1258000" />
       <workItem from="1584359013898" duration="3136000" />
-      <workItem from="1584363377040" duration="4086000" />
+      <workItem from="1584363377040" duration="15375000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
