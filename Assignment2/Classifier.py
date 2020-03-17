@@ -21,7 +21,7 @@ class Classifier:
 
 	def __classifier_head(self, encoder):
 		# Create classifier head
-		encoded_output_shape = encoder.get_output_shape_at(-1)[1:]
+		encoded_output_shape = modify_input_shape(encoder.get_output_shape_at(-1)[1:])
 		inputs = Input(encoded_output_shape)
 		# inputs = Input(shape=self.x.shape[1:])
 		# x = encoder.encoder(inputs)

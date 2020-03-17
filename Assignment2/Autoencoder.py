@@ -14,7 +14,7 @@ class Autoencoder:
 				 optimizer='adadelta', epochs=20,
 				 encoded_layer=None):
 		#Encoder(x, size_latent_vector).model
-		self.encoder = encoder.model
+		self.encoder = encoder
 		# self.e.summary()
 
 		decoder = Decoder(self.encoder).model

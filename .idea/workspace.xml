@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/run_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/run_files.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Preprocessing">
+  <component name="RunManager" selected="Python.Autoencoder">
     <configuration name="Autoencoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,7 +211,10 @@
       <workItem from="1584372850546" duration="96000" />
       <workItem from="1584372967846" duration="1576000" />
       <workItem from="1584374569343" duration="3867000" />
-      <workItem from="1584383121302" duration="935000" />
+      <workItem from="1584383121302" duration="1210000" />
+      <workItem from="1584438396249" duration="895000" />
+      <workItem from="1584439425989" duration="190000" />
+      <workItem from="1584439652386" duration="131000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
