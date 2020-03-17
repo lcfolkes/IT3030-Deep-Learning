@@ -5,8 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Help_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/run_files_L.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/run_files_L.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -199,7 +200,7 @@
       <workItem from="1584359013898" duration="3136000" />
       <workItem from="1584363377040" duration="15375000" />
       <workItem from="1584389133806" duration="439000" />
-      <workItem from="1584440838869" duration="5548000" />
+      <workItem from="1584440838869" duration="23917000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>

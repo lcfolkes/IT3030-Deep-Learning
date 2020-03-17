@@ -73,3 +73,4 @@ def display_reconstructions(autoencoder,n=16):
 
 def reshape_img(img):
 	return img.reshape(img.shape[:-1])
+

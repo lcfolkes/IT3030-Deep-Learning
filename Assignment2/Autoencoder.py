@@ -11,26 +11,39 @@ import copy
 
 class Autoencoder:
 
-	def __init__(self, x_train, encoder, learning_rate=0.01, loss_function='binary_crossentropy',
+	def __init__(self, data, encoder, learning_rate=0.01, loss_function='binary_crossentropy',
 				 optimizer='adadelta', epochs=10,
 				 encoded_layer=None):
-		# Encoder(x, size_latent_vector).model
-		self.encoder = copy.deepcopy(encoder)
-		# self.e.summary()
-
-		decoder = Decoder(self.encoder)
-		# decoder.summary()
+		self.encoder = encoder
+		# Decoder(self.encoder)
+		decoder = self.__decode()
 		enc_input_layer = encoder.model.get_input_at(0)
 		enc_output_layer = encoder.model.get_output_at(-1)
-		self.model = Model(inputs=enc_input_layer, outputs=decoder.model(enc_output_layer))
-		# self.model.summary()
+		self.model = Model(inputs=enc_input_layer, outputs=decoder(enc_output_layer))
 		self.model.compile(optimizer=optimizer, loss=loss_function)
-
-		self.x_train = np.expand_dims(x_train, axis=len(x_train.shape))  # [:2000]
-		# x_train1000 = x_train[:1000]
-
-		self.model.fit(self.x_train, self.x_train, epochs=epochs, batch_size=500, shuffle=True,
+		self.x_train = np.expand_dims(data.d1_x, axis=len(data.d1_x.shape))  # [:2000]
+		self.model.fit(self.x_train, self.x_train, epochs=epochs, batch_size=1000,
 					   validation_data=(self.x_train, self.x_train))
+
+	def __decode(self):
+		# Decode
+		encoded_output_shape = self.encoder.model.get_output_shape_at(-1)[1:]
+		inputs = Input(encoded_output_shape)
+		x = Dense(128, activation='relu')(inputs)
+		dense_dim, conv_shape = self.__get_dense_conv_shape()
+		x = Dense(dense_dim, activation='relu')(x)
+		x = Reshape(conv_shape)(x)
+		x = Dropout(0.25)(x)
+		x = Conv2DTranspose(32, kernel_size=(3, 3), activation='relu')(x)
+		x = Conv2DTranspose(64, kernel_size=(3, 3), activation='relu')(x)
+		decoded = Conv2DTranspose(1, (3, 3), activation='sigmoid', padding='same')(x)
+		decoder = Model(inputs=inputs, outputs=decoded)
+		return decoder
+
+	def __get_dense_conv_shape(self):
+		for l in self.encoder.model.layers:
+			if (len(l.input_shape) > len(l.output_shape)):
+				return l.output_shape[1], l.input_shape[1:]
 
 	def get_data_predictions(self, n):
 		return self.x_train[:n], self.model.predict(self.x_train[:n])

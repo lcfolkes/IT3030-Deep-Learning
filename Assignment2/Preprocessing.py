@@ -47,8 +47,9 @@ class Data:
 
 		#split data to make sample for faster training. Use only 30% of the data
 		#stratify attribute ensures balanced dataset
-		data_sample, data_throwaway, labels_sample, labels_throwaway = \
-			train_test_split(data, labels, stratify=labels,test_size=0.7)
+		#data_sample, data_throwaway, labels_sample, labels_throwaway = \
+		#	train_test_split(data, labels, stratify=labels,test_size=0.6)
+		data_sample, labels_sample = data, labels
 
 		# Split into D1 and D2
 		d1_x, d2_x, d1_y, d2_y = train_test_split(data_sample, labels_sample, stratify=labels_sample,test_size=self.dss_split)
