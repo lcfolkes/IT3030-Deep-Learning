@@ -12,9 +12,7 @@ class Encoder:
     def __encode(self, input_shape, size_latent_vector):
         inputs = Input(shape=input_shape)
         x = Conv2D(64, kernel_size=(3, 3), activation='relu')(inputs)
-        #x = MaxPooling2D(pool_size=(2, 2))(x)
         x = Conv2D(32, kernel_size=(3, 3), activation='relu')(x)
-        # x = MaxPooling2D(pool_size=(2, 2))(x)
         x = Dropout(0.25)(x)
         x = Flatten()(x)
         x = Dense(128, activation='relu')(x)
