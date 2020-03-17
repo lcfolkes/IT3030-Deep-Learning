@@ -4,6 +4,7 @@ from keras.layers import Input, Conv2D, MaxPooling2D, Dropout, Flatten, Dense
 import numpy as np
 from Assignment2 import Encoder
 from Assignment2.Help_functions import modify_input_shape
+import copy
 
 
 class Classifier:
@@ -12,19 +13,18 @@ class Classifier:
 		self.x = modify_input_shape(x)
 		self.y = y
 		self.no_classes = y.shape[1]
-		self.classifier_head = self.__classifier_head(encoder)
-		enc_input_layer = encoder.get_input_at(0)
-		enc_output_layer = encoder.get_output_at(-1)
+		self.encoder = copy.deepcopy(encoder)
+		self.classifier_head = self.__classifier_head()
+		enc_input_layer = self.encoder.model.get_input_at(0)
+		enc_output_layer = self.encoder.model.get_output_at(-1)
 		self.model = Model(enc_input_layer, self.classifier_head(enc_output_layer))
 		self.model.compile(optimizer, loss="categorical_crossentropy")
-		self.model.fit(x, y, epochs=epochs, batch_size=1000)
+		self.model.fit(self.x, self.y, epochs=epochs, batch_size=1000)
 
-	def __classifier_head(self, encoder):
+	def __classifier_head(self):
 		# Create classifier head
-		encoded_output_shape = encoder.get_output_shape_at(-1)[1:]
+		encoded_output_shape = self.encoder.model.get_output_shape_at(-1)[1:]
 		inputs = Input(encoded_output_shape)
-		# inputs = Input(shape=self.x.shape[1:])
-		# x = encoder.encoder(inputs)
 		x = Dense(128, activation='relu')(inputs)
 		x = Dense(self.no_classes, activation='relu')(x)
 		classified = Dense(self.no_classes, activation='softmax')(x)
