@@ -15,12 +15,22 @@ data.describe()
 
 encoder = Encoder(data.d1_x, 32)
 Help_functions.tsne_plot(encoder,data,"T-SNE plot untrained encoder")
-#encoder_clean = Encoder(data.d2_x_train, 64)
+
 print('Supervised classifier: ')
 classifier_supervised = Classifier(data.d2_x_train, data.d2_y_train, encoder)
 calc_accuracy_classifier(classifier_supervised, data.d2_x_test, data.d2_y_test)
 Help_functions.tsne_plot(classifier_supervised.encoder,data,"T-SNE plot supervised trained encoder")
+
+print('Autoencoder: ')
+autoencoder = Autoencoder(data.d1_x, encoder)
+Help_functions.tsne_plot(autoencoder.encoder,data,"T-SNE plot unsupervised training (autoencoder)")
+Help_functions.display_reconstructions(autoencoder)
+
 print("Semi_supervised: ")
+classifier_supervised = Classifier(data.d2_x_train, data.d2_y_train, autoencoder.encoder)
+Help_functions.tsne_plot(classifier_supervised.encoder,data,"T-SNE plot unsupervised training (autoencoder)")
+
+
 #result_with_auto = calc_accuracy_classifier(classifier_semi_supervised, data.d2_x_test, data.d2_y_test)
 
 #autoencoder = Autoencoder(data.d1_x, encoder)

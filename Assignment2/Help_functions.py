@@ -51,3 +51,25 @@ def one_hot_encode(images):
 
 def one_hot_decode(images):
 	return tf.argmax(images, axis=1)
+
+def display_reconstructions(autoencoder,n=16):
+	x_test, decoded_imgs = autoencoder.get_data_predictions(16)
+	plt.figure(figsize=(20, 4))
+	for i in range(n):
+		# display original
+		ax = plt.subplot(2, n, i + 1)
+		plt.imshow(reshape_img(x_test[i]))
+		plt.gray()
+		ax.get_xaxis().set_visible(False)
+		ax.get_yaxis().set_visible(False)
+
+		# display reconstruction
+		ax = plt.subplot(2, n, i + 1 + n)
+		plt.imshow(reshape_img(decoded_imgs[i]))
+		plt.gray()
+		ax.get_xaxis().set_visible(False)
+		ax.get_yaxis().set_visible(False)
+	plt.show()
+
+def reshape_img(img):
+	return img.reshape(img.shape[:-1])
