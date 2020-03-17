@@ -17,7 +17,7 @@ class Classifier:
 		enc_output_layer = encoder.get_output_at(-1)
 		self.model = Model(enc_input_layer, self.classifier_head(enc_output_layer))
 		self.model.compile(optimizer, loss="categorical_crossentropy")
-		self.model.fit(self.x, y, epochs=epochs, batch_size=1000)
+		self.model.fit(x, y, epochs=epochs, batch_size=1000)
 
 	def __classifier_head(self, encoder):
 		# Create classifier head

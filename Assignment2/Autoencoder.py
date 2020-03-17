@@ -14,9 +14,10 @@ class Autoencoder:
 				 optimizer='adadelta', epochs=20,
 				 encoded_layer=None):
 		#Encoder(x, size_latent_vector).model
+		self.encoder = encoder.model
 		# self.e.summary()
 
-		decoder = Decoder(encoder).model
+		decoder = Decoder(self.encoder).model
 		#decoder.summary()
 		self.encoder = encoder
 		enc_input_layer = encoder.get_input_at(0)
@@ -25,10 +26,10 @@ class Autoencoder:
 		#self.model.summary()
 		self.model.compile(optimizer=optimizer, loss=loss_function)
 
-		self.x_train = np.expand_dims(x_train, axis=len(x_train.shape))[:10000]
+		self.x_train = np.expand_dims(x_train, axis=len(x_train.shape))#[:2000]
 		# x_train1000 = x_train[:1000]
 
-		self.model.fit(self.x_train, self.x_train, epochs=epochs, batch_size=1000, shuffle=True,
+		self.model.fit(self.x_train, self.x_train, epochs=epochs, batch_size=500, shuffle=True,
 							 validation_data=(self.x_train, self.x_train))
 
 
