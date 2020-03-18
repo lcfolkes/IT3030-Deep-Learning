@@ -8,7 +8,6 @@ from Assignment2.Classifier import Classifier
 from Assignment2.Preprocessing import Data
 from Assignment2.Autoencoder import Autoencoder
 from Assignment2.Encoder import Encoder
-from Assignment2.Decoder import Decoder
 
 
 

@@ -6,7 +6,6 @@ from keras.models import Model
 from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, UpSampling2D, Reshape, Conv2DTranspose
 
 from Assignment2 import Preprocessing
-from Assignment2.Decoder import Decoder
 from Assignment2.Encoder import Encoder
 import copy
 from time import time
