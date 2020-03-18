@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200318-153021/train/events.out.tfevents.1584541822.Larsintosh-Pro.3241.2137.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200318-153021/validation/events.out.tfevents.1584541827.Larsintosh-Pro.3241.2540.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200318-153223/train/events.out.tfevents.1584541945.Larsintosh-Pro.3241.12583.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200318-153223/validation/events.out.tfevents.1584541993.Larsintosh-Pro.3241.13306.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Help_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/run_files_L.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/run_files_L.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,9 +66,6 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -107,6 +107,9 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -144,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run_files" type="PythonConfigurationType" factoryName="Python">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,7 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run_files" />
+        <item itemvalue="Python.Autoencoder" />
         <item itemvalue="Python.Preprocessing" />
         <item itemvalue="Python.run_files" />
         <item itemvalue="Python.run_files" />
@@ -200,7 +203,8 @@
       <workItem from="1584359013898" duration="3136000" />
       <workItem from="1584363377040" duration="15375000" />
       <workItem from="1584389133806" duration="439000" />
-      <workItem from="1584440838869" duration="23917000" />
+      <workItem from="1584440838869" duration="24901000" />
+      <workItem from="1584525122375" duration="13851000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>

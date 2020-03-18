@@ -9,12 +9,14 @@ from Assignment2.Encoder import Encoder
 from Assignment2.Help_functions import calc_accuracy_classifier
 from Assignment2.Preprocessing import Data
 from Assignment2.Autoencoder import Autoencoder
+from tensorflow.keras.callbacks import TensorBoard
 
-data = Data('mnist')
+data = Data('fashion_mnist')
 #data.describe()
 
 encoder1 = Encoder(data.d1_x, 32)
 encoder2 = Encoder(data.d1_x, 32)
+
 
 print('Supervised classifier: ')
 Help_functions.tsne_plot(encoder1, data, "T-SNE plot untrained encoder1")
