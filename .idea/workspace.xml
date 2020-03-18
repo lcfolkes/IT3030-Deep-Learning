@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200318-153021/train/events.out.tfevents.1584541822.Larsintosh-Pro.3241.2137.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200318-153021/validation/events.out.tfevents.1584541827.Larsintosh-Pro.3241.2540.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200318-153223/train/events.out.tfevents.1584541945.Larsintosh-Pro.3241.12583.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200318-153223/validation/events.out.tfevents.1584541993.Larsintosh-Pro.3241.13306.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Help_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/run_files_L.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/run_files_L.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,6 +61,9 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -151,9 +149,6 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
       <option name="IS_MODULE_SDK" value="true" />

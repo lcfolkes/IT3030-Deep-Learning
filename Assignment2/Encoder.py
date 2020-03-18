@@ -8,6 +8,7 @@ class Encoder:
     def __init__(self, x_train, size_latent_vector):
         input_shape = Help_functions.modify_input_shape(x_train).shape[1:]
         self.model = self.__encode(input_shape, size_latent_vector)
+        self.channels = input_shape[-1]
 
     def __encode(self, input_shape, size_latent_vector):
         inputs = Input(shape=input_shape)
@@ -21,5 +22,4 @@ class Encoder:
         x = Dropout(0.5)(x)
         encoded = Dense(size_latent_vector, activation='relu')(x)
         encoder = Model(inputs=inputs, outputs=encoded)
-        #encoder.summary()
         return encoder

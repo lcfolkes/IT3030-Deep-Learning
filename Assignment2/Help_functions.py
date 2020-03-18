@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 def modify_input_shape(input):
 	if len(input.shape) == 3:
 		return input.reshape(input.shape + (1,))
+	return input
 
 
 # Calculate the accuracy of a classifier given examples and targets
@@ -72,5 +73,7 @@ def display_reconstructions(autoencoder,n=16):
 	plt.show()
 
 def reshape_img(img):
-	return img.reshape(img.shape[:-1])
+	if(img.shape[-1]==1):
+		return img.reshape(img.shape[:-1])
+	return img
 
