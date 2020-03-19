@@ -11,14 +11,17 @@ from Assignment2.Preprocessing import Data
 from Assignment2.Autoencoder import Autoencoder
 
 data = Data('mnist')
+data.describe()
 
 encoder = Encoder(data.d1_x, 32)
-#Help_functions.tsne_plot(encoder,data)
-encoder_clean = Encoder(data.d1_x, 64)
-#autoencoder = Autoencoder(data.d1_x, encoder.model)
-#classifier_semi_supervised = Classifier(data.d2_x_train, data.d2_y_train, autoencoder.encoder)
-
-classifier_supervised = Classifier(data.d2_x_train, data.d2_y_train, encoder_clean.model)
+Help_functions.tsne_plot(encoder,data,"T-SNE plot untrained encoder")
+#encoder_clean = Encoder(data.d2_x_train, 64)
+print('Supervised classifier: ')
+classifier_supervised = Classifier(data.d2_x_train, data.d2_y_train, encoder)
+calc_accuracy_classifier(classifier_supervised, data.d2_x_test, data.d2_y_test)
+Help_functions.tsne_plot(classifier_supervised.encoder,data,"T-SNE plot supervised trained encoder")
+print("Semi_supervised: ")
+#result_with_auto = calc_accuracy_classifier(classifier_semi_supervised, data.d2_x_test, data.d2_y_test)
 
 #Main.display_reconstructions(autoencoder)
 
