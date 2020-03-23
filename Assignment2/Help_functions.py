@@ -6,6 +6,8 @@ import tensorflow as tf
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from keras import optimizers
+from tensorflow import keras
 
 
 # Modify the input shape by adding a channels-dimension in the end
@@ -35,7 +37,7 @@ def tsne_plot(encoder, data, title="",n_cases=250):
 	reduced_df = pd.DataFrame(data=reduced_df, columns=('X', 'Y', 'label'))
 	reduced_df.label = reduced_df.label.astype(np.int)
 
-	# Ploting the result of tsne
+	# Plotting the result of tsne
 	sns.FacetGrid(reduced_df, hue='label', height=6).map(plt.scatter, 'X', 'Y').add_legend()
 	plt.title(title)
 	plt.show()
@@ -54,8 +56,12 @@ def one_hot_decode(images):
 	return tf.argmax(images, axis=1)
 
 def display_reconstructions(autoencoder,n=16):
-	x_test, decoded_imgs = autoencoder.get_data_predictions(16)
-	plt.figure(figsize=(20, 4))
+	x_test, decoded_imgs = autoencoder.get_data_predictions(n)
+	if n > 8:
+		plt.figure(figsize=(20, 6))
+	else:
+		plt.figure(figsize=(20, 10))
+	plt.suptitle("Autoencoder reconstructions", fontsize=40)
 	for i in range(n):
 		# display original
 		ax = plt.subplot(2, n, i + 1)
@@ -77,3 +83,50 @@ def reshape_img(img):
 		return img.reshape(img.shape[:-1])
 	return img
 
+
+def set_optimizer(optimizer, learning_rate):
+	if optimizer == "adadelta":
+		optimizer = optimizers.Adadelta(learning_rate=learning_rate)
+	elif optimizer == "adagrad":
+		optimizer = optimizers.Adagrad(learning_rate=learning_rate)
+	elif optimizer == "adam":
+		optimizer = optimizers.Adam(learning_rate=learning_rate)
+	elif optimizer == "adamax":
+		optimizer = optimizers.Adamax(learning_rate=learning_rate)
+	elif optimizer == "nadam":
+		optimizer = optimizers.Nadam(learning_rate=learning_rate)
+	elif optimizer == "rmsprop":
+		optimizer = optimizers.RMSprop(learning_rate=learning_rate)
+	elif optimizer == "sgd":
+		optimizer = optimizers.SGD(learning_rate=learning_rate)
+
+	return optimizer
+
+
+def get_dataset(dataset_name):
+	if dataset_name == 'mnist':
+		dataset = keras.datasets.mnist
+	elif dataset_name == 'fashion_mnist':
+		dataset = keras.datasets.fashion_mnist
+	elif dataset_name == 'cifar10':
+		dataset = keras.datasets.cifar10
+	elif dataset_name == 'cifar100':
+		dataset = keras.datasets.cifar100
+	else:
+		print("No such dataset")
+	return dataset
+
+def compare_accuracies(slearner, ss_learner, data):
+	print("\nAccuracy summary")
+	print("D2 testing data:")
+	print("- Supervised learner:")
+	calc_accuracy_classifier(slearner.classifier, data.d2_x_test, data.d2_y_test)
+	print("- Semi-supervised learner:")
+	calc_accuracy_classifier(ss_learner.classifier, data.d2_x_test, data.d2_y_test)
+
+	print("D1 data:")
+	print("- Supervised learner:")
+	calc_accuracy_classifier(slearner.classifier, data.d1_x, data.d1_y)
+	print("- Semi-supervised learner:")
+	calc_accuracy_classifier(ss_learner.classifier, data.d1_x, data.d1_y)
+	print("\n")
