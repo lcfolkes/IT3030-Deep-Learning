@@ -1,7 +1,6 @@
 import numpy as np
 from keras.models import Model
 from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, UpSampling2D, Reshape, Conv2DTranspose
-
 from Assignment2 import Help_functions
 
 class Encoder:
@@ -18,8 +17,11 @@ class Encoder:
         x = MaxPooling2D((2,2),padding='same')(x)
         x = Dropout(0.25)(x)
         x = Flatten()(x)
-        #x = Dense(128, activation='relu')(x)
+        x = Dense(128, activation='relu')(x)
         x = Dropout(0.5)(x)
         encoded = Dense(size_latent_vector, activation='relu')(x)
         encoder = Model(inputs=inputs, outputs=encoded)
         return encoder
+
+
+
