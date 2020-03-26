@@ -1,6 +1,5 @@
-import numpy as np
 from keras.models import Model
-from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, UpSampling2D, Reshape, Conv2DTranspose
+from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 from Assignment2 import Help_functions
 
 class Encoder:

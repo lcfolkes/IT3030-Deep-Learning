@@ -1,36 +1,71 @@
-import tensorflow as tf
-import numpy as np
-from tensorflow import keras
-import matplotlib.pyplot as plt
-
-from Assignment2 import Help_functions
-from Assignment2.Classifier import Classifier
+from Assignment2.Help_functions import compare_accuracies
 from Assignment2.Preprocessing import Data
-from Assignment2.Autoencoder import Autoencoder
-from Assignment2.Encoder import Encoder
+from Assignment2.SemiSupervisedLearner import SemiSupervisedLearner
+from Assignment2.SupervisedLearner import SupervisedLearner
 
 
+# PARAMETERS
 
+# Dataset parameters
+dataset_name = 'mnist'
+fraction_of_data_used = 0.4
+fraction_d1 = 0.7
+fraction_d2_training = 0.7
+fraction_rest_of_d2_validation = 0.7
 
-class Main:
+# General parameters
+latent_vector_size = 64
+freeze_encoder_flag = False
+tsne_plots_flag = True
+nr_of_autoencoder_reconstructions = 10
 
-	def __init__(self, dataset='mnist', learning_rate_autoencoder=0.001, learning_rate_classifier=0.001,
-				 loss_function_autoencoder = 'binary_crossentropy', loss_function_classifier='categorical_crossentropy',
-				 optimizer_autoencoder = 'adadelta', optimizer_classifier = 'adam', size_latent_vector='64',
-				 epochs_autoencoder=20, epochs_classifier=20, dss_split = 0.3,d2_train_frac=0.3,d2_val_frac=0.3, freeze=False,
-				 no_reconstructions=16, tSNE=False):
+# Autoencoder parameters
+autoencoder_learning_rate = 0.01
+autoencoder_loss_function = "binary_crossentropy"
+autoencoder_optimizer = "adam"
+autoencoder_epochs = 10
 
-		#D1 = unlabeled, D2 = labeled
-		data = Data(dataset, dss_split, d2_train_frac,d2_val_frac)
-		encoder = Encoder(data.d1_x, size_latent_vector)
-		autoencoder = Autoencoder(data.d1_x, size_latent_vector, learning_rate_autoencoder, loss_function_autoencoder, optimizer_autoencoder,
-								  epochs_autoencoder)
-		Help_functions.display_reconstructions(autoencoder)
-		classifier_pretrained = Classifier(autoencoder.encoder, learning_rate_classifier, loss_function_classifier,
-										   optimizer_classifier, epochs_classifier, size_latent_vector,freeze)
+# Semi-supervised classifier parameters
+ss_classifier_learning_rate = 0.023
+ss_classifier_loss_function = "categorical_crossentropy"
+ss_classifier_optimizer = "adamax"
+ss_classifier_epochs = 20
 
-		classifier = Classifier(encoder, learning_rate_classifier, loss_function_classifier, optimizer_classifier,
-								epochs_classifier, size_latent_vector, freeze)
+# Supervised classifier parameters
+classifier_learning_rate = 0.0023
+classifier_loss_function = "categorical_crossentropy"
+classifier_optimizer = "adamax"
+classifier_epochs = 20
 
+# RUN SYSTEM
 
+# Create and split dataset
+data = Data(dataset_name=dataset_name, dss_frac=fraction_of_data_used, dss_d1_frac=fraction_d1,
+            d2_train_frac=fraction_d2_training, d2_val_frac=fraction_rest_of_d2_validation)
 
+# Print data summary
+data.describe()
+
+# Create and train semi-supervised learner, consisting of autoencoder and classifier with structure [encoder + classifier head]
+semi_sup_learner = SemiSupervisedLearner(data, size_latent_vector=latent_vector_size,
+                                         learning_rate_autoencoder=autoencoder_learning_rate,
+                                         loss_function_autoencoder=autoencoder_loss_function,
+                                         optimizer_autoencoder=autoencoder_optimizer,
+                                         epochs_autoencoder=autoencoder_epochs,
+                                         nr_of_reconstructions_autoencoder=nr_of_autoencoder_reconstructions,
+                                         learning_rate_classifier=ss_classifier_learning_rate,
+                                         loss_function_classifier=ss_classifier_loss_function,
+                                         optimizer_classifier=ss_classifier_optimizer,
+                                         epochs_classifier=ss_classifier_epochs, tsneplots_flag=tsne_plots_flag)
+
+# Create and train supervised learner, consisting of classifier with structure [encoder + classifier head]
+sup_learner = SupervisedLearner(data, size_latent_vector=latent_vector_size, learning_rate=classifier_learning_rate,
+                                loss_function=classifier_loss_function, optimizer=classifier_optimizer,
+                                epochs=classifier_epochs, tsneplots_flag=tsne_plots_flag)
+
+compare_accuracies(sup_learner, semi_sup_learner, data)
+
+# SHOW ACCURACY AND LOSS PLOTS
+
+# Open a command window and navigate to the project directory (Assignment2)
+# Type: 'tensorboard --logdir=logs/scalars'

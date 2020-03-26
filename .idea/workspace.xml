@@ -2,10 +2,846 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment2/.idea/inspectionProfiles/Project_Default 2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/.idea/inspectionProfiles/profiles_settings 2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-200006/train/events.out.tfevents.1585249208.Larsintosh-Pro.7758.7197.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-200006/validation/events.out.tfevents.1585249214.Larsintosh-Pro.7758.7380.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-200136/train/events.out.tfevents.1585249298.Larsintosh-Pro.7758.15848.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-200136/validation/events.out.tfevents.1585249303.Larsintosh-Pro.7758.16031.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-200438/train/events.out.tfevents.1585249480.Larsintosh-Pro.7823.2849.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-200546/train/events.out.tfevents.1585249551.Larsintosh-Pro.7845.2849.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-200546/validation/events.out.tfevents.1585249586.Larsintosh-Pro.7845.3166.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-201311/train/events.out.tfevents.1585249993.Larsintosh-Pro.7845.7617.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-201311/validation/events.out.tfevents.1585249998.Larsintosh-Pro.7845.7810.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-201437/train/events.out.tfevents.1585250079.Larsintosh-Pro.7845.17017.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-201437/validation/events.out.tfevents.1585250083.Larsintosh-Pro.7845.17210.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-201711/train/events.out.tfevents.1585250233.Larsintosh-Pro.7947.2849.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-201711/validation/events.out.tfevents.1585250260.Larsintosh-Pro.7947.3166.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-202131/train/events.out.tfevents.1585250492.Larsintosh-Pro.7947.7617.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-202131/validation/events.out.tfevents.1585250497.Larsintosh-Pro.7947.7810.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-202240/train/events.out.tfevents.1585250561.Larsintosh-Pro.7947.17017.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-202240/validation/events.out.tfevents.1585250565.Larsintosh-Pro.7947.17210.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-202500/train/events.out.tfevents.1585250704.Larsintosh-Pro.7977.2769.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-202500/validation/events.out.tfevents.1585250737.Larsintosh-Pro.7977.3086.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-202949/train/events.out.tfevents.1585250992.Larsintosh-Pro.7977.7510.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-202949/validation/events.out.tfevents.1585250996.Larsintosh-Pro.7977.7703.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-203104/train/events.out.tfevents.1585251066.Larsintosh-Pro.7977.16803.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/logs/scalars/20200326-203104/validation/events.out.tfevents.1585251073.Larsintosh-Pro.7977.16996.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/easy_install 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.7 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/pip 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/pip3 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/pip3.7 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/easy-install 2.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/PKG-INFO 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/SOURCES 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/dependency_links 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/entry_points 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/not-zip-safe 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/EGG-INFO/top_level 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/__main__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/build_env 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/cache 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/cli/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/cli/autocompletion 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/cli/base_command 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/cli/cmdoptions 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/cli/main_parser 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/cli/parser 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/cli/status_codes 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/check 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/completion 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/configuration 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/download 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/freeze 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/hash 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/help 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/install 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/list 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/search 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/show 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/uninstall 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/commands/wheel 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/configuration 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/download 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/exceptions 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/index 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/locations 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/models/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/models/candidate 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/models/format_control 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/models/index 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/models/link 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/operations/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/operations/check 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/operations/freeze 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/operations/prepare 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/pep425tags 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/pyproject 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/req/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/req/constructors 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/req/req_file 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/req/req_install 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/req/req_set 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/req/req_tracker 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/req/req_uninstall 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/resolve 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/appdirs 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/compat 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/deprecation 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/encoding 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/filesystem 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/glibc 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/hashes 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/logging 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/misc 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/models 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/outdated 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/packaging 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/setuptools_build 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/temp_dir 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/typing 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/utils/ui 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/vcs/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/vcs/bazaar 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/vcs/git 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/vcs/mercurial 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/vcs/subversion 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/wheel 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/appdirs 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/_cmd 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/adapter 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/cache 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/caches/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/caches/file_cache 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/caches/redis_cache 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/compat 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/controller 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/filewrapper 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/heuristics 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/serialize 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/cachecontrol/wrapper 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/certifi/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/certifi/__main__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/certifi/cacert 2.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/certifi/core 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/big5freq 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/big5prober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/chardistribution 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/charsetgroupprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/charsetprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/cli/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/cli/chardetect 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/codingstatemachine 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/compat 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/cp949prober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/enums 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/escprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/escsm 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/eucjpprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/euckrfreq 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/euckrprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/euctwfreq 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/euctwprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/gb2312freq 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/gb2312prober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/hebrewprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/jisfreq 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/jpcntx 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/langbulgarianmodel 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/langcyrillicmodel 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/langgreekmodel 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/langhebrewmodel 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/langhungarianmodel 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/langthaimodel 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/langturkishmodel 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/latin1prober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/mbcharsetprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/mbcsgroupprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/mbcssm 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/sbcharsetprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/sbcsgroupprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/sjisprober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/universaldetector 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/utf8prober 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/chardet/version 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/colorama/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/colorama/ansi 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/colorama/ansitowin32 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/colorama/initialise 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/colorama/win32 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/colorama/winterm 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/_backport/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/_backport/misc 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/_backport/shutil 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/_backport/sysconfig 2.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/_backport/sysconfig 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/_backport/tarfile 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/compat 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/database 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/index 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/locators 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/manifest 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/markers 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/metadata 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/resources 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/scripts 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/t32 2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/t64 2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/util 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/version 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/w32 2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/w64 2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/wheel 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distro 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/_ihatexml 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/_inputstream 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/_tokenizer 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/_trie/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/_trie/_base 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/_trie/datrie 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/_trie/py 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/_utils 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/constants 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/filters/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/filters/alphabeticalattributes 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/filters/base 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/filters/inject_meta_charset 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/filters/lint 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/filters/optionaltags 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/filters/sanitizer 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/filters/whitespace 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/html5parser 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/serializer 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treeadapters/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treeadapters/genshi 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treeadapters/sax 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treebuilders/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treebuilders/base 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treebuilders/dom 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treebuilders/etree 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treebuilders/etree_lxml 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treewalkers/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treewalkers/base 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treewalkers/dom 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treewalkers/etree 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treewalkers/etree_lxml 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/html5lib/treewalkers/genshi 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/idna/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/idna/codec 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/idna/compat 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/idna/core 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/idna/idnadata 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/idna/intranges 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/idna/package_data 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/idna/uts46data 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/ipaddress 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/lockfile/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/lockfile/linklockfile 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/lockfile/mkdirlockfile 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/lockfile/pidlockfile 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/lockfile/sqlitelockfile 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/lockfile/symlinklockfile 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/msgpack/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/msgpack/_version 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/msgpack/exceptions 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/msgpack/fallback 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/packaging/__about__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/packaging/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/packaging/_compat 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/packaging/_structures 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/packaging/markers 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/packaging/requirements 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/packaging/specifiers 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/packaging/utils 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/packaging/version 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pep517/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pep517/_in_process 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pep517/build 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pep517/check 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pep517/colorlog 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pep517/compat 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pep517/envbuild 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pep517/wrappers 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pkg_resources/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pkg_resources/py31compat 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/progress/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/progress/bar 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/progress/counter 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/progress/helpers 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/progress/spinner 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pyparsing 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pytoml/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pytoml/core 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pytoml/parser 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pytoml/test 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pytoml/utils 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/pytoml/writer 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/__version__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/_internal_utils 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/adapters 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/api 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/auth 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/certs 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/compat 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/cookies 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/exceptions 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/help 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/hooks 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/models 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/packages 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/sessions 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/status_codes 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/structures 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/requests/utils 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/retrying 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/six 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/_collections 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/connection 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/connectionpool 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/_appengine_environ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/_securetransport/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/_securetransport/bindings 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/_securetransport/low_level 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/appengine 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/ntlmpool 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/pyopenssl 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/securetransport 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/contrib/socks 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/exceptions 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/fields 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/filepost 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/packages/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/packages/backports/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/packages/backports/makefile 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/packages/six 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/poolmanager 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/request 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/response 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/connection 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/queue 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/request 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/response 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/retry 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/ssl_ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/timeout 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/url 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/urllib3/util/wait 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/webencodings/__init__ 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/webencodings/labels 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/webencodings/mklabels 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/webencodings/tests 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/webencodings/x_user_defined 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools 2.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-40.8.0-py3.7 2.egg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/run_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/run_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Encoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/SemiSupervisedLearner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/SemiSupervisedLearner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/SupervisedLearner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/SupervisedLearner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-105333/train/events.out.tfevents.1584698014.Mathiass-MBP-2.lan.41520.2137.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-105333/validation/events.out.tfevents.1584698020.Mathiass-MBP-2.lan.41520.2494.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-112328/train/events.out.tfevents.1584699809.Mathiass-MBP-2.lan.42836.2137.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-112328/validation/events.out.tfevents.1584699813.Mathiass-MBP-2.lan.42836.2494.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-130538/train/events.out.tfevents.1584705940.Mathiass-MBP-2.lan.43676.2604.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-130538/validation/events.out.tfevents.1584705965.Mathiass-MBP-2.lan.43676.3061.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-132049/train/events.out.tfevents.1584706850.Mathiass-MBP-2.lan.43747.2087.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-132049/validation/events.out.tfevents.1584706854.Mathiass-MBP-2.lan.43747.2310.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-132200/train/events.out.tfevents.1584706922.Mathiass-MBP-2.lan.43747.42342.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-132200/validation/events.out.tfevents.1584706957.Mathiass-MBP-2.lan.43747.42743.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-133159/train/events.out.tfevents.1584707520.Mathiass-MBP-2.lan.43747.51929.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-133159/validation/events.out.tfevents.1584707524.Mathiass-MBP-2.lan.43747.52152.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-151836/train/events.out.tfevents.1584713917.Mathiass-MBP-2.lan.44145.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-151836/validation/events.out.tfevents.1584713939.Mathiass-MBP-2.lan.44145.3199.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-152605/train/events.out.tfevents.1584714366.Mathiass-MBP-2.lan.44145.13250.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-152605/validation/events.out.tfevents.1584714369.Mathiass-MBP-2.lan.44145.13505.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-152654/train/events.out.tfevents.1584714415.Mathiass-MBP-2.lan.44145.19878.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-152654/validation/events.out.tfevents.1584714418.Mathiass-MBP-2.lan.44145.20133.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-152744/train/events.out.tfevents.1584714465.Mathiass-MBP-2.lan.44145.26484.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-152744/validation/events.out.tfevents.1584714468.Mathiass-MBP-2.lan.44145.26739.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-174111/train/events.out.tfevents.1584722472.Mathiass-MBP-2.lan.44950.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-174111/validation/events.out.tfevents.1584722495.Mathiass-MBP-2.lan.44950.3199.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-174208/train/events.out.tfevents.1584722530.Mathiass-MBP-2.lan.44972.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-174208/validation/events.out.tfevents.1584722537.Mathiass-MBP-2.lan.44972.2905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-174318/train/events.out.tfevents.1584722599.Mathiass-MBP-2.lan.44972.5950.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-174318/validation/events.out.tfevents.1584722601.Mathiass-MBP-2.lan.44972.6083.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-174343/train/events.out.tfevents.1584722624.Mathiass-MBP-2.lan.44972.10138.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-174343/validation/events.out.tfevents.1584722625.Mathiass-MBP-2.lan.44972.10271.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-174409/train/events.out.tfevents.1584722650.Mathiass-MBP-2.lan.44972.14304.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-174409/validation/events.out.tfevents.1584722653.Mathiass-MBP-2.lan.44972.14437.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-175259/train/events.out.tfevents.1584723179.Mathiass-MBP-2.lan.45003.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-175259/validation/events.out.tfevents.1584723188.Mathiass-MBP-2.lan.45003.2905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-175403/train/events.out.tfevents.1584723243.Mathiass-MBP-2.lan.45003.5950.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-175403/validation/events.out.tfevents.1584723245.Mathiass-MBP-2.lan.45003.6083.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-175424/train/events.out.tfevents.1584723265.Mathiass-MBP-2.lan.45003.10138.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-175424/validation/events.out.tfevents.1584723267.Mathiass-MBP-2.lan.45003.10271.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-182641/train/events.out.tfevents.1584725202.Mathiass-MBP-2.lan.45095.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-182641/validation/events.out.tfevents.1584725211.Mathiass-MBP-2.lan.45095.2905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-182757/train/events.out.tfevents.1584725278.Mathiass-MBP-2.lan.45095.5950.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-182757/validation/events.out.tfevents.1584725280.Mathiass-MBP-2.lan.45095.6083.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-182823/train/events.out.tfevents.1584725304.Mathiass-MBP-2.lan.45095.10116.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-182823/validation/events.out.tfevents.1584725306.Mathiass-MBP-2.lan.45095.10249.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183200/train/events.out.tfevents.1584725521.Mathiass-MBP-2.lan.45168.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183200/validation/events.out.tfevents.1584725528.Mathiass-MBP-2.lan.45168.2905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183306/train/events.out.tfevents.1584725587.Mathiass-MBP-2.lan.45168.5950.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183306/validation/events.out.tfevents.1584725588.Mathiass-MBP-2.lan.45168.6083.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183329/train/events.out.tfevents.1584725610.Mathiass-MBP-2.lan.45168.10116.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183329/validation/events.out.tfevents.1584725612.Mathiass-MBP-2.lan.45168.10249.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183523/train/events.out.tfevents.1584725724.Mathiass-MBP-2.lan.45200.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183523/validation/events.out.tfevents.1584725731.Mathiass-MBP-2.lan.45200.2905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183629/train/events.out.tfevents.1584725790.Mathiass-MBP-2.lan.45200.5950.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183629/validation/events.out.tfevents.1584725791.Mathiass-MBP-2.lan.45200.6083.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183652/train/events.out.tfevents.1584725812.Mathiass-MBP-2.lan.45200.10116.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183652/validation/events.out.tfevents.1584725814.Mathiass-MBP-2.lan.45200.10249.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183944/train/events.out.tfevents.1584725985.Mathiass-MBP-2.lan.45248.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-183944/validation/events.out.tfevents.1584725992.Mathiass-MBP-2.lan.45248.2905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-184048/train/events.out.tfevents.1584726049.Mathiass-MBP-2.lan.45248.5950.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-184048/validation/events.out.tfevents.1584726051.Mathiass-MBP-2.lan.45248.6083.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-184110/train/events.out.tfevents.1584726071.Mathiass-MBP-2.lan.45248.10116.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-184110/validation/events.out.tfevents.1584726072.Mathiass-MBP-2.lan.45248.10249.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-184322/train/events.out.tfevents.1584726203.Mathiass-MBP-2.lan.45285.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-184322/validation/events.out.tfevents.1584726210.Mathiass-MBP-2.lan.45285.2905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-184424/train/events.out.tfevents.1584726264.Mathiass-MBP-2.lan.45285.5950.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-184424/validation/events.out.tfevents.1584726266.Mathiass-MBP-2.lan.45285.6083.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-184444/train/events.out.tfevents.1584726285.Mathiass-MBP-2.lan.45285.10116.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-184444/validation/events.out.tfevents.1584726287.Mathiass-MBP-2.lan.45285.10249.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-185213/train/events.out.tfevents.1584726734.Mathiass-MBP-2.lan.45320.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-185213/validation/events.out.tfevents.1584726741.Mathiass-MBP-2.lan.45320.2905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-185318/train/events.out.tfevents.1584726799.Mathiass-MBP-2.lan.45320.5950.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-185318/validation/events.out.tfevents.1584726800.Mathiass-MBP-2.lan.45320.6083.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-185339/train/events.out.tfevents.1584726820.Mathiass-MBP-2.lan.45320.10116.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-185339/validation/events.out.tfevents.1584726822.Mathiass-MBP-2.lan.45320.10249.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-185451/train/events.out.tfevents.1584726892.Mathiass-MBP-2.lan.45349.2742.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-185451/validation/events.out.tfevents.1584726907.Mathiass-MBP-2.lan.45349.3073.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-185947/train/events.out.tfevents.1584727187.Mathiass-MBP-2.lan.45349.10730.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-185947/validation/events.out.tfevents.1584727191.Mathiass-MBP-2.lan.45349.10979.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-190037/train/events.out.tfevents.1584727237.Mathiass-MBP-2.lan.45349.17216.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-190037/validation/events.out.tfevents.1584727241.Mathiass-MBP-2.lan.45349.17465.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-190952/train/events.out.tfevents.1584727793.Mathiass-MBP-2.lan.45424.2626.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-190952/validation/events.out.tfevents.1584727808.Mathiass-MBP-2.lan.45424.2957.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-191448/train/events.out.tfevents.1584728088.Mathiass-MBP-2.lan.45424.10537.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-191448/validation/events.out.tfevents.1584728091.Mathiass-MBP-2.lan.45424.10786.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-191540/train/events.out.tfevents.1584728141.Mathiass-MBP-2.lan.45424.16957.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-191540/validation/events.out.tfevents.1584728145.Mathiass-MBP-2.lan.45424.17206.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-192131/train/events.out.tfevents.1584728492.Mathiass-MBP-2.lan.45493.2626.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-192131/validation/events.out.tfevents.1584728519.Mathiass-MBP-2.lan.45493.2915.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-192813/train/events.out.tfevents.1584728894.Mathiass-MBP-2.lan.45493.9697.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-192813/validation/events.out.tfevents.1584728898.Mathiass-MBP-2.lan.45493.9920.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-192905/train/events.out.tfevents.1584728946.Mathiass-MBP-2.lan.45493.15597.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200320-192905/validation/events.out.tfevents.1584728950.Mathiass-MBP-2.lan.45493.15820.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-112341/train/events.out.tfevents.1584872623.Mathiass-MBP-2.lan.646.2626.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-112341/validation/events.out.tfevents.1584872640.Mathiass-MBP-2.lan.646.2957.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-112821/train/events.out.tfevents.1584872901.Mathiass-MBP-2.lan.646.10537.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-112821/validation/events.out.tfevents.1584872904.Mathiass-MBP-2.lan.646.10786.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-112910/train/events.out.tfevents.1584872951.Mathiass-MBP-2.lan.646.16957.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-112910/validation/events.out.tfevents.1584872955.Mathiass-MBP-2.lan.646.17206.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-114436/train/events.out.tfevents.1584873877.Mathiass-MBP-2.lan.1146.2626.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-114436/validation/events.out.tfevents.1584873892.Mathiass-MBP-2.lan.1146.2957.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-114901/train/events.out.tfevents.1584874141.Mathiass-MBP-2.lan.1146.9979.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-114901/validation/events.out.tfevents.1584874144.Mathiass-MBP-2.lan.1146.10228.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-114942/train/events.out.tfevents.1584874182.Mathiass-MBP-2.lan.1146.15841.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-114942/validation/events.out.tfevents.1584874185.Mathiass-MBP-2.lan.1146.16090.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-115119/train/events.out.tfevents.1584874280.Mathiass-MBP-2.lan.1210.2626.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-115119/validation/events.out.tfevents.1584874293.Mathiass-MBP-2.lan.1210.2957.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-115536/train/events.out.tfevents.1584874537.Mathiass-MBP-2.lan.1210.9979.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-115536/validation/events.out.tfevents.1584874539.Mathiass-MBP-2.lan.1210.10228.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-115626/train/events.out.tfevents.1584874586.Mathiass-MBP-2.lan.1210.15841.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-115626/validation/events.out.tfevents.1584874589.Mathiass-MBP-2.lan.1210.16090.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-115924/train/events.out.tfevents.1584874764.Mathiass-MBP-2.lan.1280.1785.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-115924/validation/events.out.tfevents.1584874767.Mathiass-MBP-2.lan.1280.2034.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-120138/train/events.out.tfevents.1584874898.Mathiass-MBP-2.lan.1306.1785.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-120138/validation/events.out.tfevents.1584874901.Mathiass-MBP-2.lan.1306.2034.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-120323/train/events.out.tfevents.1584875004.Mathiass-MBP-2.lan.1334.1785.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-120323/validation/events.out.tfevents.1584875006.Mathiass-MBP-2.lan.1334.2034.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-120453/train/events.out.tfevents.1584875094.Mathiass-MBP-2.lan.1357.1785.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-120453/validation/events.out.tfevents.1584875096.Mathiass-MBP-2.lan.1357.2034.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-120623/train/events.out.tfevents.1584875183.Mathiass-MBP-2.lan.1382.1785.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-120623/validation/events.out.tfevents.1584875185.Mathiass-MBP-2.lan.1382.2034.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-120947/train/events.out.tfevents.1584875387.Mathiass-MBP-2.lan.1410.2133.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-120947/validation/events.out.tfevents.1584875390.Mathiass-MBP-2.lan.1410.2382.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121056/train/events.out.tfevents.1584875456.Mathiass-MBP-2.lan.1431.1227.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121056/validation/events.out.tfevents.1584875458.Mathiass-MBP-2.lan.1431.1476.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121233/train/events.out.tfevents.1584875554.Mathiass-MBP-2.lan.1458.1378.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121233/validation/events.out.tfevents.1584875556.Mathiass-MBP-2.lan.1458.1627.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121333/train/events.out.tfevents.1584875614.Mathiass-MBP-2.lan.1477.1378.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121333/validation/events.out.tfevents.1584875616.Mathiass-MBP-2.lan.1477.1627.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121403/train/events.out.tfevents.1584875644.Mathiass-MBP-2.lan.1498.1378.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121403/validation/events.out.tfevents.1584875646.Mathiass-MBP-2.lan.1498.1627.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121525/train/events.out.tfevents.1584875726.Mathiass-MBP-2.lan.1524.1465.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121525/validation/events.out.tfevents.1584875728.Mathiass-MBP-2.lan.1524.1714.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121657/train/events.out.tfevents.1584875818.Mathiass-MBP-2.lan.1549.1465.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121657/validation/events.out.tfevents.1584875820.Mathiass-MBP-2.lan.1549.1714.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121835/train/events.out.tfevents.1584875915.Mathiass-MBP-2.lan.1578.1465.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-121835/validation/events.out.tfevents.1584875917.Mathiass-MBP-2.lan.1578.1714.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-122047/train/events.out.tfevents.1584876048.Mathiass-MBP-2.lan.1609.1465.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-122047/validation/events.out.tfevents.1584876050.Mathiass-MBP-2.lan.1609.1714.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-122117/train/events.out.tfevents.1584876078.Mathiass-MBP-2.lan.1625.1465.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-122117/validation/events.out.tfevents.1584876082.Mathiass-MBP-2.lan.1625.1714.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-122224/train/events.out.tfevents.1584876144.Mathiass-MBP-2.lan.1652.1465.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-122224/validation/events.out.tfevents.1584876146.Mathiass-MBP-2.lan.1652.1714.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-122656/train/events.out.tfevents.1584876417.Mathiass-MBP-2.lan.1696.2513.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-122656/validation/events.out.tfevents.1584876433.Mathiass-MBP-2.lan.1696.2844.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-123300/train/events.out.tfevents.1584876780.Mathiass-MBP-2.lan.1731.2513.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-123300/validation/events.out.tfevents.1584876794.Mathiass-MBP-2.lan.1731.2844.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-123854/train/events.out.tfevents.1584877134.Mathiass-MBP-2.lan.1779.2827.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-123854/validation/events.out.tfevents.1584877148.Mathiass-MBP-2.lan.1779.3158.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-124426/train/events.out.tfevents.1584877467.Mathiass-MBP-2.lan.1822.2827.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-124426/validation/events.out.tfevents.1584877481.Mathiass-MBP-2.lan.1822.3158.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-125013/train/events.out.tfevents.1584877814.Mathiass-MBP-2.lan.1863.2827.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-125013/validation/events.out.tfevents.1584877827.Mathiass-MBP-2.lan.1863.3158.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-125348/train/events.out.tfevents.1584878030.Mathiass-MBP-2.lan.1893.2827.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-125348/validation/events.out.tfevents.1584878046.Mathiass-MBP-2.lan.1893.3158.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-132951/train/events.out.tfevents.1584880191.Mathiass-MBP-2.lan.2062.2827.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-132951/validation/events.out.tfevents.1584880196.Mathiass-MBP-2.lan.2062.2962.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-133444/train/events.out.tfevents.1584880485.Mathiass-MBP-2.lan.2062.10280.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-133444/validation/events.out.tfevents.1584880490.Mathiass-MBP-2.lan.2062.10415.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-134546/train/events.out.tfevents.1584881147.Mathiass-MBP-2.lan.2062.25741.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-134546/validation/events.out.tfevents.1584881148.Mathiass-MBP-2.lan.2062.25858.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-134805/train/events.out.tfevents.1584881286.Mathiass-MBP-2.lan.2062.29564.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-134805/validation/events.out.tfevents.1584881287.Mathiass-MBP-2.lan.2062.29681.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-134919/train/events.out.tfevents.1584881360.Mathiass-MBP-2.lan.2062.33246.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-134919/validation/events.out.tfevents.1584881362.Mathiass-MBP-2.lan.2062.33363.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-134946/train/events.out.tfevents.1584881386.Mathiass-MBP-2.lan.2062.36928.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-134946/validation/events.out.tfevents.1584881387.Mathiass-MBP-2.lan.2062.37045.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135006/train/events.out.tfevents.1584881406.Mathiass-MBP-2.lan.2062.40610.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135006/validation/events.out.tfevents.1584881407.Mathiass-MBP-2.lan.2062.40727.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135032/train/events.out.tfevents.1584881433.Mathiass-MBP-2.lan.2062.44292.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135032/validation/events.out.tfevents.1584881434.Mathiass-MBP-2.lan.2062.44409.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135052/train/events.out.tfevents.1584881453.Mathiass-MBP-2.lan.2062.47974.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135052/validation/events.out.tfevents.1584881454.Mathiass-MBP-2.lan.2062.48091.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135146/train/events.out.tfevents.1584881507.Mathiass-MBP-2.lan.2062.51656.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135146/validation/events.out.tfevents.1584881508.Mathiass-MBP-2.lan.2062.51773.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135320/train/events.out.tfevents.1584881601.Mathiass-MBP-2.lan.2248.2990.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135320/validation/events.out.tfevents.1584881606.Mathiass-MBP-2.lan.2248.3125.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135628/train/events.out.tfevents.1584881789.Mathiass-MBP-2.lan.2248.9059.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135628/validation/events.out.tfevents.1584881790.Mathiass-MBP-2.lan.2248.9176.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135643/train/events.out.tfevents.1584881803.Mathiass-MBP-2.lan.2248.12719.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135643/validation/events.out.tfevents.1584881804.Mathiass-MBP-2.lan.2248.12836.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135857/train/events.out.tfevents.1584881938.Mathiass-MBP-2.lan.2326.2990.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-135857/validation/events.out.tfevents.1584881952.Mathiass-MBP-2.lan.2326.3321.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-144154/train/events.out.tfevents.1584884515.Mathiass-MBP-2.lan.2326.66499.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-144154/validation/events.out.tfevents.1584884519.Mathiass-MBP-2.lan.2326.66748.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-144241/train/events.out.tfevents.1584884562.Mathiass-MBP-2.lan.2326.72799.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-144241/validation/events.out.tfevents.1584884564.Mathiass-MBP-2.lan.2326.73048.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-144436/train/events.out.tfevents.1584884676.Mathiass-MBP-2.lan.2405.1443.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-144436/validation/events.out.tfevents.1584884679.Mathiass-MBP-2.lan.2405.1692.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-144707/train/events.out.tfevents.1584884827.Mathiass-MBP-2.lan.2450.2990.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-144707/validation/events.out.tfevents.1584884841.Mathiass-MBP-2.lan.2450.3181.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-144909/train/events.out.tfevents.1584884950.Mathiass-MBP-2.lan.2481.3070.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-144909/validation/events.out.tfevents.1584884965.Mathiass-MBP-2.lan.2481.3261.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-145230/train/events.out.tfevents.1584885151.Mathiass-MBP-2.lan.2530.3070.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-145230/validation/events.out.tfevents.1584885163.Mathiass-MBP-2.lan.2530.3261.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-145509/train/events.out.tfevents.1584885310.Mathiass-MBP-2.lan.2559.3070.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-145509/validation/events.out.tfevents.1584885323.Mathiass-MBP-2.lan.2559.3261.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-145620/train/events.out.tfevents.1584885381.Mathiass-MBP-2.lan.2584.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-145620/validation/events.out.tfevents.1584885393.Mathiass-MBP-2.lan.2584.3203.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-145825/train/events.out.tfevents.1584885506.Mathiass-MBP-2.lan.2615.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-145825/validation/events.out.tfevents.1584885519.Mathiass-MBP-2.lan.2615.3203.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-152049/train/events.out.tfevents.1584886850.Mathiass-MBP-2.lan.2615.21548.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-152049/validation/events.out.tfevents.1584886854.Mathiass-MBP-2.lan.2615.21713.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-152132/train/events.out.tfevents.1584886893.Mathiass-MBP-2.lan.2615.25896.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-152132/validation/events.out.tfevents.1584886895.Mathiass-MBP-2.lan.2615.26061.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-152333/train/events.out.tfevents.1584887014.Mathiass-MBP-2.lan.2717.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-152333/validation/events.out.tfevents.1584887023.Mathiass-MBP-2.lan.2717.3231.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-153052/train/events.out.tfevents.1584887453.Mathiass-MBP-2.lan.2717.14448.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-153052/validation/events.out.tfevents.1584887454.Mathiass-MBP-2.lan.2717.14623.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-153119/train/events.out.tfevents.1584887480.Mathiass-MBP-2.lan.2717.18996.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-153119/validation/events.out.tfevents.1584887482.Mathiass-MBP-2.lan.2717.19171.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-154004/train/events.out.tfevents.1584888005.Mathiass-MBP-2.lan.2795.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-154004/validation/events.out.tfevents.1584888015.Mathiass-MBP-2.lan.2795.3231.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-154533/train/events.out.tfevents.1584888333.Mathiass-MBP-2.lan.2795.12468.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-154533/validation/events.out.tfevents.1584888335.Mathiass-MBP-2.lan.2795.12643.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-154601/train/events.out.tfevents.1584888361.Mathiass-MBP-2.lan.2795.17016.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-154601/validation/events.out.tfevents.1584888364.Mathiass-MBP-2.lan.2795.17191.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-154909/train/events.out.tfevents.1584888551.Mathiass-MBP-2.lan.2845.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-154909/validation/events.out.tfevents.1584888567.Mathiass-MBP-2.lan.2845.3231.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-155300/train/events.out.tfevents.1584888781.Mathiass-MBP-2.lan.2845.9498.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-155300/validation/events.out.tfevents.1584888784.Mathiass-MBP-2.lan.2845.9673.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-155332/train/events.out.tfevents.1584888813.Mathiass-MBP-2.lan.2845.14046.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-155332/validation/events.out.tfevents.1584888815.Mathiass-MBP-2.lan.2845.14221.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-155530/train/events.out.tfevents.1584888931.Mathiass-MBP-2.lan.2891.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-155530/validation/events.out.tfevents.1584888941.Mathiass-MBP-2.lan.2891.3231.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-155854/train/events.out.tfevents.1584889135.Mathiass-MBP-2.lan.2891.9770.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-155854/validation/events.out.tfevents.1584889136.Mathiass-MBP-2.lan.2891.9945.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-155921/train/events.out.tfevents.1584889161.Mathiass-MBP-2.lan.2891.14590.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-155921/validation/events.out.tfevents.1584889163.Mathiass-MBP-2.lan.2891.14765.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-160206/train/events.out.tfevents.1584889328.Mathiass-MBP-2.lan.2062.56533.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-160206/validation/events.out.tfevents.1584889334.Mathiass-MBP-2.lan.2062.56668.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-160539/train/events.out.tfevents.1584889540.Mathiass-MBP-2.lan.2062.60985.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-160539/validation/events.out.tfevents.1584889542.Mathiass-MBP-2.lan.2062.61102.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-160654/train/events.out.tfevents.1584889615.Mathiass-MBP-2.lan.2062.64667.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-160654/validation/events.out.tfevents.1584889616.Mathiass-MBP-2.lan.2062.64784.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-160732/train/events.out.tfevents.1584889655.Mathiass-MBP-2.lan.2062.68349.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-160732/validation/events.out.tfevents.1584889657.Mathiass-MBP-2.lan.2062.68466.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-160757/train/events.out.tfevents.1584889679.Mathiass-MBP-2.lan.2062.73085.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-160757/validation/events.out.tfevents.1584889685.Mathiass-MBP-2.lan.2062.73220.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-161105/train/events.out.tfevents.1584889867.Mathiass-MBP-2.lan.2062.78309.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-161105/validation/events.out.tfevents.1584889869.Mathiass-MBP-2.lan.2062.78426.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-161129/train/events.out.tfevents.1584889891.Mathiass-MBP-2.lan.2062.82763.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-161129/validation/events.out.tfevents.1584889893.Mathiass-MBP-2.lan.2062.82880.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-161155/train/events.out.tfevents.1584889917.Mathiass-MBP-2.lan.2062.87217.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-161155/validation/events.out.tfevents.1584889919.Mathiass-MBP-2.lan.2062.87334.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-161250/train/events.out.tfevents.1584889971.Mathiass-MBP-2.lan.2062.90718.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-161250/validation/events.out.tfevents.1584889975.Mathiass-MBP-2.lan.2062.90835.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162123/train/events.out.tfevents.1584890484.Mathiass-MBP-2.lan.3011.2937.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162123/validation/events.out.tfevents.1584890494.Mathiass-MBP-2.lan.3011.3156.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162518/train/events.out.tfevents.1584890720.Mathiass-MBP-2.lan.3011.9695.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162518/validation/events.out.tfevents.1584890722.Mathiass-MBP-2.lan.3011.9870.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162553/train/events.out.tfevents.1584890754.Mathiass-MBP-2.lan.3011.14515.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162553/validation/events.out.tfevents.1584890756.Mathiass-MBP-2.lan.3011.14690.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162714/train/events.out.tfevents.1584890835.Mathiass-MBP-2.lan.3053.2937.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162714/validation/events.out.tfevents.1584890845.Mathiass-MBP-2.lan.3053.3156.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162912/train/events.out.tfevents.1584890953.Mathiass-MBP-2.lan.3053.7319.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162912/validation/events.out.tfevents.1584890956.Mathiass-MBP-2.lan.3053.7494.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162949/train/events.out.tfevents.1584890990.Mathiass-MBP-2.lan.3053.12139.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-162949/validation/events.out.tfevents.1584890993.Mathiass-MBP-2.lan.3053.12314.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-163133/train/events.out.tfevents.1584891093.Mathiass-MBP-2.lan.3093.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-163133/validation/events.out.tfevents.1584891104.Mathiass-MBP-2.lan.3093.3231.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-163333/train/events.out.tfevents.1584891214.Mathiass-MBP-2.lan.3093.7394.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-163333/validation/events.out.tfevents.1584891216.Mathiass-MBP-2.lan.3093.7569.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-163404/train/events.out.tfevents.1584891245.Mathiass-MBP-2.lan.3093.12214.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-163404/validation/events.out.tfevents.1584891247.Mathiass-MBP-2.lan.3093.12389.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-163733/train/events.out.tfevents.1584891453.Mathiass-MBP-2.lan.3118.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-163733/validation/events.out.tfevents.1584891464.Mathiass-MBP-2.lan.3118.3231.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-164109/train/events.out.tfevents.1584891671.Mathiass-MBP-2.lan.3142.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-164109/validation/events.out.tfevents.1584891689.Mathiass-MBP-2.lan.3142.3231.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-164635/train/events.out.tfevents.1584891996.Mathiass-MBP-2.lan.3197.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-164635/validation/events.out.tfevents.1584892007.Mathiass-MBP-2.lan.3197.3231.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-164843/train/events.out.tfevents.1584892124.Mathiass-MBP-2.lan.3197.6768.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-164843/validation/events.out.tfevents.1584892125.Mathiass-MBP-2.lan.3197.6943.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-164859/train/events.out.tfevents.1584892140.Mathiass-MBP-2.lan.3197.11588.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-164859/validation/events.out.tfevents.1584892141.Mathiass-MBP-2.lan.3197.11763.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-165200/train/events.out.tfevents.1584892321.Mathiass-MBP-2.lan.3233.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-165200/validation/events.out.tfevents.1584892333.Mathiass-MBP-2.lan.3233.3231.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-165414/train/events.out.tfevents.1584892455.Mathiass-MBP-2.lan.3233.7394.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-165414/validation/events.out.tfevents.1584892457.Mathiass-MBP-2.lan.3233.7569.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-165446/train/events.out.tfevents.1584892487.Mathiass-MBP-2.lan.3233.12214.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-165446/validation/events.out.tfevents.1584892490.Mathiass-MBP-2.lan.3233.12389.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-165841/train/events.out.tfevents.1584892722.Mathiass-MBP-2.lan.3274.1715.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-165841/validation/events.out.tfevents.1584892724.Mathiass-MBP-2.lan.3274.1890.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-170011/train/events.out.tfevents.1584892812.Mathiass-MBP-2.lan.3304.3012.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-170011/validation/events.out.tfevents.1584892825.Mathiass-MBP-2.lan.3304.3231.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-170221/train/events.out.tfevents.1584892942.Mathiass-MBP-2.lan.3304.7394.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-170221/validation/events.out.tfevents.1584892944.Mathiass-MBP-2.lan.3304.7569.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-170252/train/events.out.tfevents.1584892973.Mathiass-MBP-2.lan.3304.12214.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-170252/validation/events.out.tfevents.1584892976.Mathiass-MBP-2.lan.3304.12389.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-172706/train/events.out.tfevents.1584894427.Mathiass-MBP-2.lan.3483.2317.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-172706/validation/events.out.tfevents.1584894428.Mathiass-MBP-2.lan.3483.2492.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-172801/train/events.out.tfevents.1584894482.Mathiass-MBP-2.lan.3483.7380.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-172801/validation/events.out.tfevents.1584894484.Mathiass-MBP-2.lan.3483.7555.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-172942/train/events.out.tfevents.1584894582.Mathiass-MBP-2.lan.3483.18961.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-172942/validation/events.out.tfevents.1584894584.Mathiass-MBP-2.lan.3483.19136.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-191211/train/events.out.tfevents.1584900732.Mathiass-MBP-2.lan.3483.30569.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-191211/validation/events.out.tfevents.1584900733.Mathiass-MBP-2.lan.3483.30744.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-191352/train/events.out.tfevents.1584900832.Mathiass-MBP-2.lan.3839.3483.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-191352/validation/events.out.tfevents.1584900841.Mathiass-MBP-2.lan.3839.3702.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-191625/train/events.out.tfevents.1584900986.Mathiass-MBP-2.lan.3839.9251.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-191625/validation/events.out.tfevents.1584900987.Mathiass-MBP-2.lan.3839.9426.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-192053/train/events.out.tfevents.1584901254.Mathiass-MBP-2.lan.3839.21913.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-192053/validation/events.out.tfevents.1584901262.Mathiass-MBP-2.lan.3839.22132.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-192321/train/events.out.tfevents.1584901402.Mathiass-MBP-2.lan.3839.27681.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-192321/validation/events.out.tfevents.1584901403.Mathiass-MBP-2.lan.3839.27856.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-192658/train/events.out.tfevents.1584901619.Mathiass-MBP-2.lan.3839.40343.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-192658/validation/events.out.tfevents.1584901628.Mathiass-MBP-2.lan.3839.40562.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-192932/train/events.out.tfevents.1584901772.Mathiass-MBP-2.lan.3839.46111.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200322-192932/validation/events.out.tfevents.1584901774.Mathiass-MBP-2.lan.3839.46286.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-124533/train/events.out.tfevents.1584963934.Mathiass-MBP-2.lan.25379.2907.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-124533/validation/events.out.tfevents.1584963944.Mathiass-MBP-2.lan.25379.3154.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-124910/train/events.out.tfevents.1584964150.Mathiass-MBP-2.lan.25379.9235.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-124910/validation/events.out.tfevents.1584964152.Mathiass-MBP-2.lan.25379.9384.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-125057/train/events.out.tfevents.1584964258.Mathiass-MBP-2.lan.25421.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-125057/validation/events.out.tfevents.1584964267.Mathiass-MBP-2.lan.25421.3096.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-125416/train/events.out.tfevents.1584964457.Mathiass-MBP-2.lan.25421.9177.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-125416/validation/events.out.tfevents.1584964458.Mathiass-MBP-2.lan.25421.9326.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-125439/train/events.out.tfevents.1584964479.Mathiass-MBP-2.lan.25421.18660.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-125439/validation/events.out.tfevents.1584964481.Mathiass-MBP-2.lan.25421.18809.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130244/train/events.out.tfevents.1584964965.Mathiass-MBP-2.lan.25512.2769.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130244/validation/events.out.tfevents.1584964974.Mathiass-MBP-2.lan.25512.3016.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130318/train/events.out.tfevents.1584964998.Mathiass-MBP-2.lan.25534.2769.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130318/validation/events.out.tfevents.1584965002.Mathiass-MBP-2.lan.25534.2876.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130425/train/events.out.tfevents.1584965066.Mathiass-MBP-2.lan.25534.6270.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130425/validation/events.out.tfevents.1584965067.Mathiass-MBP-2.lan.25534.6361.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130436/train/events.out.tfevents.1584965077.Mathiass-MBP-2.lan.25534.11356.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130436/validation/events.out.tfevents.1584965078.Mathiass-MBP-2.lan.25534.11447.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130712/train/events.out.tfevents.1584965233.Mathiass-MBP-2.lan.25592.2769.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130712/validation/events.out.tfevents.1584965237.Mathiass-MBP-2.lan.25592.2876.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130814/train/events.out.tfevents.1584965294.Mathiass-MBP-2.lan.25592.6270.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130814/validation/events.out.tfevents.1584965295.Mathiass-MBP-2.lan.25592.6361.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130823/train/events.out.tfevents.1584965304.Mathiass-MBP-2.lan.25592.11276.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-130823/validation/events.out.tfevents.1584965305.Mathiass-MBP-2.lan.25592.11367.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-131246/train/events.out.tfevents.1584965567.Mathiass-MBP-2.lan.25643.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-131246/validation/events.out.tfevents.1584965574.Mathiass-MBP-2.lan.25643.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-131826/train/events.out.tfevents.1584965907.Mathiass-MBP-2.lan.25352.2769.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-131826/validation/events.out.tfevents.1584965913.Mathiass-MBP-2.lan.25352.2932.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-132837/train/events.out.tfevents.1584966518.Mathiass-MBP-2.lan.25738.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-132837/validation/events.out.tfevents.1584966524.Mathiass-MBP-2.lan.25738.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-133103/train/events.out.tfevents.1584966664.Mathiass-MBP-2.lan.25738.7777.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-133103/validation/events.out.tfevents.1584966665.Mathiass-MBP-2.lan.25738.7894.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-133123/train/events.out.tfevents.1584966683.Mathiass-MBP-2.lan.25738.15015.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-133123/validation/events.out.tfevents.1584966685.Mathiass-MBP-2.lan.25738.15132.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-133554/train/events.out.tfevents.1584966954.Mathiass-MBP-2.lan.25872.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-133554/validation/events.out.tfevents.1584966961.Mathiass-MBP-2.lan.25872.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-133759/train/events.out.tfevents.1584967080.Mathiass-MBP-2.lan.25872.7777.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-133759/validation/events.out.tfevents.1584967081.Mathiass-MBP-2.lan.25872.7894.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-133817/train/events.out.tfevents.1584967097.Mathiass-MBP-2.lan.25872.15015.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-133817/validation/events.out.tfevents.1584967099.Mathiass-MBP-2.lan.25872.15132.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134110/train/events.out.tfevents.1584967271.Mathiass-MBP-2.lan.25906.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134110/validation/events.out.tfevents.1584967278.Mathiass-MBP-2.lan.25906.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134201/train/events.out.tfevents.1584967322.Mathiass-MBP-2.lan.25906.5905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134201/validation/events.out.tfevents.1584967323.Mathiass-MBP-2.lan.25906.6022.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134219/train/events.out.tfevents.1584967340.Mathiass-MBP-2.lan.25906.13143.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134219/validation/events.out.tfevents.1584967341.Mathiass-MBP-2.lan.25906.13260.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134434/train/events.out.tfevents.1584967474.Mathiass-MBP-2.lan.25352.5586.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134434/validation/events.out.tfevents.1584967477.Mathiass-MBP-2.lan.25352.5819.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134629/train/events.out.tfevents.1584967590.Mathiass-MBP-2.lan.25929.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134629/validation/events.out.tfevents.1584967597.Mathiass-MBP-2.lan.25929.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134719/train/events.out.tfevents.1584967640.Mathiass-MBP-2.lan.25929.5905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134719/validation/events.out.tfevents.1584967641.Mathiass-MBP-2.lan.25929.6022.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134738/train/events.out.tfevents.1584967659.Mathiass-MBP-2.lan.25929.13143.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-134738/validation/events.out.tfevents.1584967660.Mathiass-MBP-2.lan.25929.13260.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144048/train/events.out.tfevents.1584970848.Mathiass-MBP-2.lan.25352.21564.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144048/validation/events.out.tfevents.1584970849.Mathiass-MBP-2.lan.25352.21681.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144154/train/events.out.tfevents.1584970915.Mathiass-MBP-2.lan.26017.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144154/validation/events.out.tfevents.1584970922.Mathiass-MBP-2.lan.26017.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144245/train/events.out.tfevents.1584970966.Mathiass-MBP-2.lan.26017.5905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144245/validation/events.out.tfevents.1584970967.Mathiass-MBP-2.lan.26017.6022.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144302/train/events.out.tfevents.1584970983.Mathiass-MBP-2.lan.26017.13143.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144302/validation/events.out.tfevents.1584970984.Mathiass-MBP-2.lan.26017.13260.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144505/train/events.out.tfevents.1584971106.Mathiass-MBP-2.lan.26045.1795.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144505/validation/events.out.tfevents.1584971107.Mathiass-MBP-2.lan.26045.1912.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144521/train/events.out.tfevents.1584971122.Mathiass-MBP-2.lan.26045.10087.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144521/validation/events.out.tfevents.1584971129.Mathiass-MBP-2.lan.26045.10264.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144611/train/events.out.tfevents.1584971172.Mathiass-MBP-2.lan.26045.13143.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144611/validation/events.out.tfevents.1584971173.Mathiass-MBP-2.lan.26045.13260.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144959/train/events.out.tfevents.1584971400.Mathiass-MBP-2.lan.26072.1795.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-144959/validation/events.out.tfevents.1584971401.Mathiass-MBP-2.lan.26072.1912.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145016/train/events.out.tfevents.1584971416.Mathiass-MBP-2.lan.26072.10087.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145016/validation/events.out.tfevents.1584971423.Mathiass-MBP-2.lan.26072.10264.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145105/train/events.out.tfevents.1584971466.Mathiass-MBP-2.lan.26072.13143.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145105/validation/events.out.tfevents.1584971467.Mathiass-MBP-2.lan.26072.13260.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145442/train/events.out.tfevents.1584971683.Mathiass-MBP-2.lan.26108.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145442/validation/events.out.tfevents.1584971689.Mathiass-MBP-2.lan.26108.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145533/train/events.out.tfevents.1584971734.Mathiass-MBP-2.lan.26108.5905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145533/validation/events.out.tfevents.1584971735.Mathiass-MBP-2.lan.26108.6022.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145551/train/events.out.tfevents.1584971752.Mathiass-MBP-2.lan.26108.13143.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145551/validation/events.out.tfevents.1584971754.Mathiass-MBP-2.lan.26108.13260.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145630/train/events.out.tfevents.1584971791.Mathiass-MBP-2.lan.26126.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145630/validation/events.out.tfevents.1584971797.Mathiass-MBP-2.lan.26126.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145721/train/events.out.tfevents.1584971842.Mathiass-MBP-2.lan.26126.5905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145721/validation/events.out.tfevents.1584971843.Mathiass-MBP-2.lan.26126.6022.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145739/train/events.out.tfevents.1584971859.Mathiass-MBP-2.lan.26126.13143.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145739/validation/events.out.tfevents.1584971860.Mathiass-MBP-2.lan.26126.13260.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145918/train/events.out.tfevents.1584971959.Mathiass-MBP-2.lan.26152.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-145918/validation/events.out.tfevents.1584971966.Mathiass-MBP-2.lan.26152.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150009/train/events.out.tfevents.1584972009.Mathiass-MBP-2.lan.26152.5905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150009/validation/events.out.tfevents.1584972010.Mathiass-MBP-2.lan.26152.6022.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150026/train/events.out.tfevents.1584972026.Mathiass-MBP-2.lan.26152.13143.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150026/validation/events.out.tfevents.1584972027.Mathiass-MBP-2.lan.26152.13260.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150221/train/events.out.tfevents.1584972142.Mathiass-MBP-2.lan.26184.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150221/validation/events.out.tfevents.1584972148.Mathiass-MBP-2.lan.26184.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150310/train/events.out.tfevents.1584972191.Mathiass-MBP-2.lan.26184.5905.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150310/validation/events.out.tfevents.1584972192.Mathiass-MBP-2.lan.26184.6022.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150327/train/events.out.tfevents.1584972207.Mathiass-MBP-2.lan.26184.13143.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150327/validation/events.out.tfevents.1584972209.Mathiass-MBP-2.lan.26184.13260.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150433/train/events.out.tfevents.1584972273.Mathiass-MBP-2.lan.26206.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-150433/validation/events.out.tfevents.1584972285.Mathiass-MBP-2.lan.26206.3096.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151030/train/events.out.tfevents.1584972631.Mathiass-MBP-2.lan.26206.13697.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151030/validation/events.out.tfevents.1584972632.Mathiass-MBP-2.lan.26206.13846.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151053/train/events.out.tfevents.1584972654.Mathiass-MBP-2.lan.26206.23180.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151053/validation/events.out.tfevents.1584972655.Mathiass-MBP-2.lan.26206.23329.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151225/train/events.out.tfevents.1584972746.Mathiass-MBP-2.lan.26240.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151225/validation/events.out.tfevents.1584972753.Mathiass-MBP-2.lan.26240.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151626/train/events.out.tfevents.1584972987.Mathiass-MBP-2.lan.26240.10897.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151626/validation/events.out.tfevents.1584972988.Mathiass-MBP-2.lan.26240.11014.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151643/train/events.out.tfevents.1584973004.Mathiass-MBP-2.lan.26240.18135.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151643/validation/events.out.tfevents.1584973005.Mathiass-MBP-2.lan.26240.18252.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151826/train/events.out.tfevents.1584973107.Mathiass-MBP-2.lan.26265.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151826/validation/events.out.tfevents.1584973114.Mathiass-MBP-2.lan.26265.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151849/train/events.out.tfevents.1584973129.Mathiass-MBP-2.lan.26265.5125.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151849/validation/events.out.tfevents.1584973130.Mathiass-MBP-2.lan.26265.5242.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151906/train/events.out.tfevents.1584973146.Mathiass-MBP-2.lan.26265.12363.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151906/validation/events.out.tfevents.1584973147.Mathiass-MBP-2.lan.26265.12480.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151949/train/events.out.tfevents.1584973190.Mathiass-MBP-2.lan.26290.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-151949/validation/events.out.tfevents.1584973197.Mathiass-MBP-2.lan.26290.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152011/train/events.out.tfevents.1584973212.Mathiass-MBP-2.lan.26290.5125.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152011/validation/events.out.tfevents.1584973213.Mathiass-MBP-2.lan.26290.5242.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152027/train/events.out.tfevents.1584973228.Mathiass-MBP-2.lan.26290.12363.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152027/validation/events.out.tfevents.1584973229.Mathiass-MBP-2.lan.26290.12480.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152118/train/events.out.tfevents.1584973279.Mathiass-MBP-2.lan.26309.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152118/validation/events.out.tfevents.1584973286.Mathiass-MBP-2.lan.26309.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152140/train/events.out.tfevents.1584973300.Mathiass-MBP-2.lan.26309.5125.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152140/validation/events.out.tfevents.1584973301.Mathiass-MBP-2.lan.26309.5242.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152156/train/events.out.tfevents.1584973317.Mathiass-MBP-2.lan.26309.12363.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152156/validation/events.out.tfevents.1584973318.Mathiass-MBP-2.lan.26309.12480.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152332/train/events.out.tfevents.1584973413.Mathiass-MBP-2.lan.26338.2328.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152332/validation/events.out.tfevents.1584973415.Mathiass-MBP-2.lan.26338.2535.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152421/train/events.out.tfevents.1584973462.Mathiass-MBP-2.lan.26338.17358.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152421/validation/events.out.tfevents.1584973469.Mathiass-MBP-2.lan.26338.17507.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152640/train/events.out.tfevents.1584973601.Mathiass-MBP-2.lan.26338.22096.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-152640/validation/events.out.tfevents.1584973604.Mathiass-MBP-2.lan.26338.22303.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-153922/train/events.out.tfevents.1584974363.Mathiass-MBP-2.lan.26392.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-153922/validation/events.out.tfevents.1584974369.Mathiass-MBP-2.lan.26392.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-153943/train/events.out.tfevents.1584974384.Mathiass-MBP-2.lan.26392.5125.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-153943/validation/events.out.tfevents.1584974386.Mathiass-MBP-2.lan.26392.5242.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-154009/train/events.out.tfevents.1584974410.Mathiass-MBP-2.lan.26392.12363.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-154009/validation/events.out.tfevents.1584974411.Mathiass-MBP-2.lan.26392.12480.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155120/train/events.out.tfevents.1584975081.Mathiass-MBP-2.lan.26484.2328.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155120/validation/events.out.tfevents.1584975083.Mathiass-MBP-2.lan.26484.2535.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155217/train/events.out.tfevents.1584975138.Mathiass-MBP-2.lan.26506.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155217/train/events.out.tfevents.1584975139.Mathiass-MBP-2.lan.26484.17358.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155217/validation/events.out.tfevents.1584975150.Mathiass-MBP-2.lan.26506.3026.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155217/validation/events.out.tfevents.1584975154.Mathiass-MBP-2.lan.26484.17507.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155402/train/events.out.tfevents.1584975243.Mathiass-MBP-2.lan.26506.6217.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155402/validation/events.out.tfevents.1584975245.Mathiass-MBP-2.lan.26506.6334.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155432/train/events.out.tfevents.1584975273.Mathiass-MBP-2.lan.26506.13455.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155432/validation/events.out.tfevents.1584975275.Mathiass-MBP-2.lan.26506.13572.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155543/train/events.out.tfevents.1584975346.Mathiass-MBP-2.lan.26530.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155543/validation/events.out.tfevents.1584975368.Mathiass-MBP-2.lan.26530.3166.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155608/train/events.out.tfevents.1584975370.Mathiass-MBP-2.lan.26484.22096.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155608/validation/events.out.tfevents.1584975375.Mathiass-MBP-2.lan.26484.22303.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155814/train/events.out.tfevents.1584975495.Mathiass-MBP-2.lan.26530.7025.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155814/validation/events.out.tfevents.1584975497.Mathiass-MBP-2.lan.26530.7200.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155846/train/events.out.tfevents.1584975527.Mathiass-MBP-2.lan.26530.18633.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155846/validation/events.out.tfevents.1584975529.Mathiass-MBP-2.lan.26530.18808.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155952/train/events.out.tfevents.1584975593.Mathiass-MBP-2.lan.26559.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-155952/validation/events.out.tfevents.1584975611.Mathiass-MBP-2.lan.26559.3124.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-160207/train/events.out.tfevents.1584975728.Mathiass-MBP-2.lan.26559.6689.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-160207/validation/events.out.tfevents.1584975729.Mathiass-MBP-2.lan.26559.6854.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-160243/train/events.out.tfevents.1584975764.Mathiass-MBP-2.lan.26559.17179.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-160243/validation/events.out.tfevents.1584975766.Mathiass-MBP-2.lan.26559.17344.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-160356/train/events.out.tfevents.1584975837.Mathiass-MBP-2.lan.26583.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-160356/validation/events.out.tfevents.1584975853.Mathiass-MBP-2.lan.26583.3124.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-161203/train/events.out.tfevents.1584976323.Mathiass-MBP-2.lan.26583.12277.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-161203/validation/events.out.tfevents.1584976325.Mathiass-MBP-2.lan.26583.12442.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-161236/train/events.out.tfevents.1584976356.Mathiass-MBP-2.lan.26583.22767.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-161236/validation/events.out.tfevents.1584976358.Mathiass-MBP-2.lan.26583.22932.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-162221/train/events.out.tfevents.1584976942.Mathiass-MBP-2.lan.26836.2849.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-162221/validation/events.out.tfevents.1584976954.Mathiass-MBP-2.lan.26836.3166.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-162425/train/events.out.tfevents.1584977066.Mathiass-MBP-2.lan.26836.7617.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-162425/validation/events.out.tfevents.1584977067.Mathiass-MBP-2.lan.26836.7792.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-162455/train/events.out.tfevents.1584977095.Mathiass-MBP-2.lan.26836.19225.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/logs/scalars/20200323-162455/validation/events.out.tfevents.1584977097.Mathiass-MBP-2.lan.26836.19400.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/run_files_L.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/run_files_M.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +891,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Autoencoder">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Autoencoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,20 +914,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Encoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/Encoder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,13 +999,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="run_files_M" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Deep Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/run_files_M.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Autoencoder" />
-        <item itemvalue="Python.Preprocessing" />
-        <item itemvalue="Python.run_files" />
-        <item itemvalue="Python.run_files" />
-        <item itemvalue="Python.run_files" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.run_files_M" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +1070,8 @@
       <workItem from="1584438396249" duration="895000" />
       <workItem from="1584439425989" duration="190000" />
       <workItem from="1584439652386" duration="131000" />
+      <workItem from="1585053667013" duration="2422000" />
+      <workItem from="1585241058588" duration="9155000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
@@ -255,5 +1112,6 @@
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584096299309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Encoder.coverage" NAME="Encoder Coverage Results" MODIFIED="1583768888720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$encoder2.coverage" NAME="encoder2 Coverage Results" MODIFIED="1584034363611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files_M.coverage" NAME="run_files_M Coverage Results" MODIFIED="1585054325481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
   </component>
 </project>
