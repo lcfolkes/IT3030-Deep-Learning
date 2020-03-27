@@ -4,7 +4,7 @@ from Assignment2.Encoder import Encoder
 
 # This class creates a supervised learner.
 # First, an encoder object is created.
-# Then, the encoder object is combined with a classifier head when creating a classifier object.
+# Then, the encoder object is combined with a classifier head to create a supervised classifier object.
 # Additionally, the class creates T-SNE plots for the learner if specified by the user
 
 class SupervisedLearner:

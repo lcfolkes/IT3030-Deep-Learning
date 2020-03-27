@@ -4,6 +4,7 @@ from Assignment2.SemiSupervisedLearner import SemiSupervisedLearner
 from Assignment2.SupervisedLearner import SupervisedLearner
 import os
 
+# This file is used to run the program
 
 # PARAMETERS
 
@@ -20,7 +21,7 @@ fraction_rest_of_d2_validation = 0.7
 latent_vector_size = 64
 freeze_encoder_flag = False
 tsne_plots_flag = True
-nr_of_autoencoder_reconstructions = 10
+nr_of_autoencoder_reconstructions = 20
 
 # Autoencoder parameters
 autoencoder_learning_rate = 0.01

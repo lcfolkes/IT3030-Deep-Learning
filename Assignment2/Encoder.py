@@ -2,6 +2,8 @@ from keras.models import Model
 from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 from Assignment2 import Help_functions
 
+# This class creates an encoder model
+
 class Encoder:
     def __init__(self, x_train, size_latent_vector):
         input_shape = Help_functions.modify_input_shape(x_train).shape[1:]
