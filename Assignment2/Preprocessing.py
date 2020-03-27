@@ -62,8 +62,8 @@ class Data:
 		print("The split between (simulated) unlabelled data, D1, and labelled data, D2, is {0:.3g}-{1:.3g}, or {2}-{3}".format(
 			self.dss_d1_frac, 1-self.dss_d1_frac, d1_size, d2_size))
 		print("The split of D2 into training, validation and testing data is {0:.3g}-{1:.3g}-{2:.3g}, or {3}-{4}-{5}\n".format(
-			self.d2_train_frac, self.d2_train_frac*self.d2_val_frac,
-			1-self.d2_train_frac*self.d2_val_frac-self.d2_train_frac,
+			self.d2_train_frac, (1-self.d2_train_frac)*self.d2_val_frac,
+			(1-self.d2_train_frac)*(1-self.d2_val_frac),
 			self.d2_x_train.shape[0], self.d2_x_val.shape[0], self.d2_x_test.shape[0]))
 		print("Shapes of all subsets:")
 		print("d1_x: {1}\nd1_y: {1}\nd2_x_train: {2}\nd2_y_train: {3}\nd2_x_val: {4}\nd2_y_val: {5}\n"

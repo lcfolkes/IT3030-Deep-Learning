@@ -2,9 +2,12 @@ from Assignment2.Help_functions import compare_accuracies
 from Assignment2.Preprocessing import Data
 from Assignment2.SemiSupervisedLearner import SemiSupervisedLearner
 from Assignment2.SupervisedLearner import SupervisedLearner
+import os
 
 
 # PARAMETERS
+
+# optimizers: adadelta, adagrad, adam, adamax, nadam, rmsprop, sgd
 
 # Dataset parameters
 dataset_name = 'mnist'
@@ -69,3 +72,4 @@ compare_accuracies(sup_learner, semi_sup_learner, data)
 
 # Open a command window and navigate to the project directory (Assignment2)
 # Type: 'tensorboard --logdir=logs/scalars'
+os.system("tensorboard --logdir=logs/scalars")
