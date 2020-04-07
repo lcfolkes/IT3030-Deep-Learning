@@ -3,6 +3,14 @@ from Assignment2.Autoencoder import Autoencoder
 from Assignment2.Classifier import Classifier
 from Assignment2.Encoder import Encoder
 
+# This class creates a semi-supervised learner.
+# First, an encoder object is created.
+# Secondly, the encoder is combined with a decoder when creating an autoencoder object.
+# When the autoencoder object is created, it is also trained unsupervised.
+# Then, the encoder object trained by the autoencoder is combined with a classifier head
+# to create a semi-supervised classifier object.
+# The user can specify whether to freeze the weights of the pre-trained encoder or not.
+# Additionally, the class creates T-SNE plots for the learner if specified by the user
 
 class SemiSupervisedLearner:
 

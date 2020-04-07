@@ -10,6 +10,8 @@ from keras import optimizers
 from tensorflow import keras
 
 
+# This file constitutes a library of functions for reformatting and plotting etc.
+
 # Modify the input shape by adding a channels-dimension in the end
 def modify_input_shape(input):
 	if len(input.shape) == 3:

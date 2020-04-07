@@ -4,6 +4,8 @@ from keras.layers import Input, Dense
 from keras.callbacks import TensorBoard
 from Assignment2.Help_functions import modify_input_shape, set_optimizer
 
+# This class combines an encoder model with a classifier head model to create a classifier model
+
 class Classifier:
     def __init__(self, data, encoder, learning_rate=0.01, loss_function="categorical_crossentropy",
                  optimizer="adam", epochs=20, freeze=False):
@@ -17,6 +19,7 @@ class Classifier:
 
         # Define and freeze layers of encoder
         self.encoder = encoder
+
         self.freeze_weights_of_encoder(freeze)
 
         # Define classifier model for accuracy and loss plots

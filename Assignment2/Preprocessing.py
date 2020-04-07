@@ -4,6 +4,8 @@ from tensorflow import keras
 from Assignment2 import Help_functions
 from Assignment2.Help_functions import get_dataset
 
+# This class takes in the specified dataset, formats it and splits it into
+# D1 and D2 with its respective train, validate and test splits
 
 class Data:
 

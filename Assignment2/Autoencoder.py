@@ -4,8 +4,10 @@ from keras.layers import Input, Dense, Dropout, UpSampling2D, Reshape, Conv2DTra
 from keras.callbacks import TensorBoard
 from Assignment2 import Help_functions
 
+# This class combines an encoder model with a decoder model to create an autoencoder model
+
 class Autoencoder:
-    def __init__(self, data, encoder, learning_rate=0.01, loss_function='binary_crossentropy', optimizer='adadelta',
+    def __init__(self, data, encoder, learning_rate=0.01, loss_function='binary_crossentropy', optimizer='adam',
                  epochs=20):
 
         # Define encoder and decoder
