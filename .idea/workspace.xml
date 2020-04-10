@@ -2,49 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment 1/Data/.train_small.csv.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 1/Data/.validate_small.csv.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1_Folkestad/Data/.train_small.csv.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment1_Folkestad/Data/.validate_small.csv.icloud" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_Folkestad.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Autoencoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Help_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-100702/train/events.out.tfevents.1586160424.Larsintosh-Pro.local.27642.3455.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-100702/validation/events.out.tfevents.1586160488.Larsintosh-Pro.local.27642.4332.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-101345/train/events.out.tfevents.1586160827.Larsintosh-Pro.local.27702.3455.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-101345/validation/events.out.tfevents.1586160879.Larsintosh-Pro.local.27702.4332.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-102901/train/events.out.tfevents.1586161742.Larsintosh-Pro.local.27774.3455.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-102901/validation/events.out.tfevents.1586161791.Larsintosh-Pro.local.27774.4332.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-104421/train/events.out.tfevents.1586162662.Larsintosh-Pro.local.27842.3455.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-104421/validation/events.out.tfevents.1586162717.Larsintosh-Pro.local.27842.4332.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-161735/train/events.out.tfevents.1586182656.Larsintosh-Pro.local.27991.3455.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-161735/validation/events.out.tfevents.1586182706.Larsintosh-Pro.local.27991.4332.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-163418/train/events.out.tfevents.1586183660.Larsintosh-Pro.local.28184.3455.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-163418/validation/events.out.tfevents.1586183717.Larsintosh-Pro.local.28184.4332.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-165047/train/events.out.tfevents.1586184649.Larsintosh-Pro.local.28264.3455.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200406-165047/validation/events.out.tfevents.1586184703.Larsintosh-Pro.local.28264.4332.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/models/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/models/verification_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/models/verification_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/stacked_mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/verification_net.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/papers/5423-generative-adversarial-nets.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/papers/6923-veegan-reducing-mode-collapse-in-gans-using-implicit-variational-learning.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/papers/DCGAN.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/papers/VAE.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/papers/cycle_gan.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/papers/mode_collapse_spectral_regularization.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slides/.deep-lecture-ch-11-12.pdf.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/Autoencoder_seq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200407-201303/train/events.out.tfevents.1586283185.larsintosh-pro.lan.32278.3455.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200407-201303/validation/events.out.tfevents.1586283235.larsintosh-pro.lan.32278.4332.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200407-203226/train/events.out.tfevents.1586284347.larsintosh-pro.lan.32425.3455.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200407-203359/train/events.out.tfevents.1586284440.larsintosh-pro.lan.32445.3455.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1/Data/train_small.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1/Data/validate_small.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1_Folkestad/Data/train_small.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1_Folkestad/Data/validate_small.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/Autoencoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slides/deep-lecture-ch-11-12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1/Data/.train_small.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 1/Data/.validate_small.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1_Folkestad/Data/.train_small.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1_Folkestad/Data/.validate_small.csv.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Autoencoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Encoder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +73,9 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -280,6 +252,7 @@
       <workItem from="1585306054469" duration="7375000" />
       <workItem from="1585313715938" duration="1430000" />
       <workItem from="1586007887165" duration="16324000" />
+      <workItem from="1586247285802" duration="2926000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>

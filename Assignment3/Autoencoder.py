@@ -38,6 +38,7 @@ class Autoencoder:
 		encoded_output_shape = self.encoder.model.get_output_shape_at(-1)[1:]
 		inputs = Input(encoded_output_shape)
 		dense_dim, conv_shape = self.__get_dense_conv_shape()
+		print(dense_dim, conv_shape)
 		x = Dense(dense_dim, activation='relu')(inputs)
 		x = Reshape(conv_shape)(x)
 		x = Dropout(0.25)(x)
