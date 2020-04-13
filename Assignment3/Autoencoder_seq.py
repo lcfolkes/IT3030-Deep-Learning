@@ -1,9 +1,9 @@
-import datetime
-
+from datetime import datetime
 from keras.callbacks import TensorBoard
 from keras.models import Model
 from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Reshape, UpSampling2D, Conv2DTranspose
 from Assignment2 import Help_functions
+import numpy as np
 
 # This class creates an encoder model
 
@@ -12,8 +12,8 @@ class Autoencoder_seq:
                  epochs=15, size_latent_vector=32):
         self.x_train = Help_functions.modify_input_shape(x_train)
         self.y_train = y_train
-
-        self.model = self.__autoencoder()
+        input_shape = self.x_train.shape[1:]
+        self.model = self.__autoencoder(input_shape, size_latent_vector)
         self.optimizer = Help_functions.set_optimizer(optimizer, learning_rate)
         self.model.compile(optimizer=self.optimizer, loss=loss_function)
 
@@ -34,14 +34,17 @@ class Autoencoder_seq:
         conv = Conv2D(8, kernel_size=(3, 3), activation='relu',padding='same')(conv)
         conv = MaxPooling2D((2,2),padding='same')(conv)
         conv = Dropout(0.25)(conv)
-        dense = Flatten()(conv)
-        dense = Dense(128, activation='relu')(dense)
+        flatten_shape = np.prod(conv.shape[1:])
+        flat = Reshape((flatten_shape,))(conv)
+        #flat = Flatten()(conv)
+        dense = Dense(128, activation='relu')(flat)
         dense = Dropout(0.5)(dense)
         encoded = Dense(size_latent_vector, activation='relu')(dense)
 
 		#Decoder
-        dense = Dense(dense.shape, activation='relu')(encoded)
-        conv = Reshape(conv.shape)(dense)
+        dense = Dense(128, activation='relu')(dense)
+        flat = Dense(flat.shape[-1], activation='relu')(encoded)
+        conv = Reshape(conv.shape[1:])(flat)
         conv = Dropout(0.25)(conv)
         conv = UpSampling2D((2, 2))(conv)
         conv = Conv2DTranspose(8, kernel_size=(3, 3), activation='relu', padding='same')(conv)

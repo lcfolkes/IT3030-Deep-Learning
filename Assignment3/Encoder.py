@@ -24,13 +24,12 @@ class Encoder:
         x = Conv2D(8, kernel_size=(3, 3), activation='relu',padding='same')(x)
         x = MaxPooling2D((2,2),padding='same')(x)
         x = Dropout(0.25)(x)
-        print(x.shape)
         x = Flatten()(x)
-        print(x.shape)
         x = Dense(128, activation='relu')(x)
         x = Dropout(0.5)(x)
         encoded = Dense(size_latent_vector, activation='relu')(x)
         encoder = Model(inputs=inputs, outputs=encoded)
+        #print(encoder.summary())
         return encoder
 
 

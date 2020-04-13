@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment3/Autoencoder_seq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200407-201303/train/events.out.tfevents.1586283185.larsintosh-pro.lan.32278.3455.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200407-201303/validation/events.out.tfevents.1586283235.larsintosh-pro.lan.32278.4332.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200407-203226/train/events.out.tfevents.1586284347.larsintosh-pro.lan.32425.3455.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200407-203359/train/events.out.tfevents.1586284440.larsintosh-pro.lan.32445.3455.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/Assignment_3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200413-122323/train/events.out.tfevents.1586773404.larsintosh-pro.lan.11624.3455.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1/Data/.train_small.csv.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1/Data/.validate_small.csv.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1_Folkestad/Data/.train_small.csv.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1_Folkestad/Data/.validate_small.csv.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Autoencoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/Autoencoder_seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Autoencoder_seq.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Encoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/testing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +63,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.testing">
-    <configuration name="Autoencoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Autoencoder_seq" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,9 +76,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/Autoencoder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/Autoencoder_seq.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -201,7 +195,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.testing" />
-        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.Autoencoder_seq" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.testing" />
@@ -252,7 +246,8 @@
       <workItem from="1585306054469" duration="7375000" />
       <workItem from="1585313715938" duration="1430000" />
       <workItem from="1586007887165" duration="16324000" />
-      <workItem from="1586247285802" duration="2926000" />
+      <workItem from="1586247285802" duration="2968000" />
+      <workItem from="1586770331087" duration="3612000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
@@ -286,17 +281,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="imported datasets in preprocessing. started to build encoder" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder.coverage" NAME="Autoencoder Coverage Results" MODIFIED="1584101463683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Classifier.coverage" NAME="Classifier Coverage Results" MODIFIED="1585310153452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Preprocessing.coverage" NAME="Preprocessing Coverage Results" MODIFIED="1583836959579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files.coverage" NAME="run_files Coverage Results" MODIFIED="1584289627657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$verification_net.coverage" NAME="verification_net Coverage Results" MODIFIED="1586104917016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$stacked_mnist.coverage" NAME="stacked_mnist Coverage Results" MODIFIED="1586085853900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files_M.coverage" NAME="run_files_M Coverage Results" MODIFIED="1585054325481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder_seq.coverage" NAME="Autoencoder_seq Coverage Results" MODIFIED="1586773177733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder.coverage" NAME="Autoencoder Coverage Results" MODIFIED="1584101463683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Classifier.coverage" NAME="Classifier Coverage Results" MODIFIED="1585310153452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/Deep_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1581252030524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 1" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584096299309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Encoder.coverage" NAME="Encoder Coverage Results" MODIFIED="1583768888720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$stacked_mnist.coverage" NAME="stacked_mnist Coverage Results" MODIFIED="1586085853900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$encoder2.coverage" NAME="encoder2 Coverage Results" MODIFIED="1584034363611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files_M.coverage" NAME="run_files_M Coverage Results" MODIFIED="1585054325481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1585312784960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2 2" />
   </component>
 </project>
