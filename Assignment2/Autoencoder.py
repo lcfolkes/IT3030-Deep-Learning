@@ -19,7 +19,7 @@ class Autoencoder:
         enc_output_layer = encoder.model.get_output_at(-1)
         self.model = Model(inputs=enc_input_layer, outputs=decoder(enc_output_layer))
         self.optimizer = Help_functions.set_optimizer(optimizer, learning_rate)
-        self.model.compile(optimizer=self.optimizer, loss=loss_function)
+        self.model.compile(optimizer=self.optimizer, loss=loss_function, metrics=['accuracy'])
         self.x_train = Help_functions.modify_input_shape(data.d1_x)
 
         # Define Tensorboard for accuracy and loss plots

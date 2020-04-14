@@ -138,8 +138,8 @@ class VerificationNet:
         """
         # Get predictions; only keep those where all channels were "confident enough"
         predictions, beliefs = self.predict(data=data)
-        print("predictions, beliefs")
-        print(predictions, beliefs)
+        #print("predictions, beliefs")
+        #print(predictions, beliefs)
         predictions = predictions[beliefs >= tolerance]
         predictability = len(predictions) / len(data)
 

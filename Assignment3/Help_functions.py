@@ -80,6 +80,27 @@ def display_reconstructions(autoencoder,n=16):
 		ax.get_yaxis().set_visible(False)
 	plt.show()
 
+def display_images(images,n=16):
+	#images = autoencoder.generate(n)
+	images = images[:n]
+	no_images = images.shape[0]
+	channels = images.shape[-1]
+	# Do the plotting
+	plt.Figure()
+	no_rows = np.ceil(np.sqrt(no_images))
+	no_cols = np.ceil(no_images / no_rows)
+	for img_idx in range(no_images):
+		plt.subplot(no_rows, no_cols, img_idx + 1)
+		if channels == 1:
+			plt.imshow(images[img_idx, :, :, 0], cmap="binary")
+		else:
+			plt.imshow(images[img_idx, :, :, :].astype(np.float))
+		plt.xticks([])
+		plt.yticks([])
+
+	# Show the thing ...
+	plt.show()
+
 def reshape_img(img):
 	if(img.shape[-1]==1):
 		return img.reshape(img.shape[:-1])
@@ -104,31 +125,3 @@ def set_optimizer(optimizer, learning_rate):
 
 	return optimizer
 
-
-def get_dataset(dataset_name):
-	if dataset_name == 'mnist':
-		dataset = keras.datasets.mnist
-	elif dataset_name == 'fashion_mnist':
-		dataset = keras.datasets.fashion_mnist
-	elif dataset_name == 'cifar10':
-		dataset = keras.datasets.cifar10
-	elif dataset_name == 'cifar100':
-		dataset = keras.datasets.cifar100
-	else:
-		print("No such dataset")
-	return dataset
-
-def compare_accuracies(slearner, ss_learner, data):
-	print("\nAccuracy summary")
-	print("D2 testing data:")
-	print("- Supervised learner:")
-	calc_accuracy_classifier(slearner.classifier, data.d2_x_test, data.d2_y_test)
-	print("- Semi-supervised learner:")
-	calc_accuracy_classifier(ss_learner.classifier, data.d2_x_test, data.d2_y_test)
-
-	print("D1 data:")
-	print("- Supervised learner:")
-	calc_accuracy_classifier(slearner.classifier, data.d1_x, data.d1_y)
-	print("- Semi-supervised learner:")
-	calc_accuracy_classifier(ss_learner.classifier, data.d1_x, data.d1_y)
-	print("\n")
