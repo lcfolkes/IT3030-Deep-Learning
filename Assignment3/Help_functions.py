@@ -8,28 +8,23 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from keras import optimizers
 from tensorflow import keras
+from Assignment3.Autoencoder import Autoencoder
 
 
 # This file constitutes a library of functions for reformatting and plotting etc.
 
-# Modify the input shape by adding a channels-dimension in the end
-def modify_input_shape(input):
-	if len(input.shape) == 3:
-		return input.reshape(input.shape + (1,))
-	return input
-
-
 # Calculate the accuracy of a classifier given examples and targets
 def calc_accuracy_classifier(classifier, x_data, y_data):
-	cat_acc = categorical_accuracy(classifier.model.predict(modify_input_shape(x_data)), y_data)
+	cat_acc = categorical_accuracy(classifier.model.predict(x_data, y_data))
 	acc = (sum(cat_acc) / len(cat_acc)) * 100
 	print("Accuracy: ", acc.numpy(), "%")
 
 
-def tsne_plot(encoder, data, title="",n_cases=250):
+def tsne_plot(autoencoder, title="",n_cases=250):
+	encoder = autoencoder.encoder
 	# encoder and data must be objects/instances
-	latent_vectors = encoder.model.predict(modify_input_shape(data.d1_x[:n_cases]))
-	labels = one_hot_decode(data.d1_y[:n_cases])
+	latent_vectors = encoder.model.predict(autoencoder.x_train[:n_cases])
+	labels = autoencoder.y_train[:n_cases]
 
 	tsne_model = TSNE(n_components=2, random_state=0)
 	reduced_data = tsne_model.fit_transform(latent_vectors)
@@ -58,7 +53,8 @@ def one_hot_decode(images):
 	return tf.argmax(images, axis=1)
 
 def display_reconstructions(autoencoder,n=16):
-	x_test, decoded_imgs = autoencoder.get_data_predictions(n)
+	x_train, decoded_imgs = autoencoder.get_data_predictions(n)
+	y_train = autoencoder.y_train[:n]
 	if n > 8:
 		plt.figure(figsize=(20, 6))
 	else:
@@ -67,7 +63,7 @@ def display_reconstructions(autoencoder,n=16):
 	for i in range(n):
 		# display original
 		ax = plt.subplot(2, n, i + 1)
-		plt.imshow(reshape_img(x_test[i]))
+		plt.imshow(reshape_img(x_train[i]))
 		plt.gray()
 		ax.get_xaxis().set_visible(False)
 		ax.get_yaxis().set_visible(False)
@@ -80,7 +76,7 @@ def display_reconstructions(autoencoder,n=16):
 		ax.get_yaxis().set_visible(False)
 	plt.show()
 
-def display_images(images,n=16):
+def display_images(images,labels=None, n=16, title=None):
 	#images = autoencoder.generate(n)
 	images = images[:n]
 	no_images = images.shape[0]
@@ -97,9 +93,27 @@ def display_images(images,n=16):
 			plt.imshow(images[img_idx, :, :, :].astype(np.float))
 		plt.xticks([])
 		plt.yticks([])
+		if labels is not None:
+			plt.title(f"Class is {str(labels[img_idx]).zfill(channels)}")
 
+	plt.suptitle(title)
 	# Show the thing ...
 	plt.show()
+
+def get_most_anomalous_images(data, autoencoder, n=16):
+	df_loss = pd.DataFrame(columns=['index', 'loss'])
+	i = 0
+	for img in data:
+		img = np.expand_dims(img, axis=0)
+		loss, acc = autoencoder.model.evaluate(img, img, verbose=0)
+		df_loss = df_loss.append({'index': i, 'loss': loss}, ignore_index=True)
+		i += 1
+
+	df_loss = df_loss.sort_values(['loss'], ascending=False)
+	df_loss = df_loss.astype({'index': 'int32'})
+	idx = df_loss['index'].values[:n]
+	return np.array([data[i] for i in idx])
+
 
 def reshape_img(img):
 	if(img.shape[-1]==1):

@@ -2,15 +2,15 @@ from datetime import datetime
 from keras.callbacks import TensorBoard
 from keras.models import Model
 from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Reshape, UpSampling2D, Conv2DTranspose
-from Assignment2 import Help_functions
+from Assignment3 import Help_functions
 import numpy as np
 
 # This class creates an encoder model
 
 class Autoencoder:
     def __init__(self, x_train, y_train, learning_rate=0.005, loss_function='binary_crossentropy', optimizer='adam',
-                 epochs=15, size_latent_vector=32):
-        self.x_train = Help_functions.modify_input_shape(x_train)
+                 epochs=15, size_latent_vector=8):
+        self.x_train = x_train
         self.y_train = y_train
 
         self.encoding_dim = size_latent_vector
@@ -108,7 +108,9 @@ class Autoencoder:
     def get_data_predictions(self, n):
         return self.x_train[:n], self.model.predict(self.x_train[:n])
 
-    def get_data_predictions_labels(self, n=60000):
+    def get_data_predictions_labels(self,n=None):
+        if n is None:
+            n = self.x_train.shape[0]
         return self.model.predict(self.x_train[:n]), self.y_train[:n]
 
 

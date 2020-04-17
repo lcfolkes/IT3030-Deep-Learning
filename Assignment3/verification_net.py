@@ -118,7 +118,6 @@ class VerificationNet:
 
         # Only keep predictions where all channels were legal
         predictions = predictions[beliefs >= tolerance]
-
         # Coverage: Fraction of possible classes that were seen
         coverage = float(len(np.unique(predictions))) / no_classes_available
         return coverage
@@ -138,17 +137,14 @@ class VerificationNet:
         """
         # Get predictions; only keep those where all channels were "confident enough"
         predictions, beliefs = self.predict(data=data)
-        #print("predictions, beliefs")
-        #print(predictions, beliefs)
         predictions = predictions[beliefs >= tolerance]
         predictability = len(predictions) / len(data)
+        #print('check_predictability predictions: ', len(predictions), np.unique(predictions), predictions, beliefs)
 
         if correct_labels is not None:
             # Drop those that were below threshold
             correct_labels = correct_labels[beliefs >= tolerance]
-            #should you divide by predictions and not data?
             accuracy = np.sum(predictions == correct_labels) / len(data)
-            #accuracy = np.sum(predictions == correct_labels) / len(predictions)
         else:
             accuracy = None
 
