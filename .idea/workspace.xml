@@ -2,108 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200414-115350/train/events.out.tfevents.1586858032.larsintosh-pro.lan.16131.5414.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/VAE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200414-194513/train/events.out.tfevents.1586886314.larsintosh-pro.lan.1019.3305.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200414-194513/validation/events.out.tfevents.1586886372.larsintosh-pro.lan.1019.4314.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200414-210859/train/events.out.tfevents.1586891340.larsintosh-pro.lan.1019.26293.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200414-210859/validation/events.out.tfevents.1586891395.larsintosh-pro.lan.1019.27222.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200414-214120/train/events.out.tfevents.1586893285.larsintosh-pro.lan.1442.3305.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200414-214120/validation/events.out.tfevents.1586893369.larsintosh-pro.lan.1442.4314.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200414-215441/train/events.out.tfevents.1586894083.larsintosh-pro.lan.1442.26293.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200414-215441/validation/events.out.tfevents.1586894164.larsintosh-pro.lan.1442.27222.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-112118/train/events.out.tfevents.1586942480.larsintosh-pro.lan.2642.3305.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-112118/validation/events.out.tfevents.1586942534.larsintosh-pro.lan.2642.4314.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-113255/train/events.out.tfevents.1586943177.larsintosh-pro.lan.2642.26293.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-113255/validation/events.out.tfevents.1586943231.larsintosh-pro.lan.2642.27222.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-114909/train/events.out.tfevents.1586944150.larsintosh-pro.lan.2768.3305.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-114909/validation/events.out.tfevents.1586944215.larsintosh-pro.lan.2768.4314.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-121509/train/events.out.tfevents.1586945710.larsintosh-pro.lan.3005.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-121509/validation/events.out.tfevents.1586945763.larsintosh-pro.lan.3005.3628.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-122459/train/events.out.tfevents.1586946300.larsintosh-pro.lan.3005.15226.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-122459/validation/events.out.tfevents.1586946350.larsintosh-pro.lan.3005.16155.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-123408/train/events.out.tfevents.1586946849.larsintosh-pro.lan.3152.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-123924/train/events.out.tfevents.1586947165.larsintosh-pro.lan.3227.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-123952/train/events.out.tfevents.1586947194.larsintosh-pro.lan.3239.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-123952/validation/events.out.tfevents.1586947263.larsintosh-pro.lan.3239.3628.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-125203/train/events.out.tfevents.1586947925.larsintosh-pro.lan.3239.15226.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-125203/validation/events.out.tfevents.1586948001.larsintosh-pro.lan.3239.16155.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-132448/train/events.out.tfevents.1586949889.larsintosh-pro.lan.3559.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-132448/validation/events.out.tfevents.1586949945.larsintosh-pro.lan.3559.3548.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-134124/train/events.out.tfevents.1586950885.larsintosh-pro.lan.3646.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-134124/validation/events.out.tfevents.1586950935.larsintosh-pro.lan.3646.3548.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-135135/train/events.out.tfevents.1586951496.larsintosh-pro.lan.3695.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-135135/validation/events.out.tfevents.1586951545.larsintosh-pro.lan.3695.3548.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-140532/train/events.out.tfevents.1586952334.larsintosh-pro.lan.3827.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-140532/validation/events.out.tfevents.1586952384.larsintosh-pro.lan.3827.3548.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-142837/train/events.out.tfevents.1586953718.larsintosh-pro.lan.3998.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-142837/validation/events.out.tfevents.1586953770.larsintosh-pro.lan.3998.3548.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-192651/train/events.out.tfevents.1586971613.larsintosh-pro.lan.5027.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-193103/train/events.out.tfevents.1586971864.larsintosh-pro.lan.5087.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200415-193103/validation/events.out.tfevents.1586971912.larsintosh-pro.lan.5087.3548.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-103637/train/events.out.tfevents.1587026198.larsintosh-pro.lan.7268.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-103637/validation/events.out.tfevents.1587026267.larsintosh-pro.lan.7268.3548.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-111400/train/events.out.tfevents.1587028441.larsintosh-pro.lan.7511.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-111400/validation/events.out.tfevents.1587028491.larsintosh-pro.lan.7511.3548.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-113351/train/events.out.tfevents.1587029634.larsintosh-pro.lan.7712.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-113351/validation/events.out.tfevents.1587029702.larsintosh-pro.lan.7712.3548.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-114935/train/events.out.tfevents.1587030577.larsintosh-pro.lan.7849.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-114935/validation/events.out.tfevents.1587030629.larsintosh-pro.lan.7849.3548.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-151608/train/events.out.tfevents.1587042969.larsintosh-pro.lan.9144.3305.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-151608/validation/events.out.tfevents.1587043033.larsintosh-pro.lan.9144.4314.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-153939/train/events.out.tfevents.1587044380.larsintosh-pro.lan.9306.3305.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-153939/validation/events.out.tfevents.1587044432.larsintosh-pro.lan.9306.4314.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-155424/train/events.out.tfevents.1587045266.larsintosh-pro.lan.9306.33316.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-155424/validation/events.out.tfevents.1587045327.larsintosh-pro.lan.9306.34245.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-161541/train/events.out.tfevents.1587046544.larsintosh-pro.lan.9513.3305.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-161541/validation/events.out.tfevents.1587046613.larsintosh-pro.lan.9513.4314.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-163817/train/events.out.tfevents.1587047898.larsintosh-pro.lan.9690.3305.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-163817/validation/events.out.tfevents.1587047951.larsintosh-pro.lan.9690.4314.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-165027/train/events.out.tfevents.1587048629.larsintosh-pro.lan.9690.23680.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-165027/validation/events.out.tfevents.1587048682.larsintosh-pro.lan.9690.24609.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-165850/train/events.out.tfevents.1587049131.larsintosh-pro.lan.9804.3305.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-165850/validation/events.out.tfevents.1587049184.larsintosh-pro.lan.9804.4314.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-171012/train/events.out.tfevents.1587049813.larsintosh-pro.lan.9804.23680.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-171012/validation/events.out.tfevents.1587049861.larsintosh-pro.lan.9804.24609.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-173522/train/events.out.tfevents.1587051323.larsintosh-pro.lan.10034.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-173522/validation/events.out.tfevents.1587051415.larsintosh-pro.lan.10034.3628.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-175321/train/events.out.tfevents.1587052402.larsintosh-pro.lan.10034.31368.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-175321/validation/events.out.tfevents.1587052449.larsintosh-pro.lan.10034.32297.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-203519/train/events.out.tfevents.1587062120.larsintosh-pro.lan.10483.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-203519/validation/events.out.tfevents.1587062173.larsintosh-pro.lan.10483.3628.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-204935/train/events.out.tfevents.1587062976.larsintosh-pro.lan.10483.33316.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-204935/validation/events.out.tfevents.1587063033.larsintosh-pro.lan.10483.34245.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-210544/train/events.out.tfevents.1587063946.larsintosh-pro.lan.10675.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-210544/validation/events.out.tfevents.1587064013.larsintosh-pro.lan.10675.3628.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-212152/train/events.out.tfevents.1587064914.larsintosh-pro.lan.10675.31368.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-212152/validation/events.out.tfevents.1587064973.larsintosh-pro.lan.10675.32297.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-214618/train/events.out.tfevents.1587066380.larsintosh-pro.lan.10923.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-214618/validation/events.out.tfevents.1587066460.larsintosh-pro.lan.10923.3628.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-220401/train/events.out.tfevents.1587067443.larsintosh-pro.lan.10923.31368.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-220401/validation/events.out.tfevents.1587067514.larsintosh-pro.lan.10923.32297.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-220925/train/events.out.tfevents.1587067769.larsintosh-pro.lan.11114.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-220925/validation/events.out.tfevents.1587067861.larsintosh-pro.lan.11114.3628.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-223035/train/events.out.tfevents.1587069037.larsintosh-pro.lan.11193.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200416-223035/validation/events.out.tfevents.1587069119.larsintosh-pro.lan.11193.3628.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-104226/train/events.out.tfevents.1587112947.larsintosh-pro.lan.12826.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-104226/validation/events.out.tfevents.1587113022.larsintosh-pro.lan.12826.3628.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-110222/train/events.out.tfevents.1587114147.larsintosh-pro.lan.12826.31368.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-110222/validation/events.out.tfevents.1587114241.larsintosh-pro.lan.12826.32297.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-115106/train/events.out.tfevents.1587117067.larsintosh-pro.lan.13398.2619.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-115106/validation/events.out.tfevents.1587117173.larsintosh-pro.lan.13398.3628.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-121028/train/events.out.tfevents.1587118232.larsintosh-pro.lan.13398.31368.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/vae_mlp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/vae_mlp/digits_over_latent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/vae_mlp/vae_mean.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/vae_mlp_decoder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/vae_mlp_encoder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/vae_mlp_mnist.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/vae_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/model.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Autoencoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Help_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-121028/train/events.out.tfevents.1587118232.larsintosh-pro.lan.13398.31368.v2" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-121028/train/events.out.tfevents.1587118232.larsintosh-pro.lan.13398.31368.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-121028/validation/events.out.tfevents.1587118331.larsintosh-pro.lan.13398.32297.v2" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-121028/validation/events.out.tfevents.1587118331.larsintosh-pro.lan.13398.32297.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/verification_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/verification_net.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -344,7 +247,7 @@
       <workItem from="1586007887165" duration="16324000" />
       <workItem from="1586247285802" duration="2968000" />
       <workItem from="1586770331087" duration="26062000" />
-      <workItem from="1586886264027" duration="41039000" />
+      <workItem from="1586886264027" duration="47585000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>

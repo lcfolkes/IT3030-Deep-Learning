@@ -1,5 +1,6 @@
 from Assignment3 import Help_functions
 from Assignment3.Autoencoder import Autoencoder
+from Assignment3.VAE import VAE
 from Assignment3.stacked_mnist import StackedMNISTData, DataMode
 from Assignment3.verification_net import VerificationNet
 import Assignment3.Help_functions
@@ -95,17 +96,19 @@ if __name__ == "__main__":
 	# print('\n### SHOW RESULTS FOR THE AE AS AN ANOMALY DETECTOR ON STANDARD MNIST DATA ###')
 	# ae_anom(gen_standard, autoencoder_standard, mode=DataMode.MONO_FLOAT_MISSING)
 
-	#### AE-STACK #####
-	'''Show the results for the AE-GEN and AE-ANOM tasks when learning from stackedMNIST data.
-	Be prepared to discuss how you adapted the model structure when going from one to three color channels.'''
-	gen_stacked, net_stacked, autoencoder_stacked = train_net_ae(mode=DataMode.COLOR_FLOAT_COMPLETE, force_learn=False)
+	# #### AE-STACK #####
+	# '''Show the results for the AE-GEN and AE-ANOM tasks when learning from stackedMNIST data.
+	# Be prepared to discuss how you adapted the model structure when going from one to three color channels.'''
+	# gen_stacked, net_stacked, autoencoder_stacked = train_net_ae(mode=DataMode.COLOR_FLOAT_COMPLETE, force_learn=False)
+	#
+	# print('\n### SHOW RECONSTRUCTION RESULTS OF AE-GEN ON STACKED MNIST DATA ###')
+	# ae_gen_results(net=net_stacked, autoencoder=autoencoder_stacked)
+	#
+	# print('\n### SHOW RESULTS FOR THE AE AS AN ANOMALY DETECTOR ON STACKED MNIST DATA ###')
+	# ae_anom(gen_stacked, autoencoder_stacked, mode=DataMode.COLOR_FLOAT_MISSING)
 
-	print('\n### SHOW RECONSTRUCTION RESULTS OF AE-GEN ON STACKED MNIST DATA ###')
-	ae_gen_results(net=net_stacked, autoencoder=autoencoder_stacked)
-
-	print('\n### SHOW RESULTS FOR THE AE AS AN ANOMALY DETECTOR ON STACKED MNIST DATA ###')
-	ae_anom(gen_stacked, autoencoder_stacked, mode=DataMode.COLOR_FLOAT_MISSING)
-
-
+	##### VAE #####
+	gen = StackedMNISTData(mode=DataMode.MONO_FLOAT_COMPLETE, default_batch_size=2048)
+	vae = VAE(gen)
 
 #os.system("tensorboard --logdir=logs/scalars")
