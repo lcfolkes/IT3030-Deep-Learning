@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment3/model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/.vae_mlp_mnist.h5.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/VAE2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/VAE3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/decoder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/encoder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/vae2model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/vae_decoder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/vae_encoder.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-121028/train/events.out.tfevents.1587118232.larsintosh-pro.lan.13398.31368.v2" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-121028/train/events.out.tfevents.1587118232.larsintosh-pro.lan.13398.31368.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-121028/validation/events.out.tfevents.1587118331.larsintosh-pro.lan.13398.32297.v2" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/20200417-121028/validation/events.out.tfevents.1587118331.larsintosh-pro.lan.13398.32297.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/VAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/VAE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/vae_mlp_mnist.h5" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +69,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.testing">
-    <configuration name="Autoencoder_seq" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="VAE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +82,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/Autoencoder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/VAE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VAE2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Deep Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/VAE2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VAE3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Deep Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/VAE3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,28 +151,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/run_files_L.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="stacked_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Deep Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/stacked_mnist.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -169,35 +198,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="verification_net" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Deep Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/verification_net.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.testing" />
+        <item itemvalue="Python.VAE2" />
+        <item itemvalue="Python.VAE" />
+        <item itemvalue="Python.VAE3" />
         <item itemvalue="Python.vae_script" />
-        <item itemvalue="Python.testing" />
-        <item itemvalue="Python.verification_net" />
-        <item itemvalue="Python.Autoencoder_seq" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +254,8 @@
       <workItem from="1586007887165" duration="16324000" />
       <workItem from="1586247285802" duration="2968000" />
       <workItem from="1586770331087" duration="26062000" />
-      <workItem from="1586886264027" duration="47585000" />
+      <workItem from="1586886264027" duration="48216000" />
+      <workItem from="1587207157496" duration="18638000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
@@ -281,14 +289,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="imported datasets in preprocessing. started to build encoder" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE3.coverage" NAME="VAE3 Coverage Results" MODIFIED="1587225654007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Preprocessing.coverage" NAME="Preprocessing Coverage Results" MODIFIED="1583836959579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files.coverage" NAME="run_files Coverage Results" MODIFIED="1584289627657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$verification_net.coverage" NAME="verification_net Coverage Results" MODIFIED="1587047828105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$stacked_mnist.coverage" NAME="stacked_mnist Coverage Results" MODIFIED="1586085853900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files_M.coverage" NAME="run_files_M Coverage Results" MODIFIED="1585054325481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder_seq.coverage" NAME="Autoencoder_seq Coverage Results" MODIFIED="1586856142213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE.coverage" NAME="VAE Coverage Results" MODIFIED="1587306055108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder.coverage" NAME="Autoencoder Coverage Results" MODIFIED="1584101463683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Classifier.coverage" NAME="Classifier Coverage Results" MODIFIED="1585310153452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE2.coverage" NAME="VAE2 Coverage Results" MODIFIED="1587308900060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$vae_script.coverage" NAME="vae_script Coverage Results" MODIFIED="1587115611674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/Deep_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1581252030524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 1" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584096299309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
