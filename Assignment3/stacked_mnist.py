@@ -61,6 +61,7 @@ class StackedMNISTData:
         #def __init__(self, default_batch_size: np.int = 256, channels: np.int = 1, make_binary: bool = False) -> None:
         # Load MNIST and put in internals
         self.default_batch_size = default_batch_size
+        self.mode = mode
 
         # Color or not
         if mode in [DataMode.MONO_BINARY_COMPLETE,
@@ -94,6 +95,9 @@ class StackedMNISTData:
         self.test_images = np.expand_dims(self.test_images, axis=-1)
         self.train_images, self.train_labels = self.__prepare_data_set(training=True)
         self.test_images, self.test_labels = self.__prepare_data_set(training=False)
+
+    def get_gen_name(self):
+        return str(self.mode).split('.')[1]
 
     def get_full_data_set(self, training: bool = True) -> tuple:
         """
@@ -240,4 +244,5 @@ if __name__ == "__main__":
 
     for (img, cls) in gen.batch_generator(training=False, batch_size=2048):
         print(f"Batch has size: Images: {img.shape}; Labels {cls.shape}")
+
 

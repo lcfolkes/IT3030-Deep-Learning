@@ -13,48 +13,24 @@ from Assignment3.Autoencoder import Autoencoder
 
 # This file constitutes a library of functions for reformatting and plotting etc.
 
-# Calculate the accuracy of a classifier given examples and targets
-def calc_accuracy_classifier(classifier, x_data, y_data):
-	cat_acc = categorical_accuracy(classifier.model.predict(x_data, y_data))
-	acc = (sum(cat_acc) / len(cat_acc)) * 100
-	print("Accuracy: ", acc.numpy(), "%")
+def get_dense_conv_shape(encoder):
+	for l in encoder.layers:
+		if (len(l.input_shape) > len(l.output_shape)):
+			return l.output_shape[1], l.input_shape[1:]
 
+def get_data_predictions(autoencoder, n):
+	x, x_pred = autoencoder.x_train[:n], autoencoder.model.predict(autoencoder.x_train[:n])
+	return x, x_pred
 
-def tsne_plot(autoencoder, title="",n_cases=250):
-	encoder = autoencoder.encoder
-	# encoder and data must be objects/instances
-	latent_vectors = encoder.model.predict(autoencoder.x_train[:n_cases])
-	labels = autoencoder.y_train[:n_cases]
+def get_data_predictions_labels(autoencoder, n=None):
+	model = autoencoder.model
+	if n is None:
+		n = autoencoder.x_train.shape[0]
+	x, x_pred, label = autoencoder.x_train[:n], model.predict(autoencoder.x_train[:n]), autoencoder.y_train[:n]
+	return x, x_pred, label
 
-	tsne_model = TSNE(n_components=2, random_state=0)
-	reduced_data = tsne_model.fit_transform(latent_vectors)
-
-	# creating a new data frame which help us in plotting the result data
-	reduced_df = np.vstack((reduced_data.T, labels)).T
-	reduced_df = pd.DataFrame(data=reduced_df, columns=('X', 'Y', 'label'))
-	reduced_df.label = reduced_df.label.astype(np.int)
-
-	# Plotting the result of tsne
-	sns.FacetGrid(reduced_df, hue='label', height=6).map(plt.scatter, 'X', 'Y').add_legend()
-	plt.title(title)
-	plt.show()
-
-
-def normalize_image_data(images):
-	images = images.astype('float32')
-	return images / 255.0
-
-
-def one_hot_encode(images):
-	return np_utils.to_categorical(images)
-
-
-def one_hot_decode(images):
-	return tf.argmax(images, axis=1)
-
-def display_reconstructions(autoencoder,n=16):
-	x_train, decoded_imgs = autoencoder.get_data_predictions(n)
-	y_train = autoencoder.y_train[:n]
+def display_reconstructions(x,x_pred,n=16):
+	# y_train = autoencoder.y_train[:n]
 	if n > 8:
 		plt.figure(figsize=(20, 6))
 	else:
@@ -63,14 +39,14 @@ def display_reconstructions(autoencoder,n=16):
 	for i in range(n):
 		# display original
 		ax = plt.subplot(2, n, i + 1)
-		plt.imshow(reshape_img(x_train[i]))
+		plt.imshow(reshape_img(x[i]))
 		plt.gray()
 		ax.get_xaxis().set_visible(False)
 		ax.get_yaxis().set_visible(False)
 
 		# display reconstruction
 		ax = plt.subplot(2, n, i + 1 + n)
-		plt.imshow(reshape_img(decoded_imgs[i]))
+		plt.imshow(reshape_img(x_pred[i]))
 		plt.gray()
 		ax.get_xaxis().set_visible(False)
 		ax.get_yaxis().set_visible(False)
@@ -105,7 +81,7 @@ def get_most_anomalous_images(data, autoencoder, n=16):
 	i = 0
 	for img in data:
 		img = np.expand_dims(img, axis=0)
-		loss, acc = autoencoder.model.evaluate(img, img, verbose=0)
+		loss = autoencoder.model.evaluate(img, img, verbose=0)
 		df_loss = df_loss.append({'index': i, 'loss': loss}, ignore_index=True)
 		i += 1
 

@@ -9,11 +9,18 @@ from keras.models import Model
 from keras import backend as K
 from keras import metrics
 from keras.datasets import mnist
+import os
+
+from Assignment3 import Help_functions
+
 
 class VAE:
     def __init__(self, gen, learning_rate=0.005, loss_function='binary_crossentropy', optimizer='adam',
-                 epochs=15, latent_dim=2):
+                 epochs=15, latent_dim=8, force_learn=False):
 
+        dir_name = './models/vae'
+        os.makedirs(dir_name, exist_ok=True)
+        self.file_name = os.path.join(dir_name, gen.get_gen_name() + ".h5")
 
         self.x_train, self.y_train = gen.get_full_data_set(training=True)
         self.x_test, self.y_test = gen.get_full_data_set(training=False)
@@ -22,19 +29,47 @@ class VAE:
         # input image dimensions
         img_shape = self.x_train.shape[1:]
 
-        self.encoder = self.__encoder(input_shape=img_shape, latent_dim=latent_dim)
-        self.decoder = self.__decoder(output_shape=img_shape, latent_dim=latent_dim)
+        # Create folder to store plotted models
+        model_name = 'vae'
+        os.makedirs(model_name, exist_ok=True)
 
+        # Encoder
+        self.encoder = self.__encoder(input_shape=img_shape, latent_dim=latent_dim)
+        filename = os.path.join(model_name, 'encoder_model.png')
+        plot_model(self.encoder, to_file=filename, show_shapes=True)
+
+        # Decoder
+        self.decoder = self.__decoder(output_shape=img_shape, latent_dim=latent_dim)
+        filename = os.path.join(model_name, 'decoder_model.png')
+        plot_model(self.encoder, to_file=filename, show_shapes=True)
+
+        # Variational Autoencoder
         encoder_input = self.encoder.get_layer('encoder_input').output
         eps = self.encoder.get_layer('eps').output
         x_pred = self.decoder(self.encoder.get_layer('z').output)
-        self.model = Model(inputs=[encoder_input, eps], outputs=x_pred, name='vae')
-        plot_model(self.model, to_file='model.png', show_shapes=True)
+
+        self.model = Model(inputs=[encoder_input, eps], outputs=x_pred, name=model_name)
+        filename = os.path.join(model_name, 'model.png')
+        plot_model(self.model, to_file=filename, show_shapes=True)
 
         self.model.compile(optimizer='rmsprop', loss=self.__nll)
-        self.model.fit(self.x_train, self.x_train, shuffle=True, epochs=10,
-                       validation_data=(self.x_test, self.x_test))
 
+        print("Variational Autoencoder")
+        if force_learn:
+            self.model.fit(self.x_train, self.x_train, shuffle=True, epochs=epochs,
+                           validation_data=(self.x_test, self.x_test))
+            self.model.save_weights(filepath=self.file_name)
+            print("Saved weights to: " + self.file_name)
+        else:
+            try:
+                self.model.load_weights(filepath=self.file_name)
+                print("Loaded weights from: " + self.file_name)
+
+            except:
+                self.model.fit(self.x_train, self.x_train, shuffle=True, epochs=epochs,
+                               validation_data=(self.x_test, self.x_test))
+                self.model.save_weights(filepath=self.file_name)
+                print("Saved weights to: " + self.file_name)
 
     def __encoder(self, input_shape, latent_dim):
         # Encoder network, mapping inputs to our latent distribution parameters
@@ -57,13 +92,12 @@ class VAE:
 
         encoder = Model(inputs=[inputs, eps], outputs=z, name='encoder')
         encoder.summary()
-        plot_model(encoder, to_file='vae_encoder.png', show_shapes=True)
         return encoder
 
     def __decoder(self, output_shape, latent_dim):
         inputs = Input(shape=(latent_dim,), name='z_sampling')
         x = Dense(256, activation='relu')(inputs)
-        dense_dim, conv_shape = self.__get_dense_conv_shape()
+        dense_dim, conv_shape = Help_functions.get_dense_conv_shape(self.encoder)
         x = Dense(dense_dim, activation='relu')(x)
         x = Reshape(conv_shape)(x)
         #x = Dropout(0.25)(x)
@@ -72,7 +106,6 @@ class VAE:
         decoded = Conv2DTranspose(output_shape[-1], (3, 3), activation='sigmoid', padding='same')(x)
         decoder = Model(inputs=inputs, outputs=decoded, name='decoder')
         decoder.summary()
-        plot_model(decoder, to_file='vae_decoder.png', show_shapes=True)
         return decoder
 
     def __vae_loss(self, inputs, outputs, z_log_var, z_mean):
@@ -80,11 +113,6 @@ class VAE:
         kl_loss = - 0.5 * K.sum(1 + z_log_var - K.square(z_mean) - K.exp(z_log_var), axis=-1)
         vae_loss = reconstruction_loss + kl_loss
         return vae_loss
-
-    def __get_dense_conv_shape(self):
-        for l in self.encoder.layers:
-            if (len(l.input_shape) > len(l.output_shape)):
-                return l.output_shape[1], l.input_shape[1:]
 
     def __nll(self, y_true, y_pred):
         """ Negative log likelihood (Bernoulli). """
