@@ -2,6 +2,8 @@ from datetime import datetime
 from keras.callbacks import TensorBoard
 from keras.models import Model
 from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Reshape, UpSampling2D, Conv2DTranspose
+from keras.utils import plot_model
+
 from Assignment3 import Help_functions
 import numpy as np
 import os
@@ -9,35 +11,50 @@ import os
 # This class creates an encoder model
 
 class Autoencoder:
-    def __init__(self, gen, learning_rate=0.005, loss_function='binary_crossentropy', optimizer='adam',
-                 epochs=15, latent_dim=8, force_learn=False):
-        dir_name = './models/autoencoder'
+    def __init__(self, gen, learning_rate=0.001, loss_function='binary_crossentropy', optimizer='adam',
+                 epochs=15, latent_dim=16, batch_size=512, force_learn=False):
+
+        model_name = 'autoencoder'
+        dir_name = os.path.join('./models', model_name)
         os.makedirs(dir_name, exist_ok=True)
-        file_name = os.path.join(dir_name, gen.get_gen_name() + ".h5")
+        gen_name = gen.get_gen_name()
+        file_name = os.path.join(dir_name, gen_name + ".h5")
+
 
         self.x_train, self.y_train = gen.get_full_data_set(training=True)
         self.x_test, self.y_test = gen.get_full_data_set(training=False)
 
-        self.encoding_dim = latent_dim
+        self.latent_dim = latent_dim
         data_shape = self.x_train.shape[1:]
 
+        # Encoder
         self.encoder = self.__encoder(input_shape=data_shape, latent_dim=latent_dim)
+        filename = os.path.join(dir_name, 'encoder_model.png')
+        plot_model(self.encoder, to_file=filename, show_shapes=True)
+
+        # Decoder
         self.decoder = self.__decoder(output_shape=data_shape, latent_dim=latent_dim)
+        filename = os.path.join(dir_name, 'decoder_model.png')
+        plot_model(self.decoder, to_file=filename, show_shapes=True)
 
         enc_input_layer = self.encoder.get_input_at(0)
         enc_output_layer = self.encoder.get_output_at(-1)
 
-        self.model = Model(inputs=enc_input_layer, outputs=self.decoder(enc_output_layer))
-        self.optimizer = Help_functions.set_optimizer(optimizer, learning_rate)
-        self.model.compile(optimizer=self.optimizer, loss=loss_function)
+        self.model = Model(inputs=enc_input_layer, outputs=self.decoder(enc_output_layer), name=model_name)
+        filename = os.path.join(dir_name, 'model.png')
+        plot_model(self.model, to_file=filename, show_shapes=True)
+
+        optimizer = Help_functions.set_optimizer(optimizer, learning_rate)
+        self.model.compile(optimizer=optimizer, loss=loss_function)
 
         # Define Tensorboard for accuracy and loss plots
-        logdir = "logs/scalars/" + datetime.now().strftime("%Y%m%d-%H%M%S")
+        logdir = "logs/scalars/" + model_name + "_" + gen_name + "_" + str(learning_rate) + "-" + \
+                 datetime.now().strftime("%Y%m%d-%H%M%S")
         tensorboard = TensorBoard(log_dir=logdir, profile_batch=0)
 
         print("Autoencoder")
         if force_learn:
-            self.model.fit(self.x_train, self.x_train, epochs=epochs, batch_size=1000,
+            self.model.fit(self.x_train, self.x_train, epochs=epochs, batch_size=batch_size,
                            validation_data=(self.x_train, self.x_train), callbacks=[tensorboard])
             self.model.save_weights(filepath=file_name)
             print("Saved weights to: " + file_name)
@@ -48,7 +65,7 @@ class Autoencoder:
 
             except Exception as e:
                 print(e)
-                self.model.fit(self.x_train, self.x_train, epochs=epochs, batch_size=1000,
+                self.model.fit(self.x_train, self.x_train, epochs=epochs, batch_size=batch_size,
                            validation_data=(self.x_train, self.x_train), callbacks=[tensorboard])
                 self.model.save_weights(filepath=file_name)
                 print("Saved weights to: " + file_name)
@@ -83,6 +100,6 @@ class Autoencoder:
         return decoder
 
     def generate(self, n=60000):
-        z = np.random.rand(n, self.encoding_dim)
+        z = np.random.rand(n, self.latent_dim)
         return self.decoder.predict(z)
 

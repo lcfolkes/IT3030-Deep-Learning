@@ -1,14 +1,8 @@
-from keras.metrics import categorical_accuracy
-from keras.utils import np_utils
-from sklearn.manifold import TSNE
 import numpy as np
-import tensorflow as tf
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 from keras import optimizers
-from tensorflow import keras
-from Assignment3.Autoencoder import Autoencoder
+from keras import backend as K
 
 
 # This file constitutes a library of functions for reformatting and plotting etc.
@@ -28,6 +22,16 @@ def get_data_predictions_labels(autoencoder, n=None):
 		n = autoencoder.x_train.shape[0]
 	x, x_pred, label = autoencoder.x_train[:n], model.predict(autoencoder.x_train[:n]), autoencoder.y_train[:n]
 	return x, x_pred, label
+
+def nll(x_true, x_pred):
+	""" Negative log likelihood (Bernoulli). """
+	x_true, x_pred = K.reshape(x_true, (-1, 784)), K.reshape(x_pred, (-1, 784))
+	return K.sum(K.binary_crossentropy(x_true, x_pred), axis=-1)
+
+def reshape_img(img):
+	if(img.shape[-1]==1):
+		return img.reshape(img.shape[:-1])
+	return img
 
 def display_reconstructions(x,x_pred,n=16):
 	# y_train = autoencoder.y_train[:n]
@@ -76,12 +80,12 @@ def display_images(images,labels=None, n=16, title=None):
 	# Show the thing ...
 	plt.show()
 
-def get_most_anomalous_images(data, autoencoder, n=16):
+def get_most_anomalous_images(data, model, n=16):
 	df_loss = pd.DataFrame(columns=['index', 'loss'])
 	i = 0
 	for img in data:
 		img = np.expand_dims(img, axis=0)
-		loss = autoencoder.model.evaluate(img, img, verbose=0)
+		loss = model.model.evaluate(img, img, verbose=0)
 		df_loss = df_loss.append({'index': i, 'loss': loss}, ignore_index=True)
 		i += 1
 
@@ -90,11 +94,22 @@ def get_most_anomalous_images(data, autoencoder, n=16):
 	idx = df_loss['index'].values[:n]
 	return np.array([data[i] for i in idx])
 
-
-def reshape_img(img):
-	if(img.shape[-1]==1):
-		return img.reshape(img.shape[:-1])
-	return img
+def vae_get_anomalous(data, model, n=16):
+	df_loss = pd.DataFrame(columns=['index', 'loss'])
+	N = 10000
+	x_gen = model.generate(n=N).astype('float32')
+	i = 0
+	for x in data:
+		x_arr = np.repeat(x[np.newaxis,...], N, axis=0).astype('float32')
+		loss = np.mean(nll(x_arr, x_gen))
+		df_loss = df_loss.append({'index': i, 'loss': loss}, ignore_index=True)
+		i += 1
+		if(i % 1000 == 0):
+			print('i: ', i)
+	df_loss = df_loss.sort_values(['loss'], ascending=False)
+	df_loss = df_loss.astype({'index': 'int32'})
+	idx = df_loss['index'].values[:n]
+	return np.array([data[i] for i in idx])
 
 
 def set_optimizer(optimizer, learning_rate):
