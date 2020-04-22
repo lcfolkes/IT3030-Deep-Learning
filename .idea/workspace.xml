@@ -2,58 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.0005-20200422-115132/train/events.out.tfevents.1587549099.Larsintosh-Pro.37615.3150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.0005-20200422-115132/validation/events.out.tfevents.1587549244.Larsintosh-Pro.37615.4603.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.001-20200422-113352/train/events.out.tfevents.1587548036.Larsintosh-Pro.37428.3150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.001-20200422-113352/validation/events.out.tfevents.1587548141.Larsintosh-Pro.37428.4603.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.001-20200422-120854/train/events.out.tfevents.1587550135.Larsintosh-Pro.37777.3150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.001-20200422-120854/validation/events.out.tfevents.1587550189.Larsintosh-Pro.37777.4603.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.002-20200422-120036/train/events.out.tfevents.1587549642.Larsintosh-Pro.37674.3150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.002-20200422-120036/validation/events.out.tfevents.1587549740.Larsintosh-Pro.37674.4603.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.003-20200422-114326/train/events.out.tfevents.1587548613.Larsintosh-Pro.37542.3150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.003-20200422-114326/validation/events.out.tfevents.1587548761.Larsintosh-Pro.37542.4603.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.005-20200422-113016/train/events.out.tfevents.1587547820.Larsintosh-Pro.37373.3150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.005-20200422-113016/validation/events.out.tfevents.1587547882.Larsintosh-Pro.37373.4603.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.008-20200422-112231/train/events.out.tfevents.1587547355.Larsintosh-Pro.37093.3150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.008-20200422-112231/validation/events.out.tfevents.1587547425.Larsintosh-Pro.37093.4603.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.01-20200422-113946/train/events.out.tfevents.1587548394.Larsintosh-Pro.37486.3150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.01-20200422-113946/validation/events.out.tfevents.1587548516.Larsintosh-Pro.37486.4603.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.02-20200422-111445/train/events.out.tfevents.1587546886.Larsintosh-Pro.36954.3150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.02-20200422-111445/validation/events.out.tfevents.1587546953.Larsintosh-Pro.36954.4603.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.05-20200422-110613/train/events.out.tfevents.1587546375.Larsintosh-Pro.36805.3150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_FLOAT_COMPLETE_0.05-20200422-110613/validation/events.out.tfevents.1587546437.Larsintosh-Pro.36805.4603.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200422-124211/train/events.out.tfevents.1587552133.Larsintosh-Pro.38105.3035.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200422-124211/validation/events.out.tfevents.1587552280.Larsintosh-Pro.38105.4096.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200422-125645/train/events.out.tfevents.1587553006.Larsintosh-Pro.38310.3035.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200422-125706/train/events.out.tfevents.1587553029.Larsintosh-Pro.38329.3035.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200422-125706/validation/events.out.tfevents.1587553200.Larsintosh-Pro.38329.4096.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.01-20200422-123225/validation/events.out.tfevents.1587551715.Larsintosh-Pro.37997.4096.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_MISSING_0.001-20200422-133532/train/events.out.tfevents.1587555333.Larsintosh-Pro.38329.21089.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_MISSING_0.001-20200422-133532/validation/events.out.tfevents.1587555478.Larsintosh-Pro.38329.22054.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/decoder_model.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/encoder_model.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/model.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/models/vae/MONO_FLOAT_MISSING.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/results" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/dcgan.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Autoencoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Help_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/VAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/VAE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200420-162240/train/events.out.tfevents.1587392561.Larsintosh-Pro.27381.2562.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200420-162240/validation/events.out.tfevents.1587392615.Larsintosh-Pro.27381.3439.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200420-164639/train/events.out.tfevents.1587394000.Larsintosh-Pro.27381.36114.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200420-164639/validation/events.out.tfevents.1587394047.Larsintosh-Pro.27381.36921.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200420-204743/train/events.out.tfevents.1587408464.Larsintosh-Pro.28032.60051.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200420-204743/validation/events.out.tfevents.1587408544.Larsintosh-Pro.28032.60808.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200420-211950/train/events.out.tfevents.1587410392.Larsintosh-Pro.28032.89758.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/logs/scalars/20200420-211950/validation/events.out.tfevents.1587410466.Larsintosh-Pro.28032.90455.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/autoencoder/MONO_FLOAT_COMPLETE.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/MONO_FLOAT_COMPLETE.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/autoencoder/MONO_FLOAT_MISSING.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/MONO_FLOAT_MISSING.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/vae/MONO_FLOAT_COMPLETE.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/MONO_FLOAT_COMPLETE.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/vae/decoder_model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/decoder_model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/vae/encoder_model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/encoder_model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/vae/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/model.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,29 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testing">
-    <configuration name="Autoencoder" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Deep Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/Autoencoder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.dcgan">
     <configuration name="VAE2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,6 +97,25 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/VAE3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dcgan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Deep Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/dcgan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -240,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dcgan" />
+        <item itemvalue="Python.dcgan" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.testing" />
         <item itemvalue="Python.testing" />
-        <item itemvalue="Python.testing" />
-        <item itemvalue="Python.Autoencoder" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +243,7 @@
       <workItem from="1586770331087" duration="26062000" />
       <workItem from="1586886264027" duration="48216000" />
       <workItem from="1587207157496" duration="46013000" />
-      <workItem from="1587457442668" duration="53575000" />
+      <workItem from="1587457442668" duration="58292000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
@@ -341,6 +288,7 @@
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder.coverage" NAME="Autoencoder Coverage Results" MODIFIED="1587378502146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Classifier.coverage" NAME="Classifier Coverage Results" MODIFIED="1585310153452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE2.coverage" NAME="VAE2 Coverage Results" MODIFIED="1587308900060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$dcgan.coverage" NAME="dcgan Coverage Results" MODIFIED="1587581176243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$vae_script.coverage" NAME="vae_script Coverage Results" MODIFIED="1587115611674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/Deep_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1581252030524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 1" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584096299309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
