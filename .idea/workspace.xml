@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment3/dcgan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/dcgan.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/dcgan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/dcgan.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -170,6 +181,9 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -189,9 +203,9 @@
       <list>
         <item itemvalue="Python.dcgan" />
         <item itemvalue="Python.dcgan" />
-        <item itemvalue="Python.testing" />
-        <item itemvalue="Python.testing" />
-        <item itemvalue="Python.testing" />
+        <item itemvalue="Python.dcgan" />
+        <item itemvalue="Python.dcgan" />
+        <item itemvalue="Python.dcgan" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +257,11 @@
       <workItem from="1586770331087" duration="26062000" />
       <workItem from="1586886264027" duration="48216000" />
       <workItem from="1587207157496" duration="46013000" />
-      <workItem from="1587457442668" duration="58292000" />
+      <workItem from="1587457442668" duration="69813000" />
+      <workItem from="1587643349542" duration="5965000" />
+      <workItem from="1587652444257" duration="1131000" />
+      <workItem from="1587653818497" duration="267000" />
+      <workItem from="1587666508946" duration="9345000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
@@ -288,7 +306,7 @@
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder.coverage" NAME="Autoencoder Coverage Results" MODIFIED="1587378502146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Classifier.coverage" NAME="Classifier Coverage Results" MODIFIED="1585310153452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE2.coverage" NAME="VAE2 Coverage Results" MODIFIED="1587308900060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$dcgan.coverage" NAME="dcgan Coverage Results" MODIFIED="1587581176243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$dcgan.coverage" NAME="dcgan Coverage Results" MODIFIED="1587632855709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$vae_script.coverage" NAME="vae_script Coverage Results" MODIFIED="1587115611674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/Deep_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1581252030524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 1" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584096299309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
