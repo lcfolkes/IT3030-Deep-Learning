@@ -13,7 +13,7 @@ import datetime
 from IPython import display
 
 class DCGAN:
-	def __init__(self, gen):
+	def __init__(self, gen, epochs):
 
 		model_name = 'dcgan'
 		dir_name = os.path.join('./models', model_name)
@@ -21,6 +21,7 @@ class DCGAN:
 		gen_name = gen.get_gen_name()
 		self.file_name = os.path.join(dir_name, gen_name + ".h5")
 
+		# Data
 		x_train, y_train = gen.get_full_data_set(training=True)
 		self.train_dataset = self.__get_train_dataset(x_train)
 
@@ -29,6 +30,7 @@ class DCGAN:
 		# noise dimension
 		self.noise_dim = 100
 
+		# initialize models
 		self.generator = self.__generator(output_shape=img_shape)
 		self.discriminator = self.__discriminator(input_shape=img_shape)
 		self.generator_loss = self.__generator_loss
@@ -38,10 +40,14 @@ class DCGAN:
 		self.cross_entropy = BinaryCrossentropy(from_logits=True)
 
 		# Optimizers
-		learning_rate = 1e-4
-		self.generator_optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate)
-		self.discriminator_optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate)
+		#learning_rate = 0.0002
+		#momentum = 0.5
+		#self.generator_optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate, beta_1=momentum)
+		#self.discriminator_optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate, beta_1=momentum)
+		self.generator_optimizer = tf.keras.optimizers.RMSprop()
+		self.discriminator_optimizer = tf.keras.optimizers.RMSprop()
 
+		# Create checkpoints for training
 		checkpoint_dir = './training_checkpoints'
 		os.makedirs(checkpoint_dir, exist_ok=True)
 		self.checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
@@ -50,10 +56,12 @@ class DCGAN:
 										 generator=self.generator,
 										 discriminator=self.discriminator)
 
-		EPOCHS = 5
 		num_examples_to_generate = 16
+		# Params according to paper
+		#mean = 0.
+		#stddev = 0.02
 		self.seed = tf.random.normal(shape=[num_examples_to_generate, self.noise_dim])
-		self.__train(self.train_dataset, epochs=EPOCHS)
+		self.__train(self.train_dataset, epochs=epochs)
 
 	### PREPROCESS DATA AND CREATE BATCHES
 	def __get_train_dataset(self, x_train):
@@ -62,78 +70,69 @@ class DCGAN:
 		self.BUFFER_SIZE = 60000
 		self.BATCH_SIZE = 256
 		dataset = tf.data.Dataset.from_tensor_slices(x_train).shuffle(
-			buffer_size=self.BUFFER_SIZE).batch(self.BATCH_SIZE, drop_remainder=True)#.prefetch(1)
+			buffer_size=self.BUFFER_SIZE).batch(self.BATCH_SIZE, drop_remainder=True)
 		return dataset
 
 
 	### MODELS
 	def __generator(self, output_shape):
+		# ReLU and TanH activation according to paper
 
-		# inputs = Input(shape=(self.noise_dim,), name='z')
-		# x = Dense(7 * 7 * 256, use_bias=False)(inputs)
-		# x = BatchNormalization()(x)
-		# x = LeakyReLU()(x)
-		# x = Reshape((7, 7, 256))(x)
-		# x = Conv2DTranspose(128, (5, 5), strides=(1, 1), padding='same', use_bias=False)(x)
-		# x = BatchNormalization()(x)
-		# x = LeakyReLU()(x)
-		# x = Conv2DTranspose(64, (5, 5), strides=(2, 2), padding='same', use_bias=False)(x)
-		# x = BatchNormalization()(x)
-		# x = LeakyReLU()(x)
-		# generated = Conv2DTranspose(output_shape[-1], (5, 5), strides=(2, 2), padding='same', use_bias=False, activation='tanh')(x)
-		# generator = Model(inputs=inputs, outputs=generated, name='generator')
-		# generator.summary()
-		# return generator
+		# model = Sequential()
+		# model.add(Dense(7 * 7 * 256, use_bias=False, input_shape=(self.noise_dim,)))
+		# model.add(BatchNormalization())
+		# model.add(ReLU())
+		#
+		# model.add(Reshape((7, 7, 256)))
+		# assert model.output_shape == (None, 7, 7, 256)  # Note: None is the batch size
+		#
+		# model.add(Conv2DTranspose(128, (5, 5), strides=(1, 1), padding='same', use_bias=False))
+		# assert model.output_shape == (None, 7, 7, 128)
+		# model.add(BatchNormalization())
+		# model.add(ReLU())
+		#
+		# model.add(Conv2DTranspose(64, (5, 5), strides=(2, 2), padding='same', use_bias=False))
+		# assert model.output_shape == (None, 14, 14, 64)
+		# model.add(BatchNormalization())
+		# model.add(ReLU())
+		#
+		# model.add(Conv2DTranspose(output_shape[-1], (5, 5), strides=(2, 2), padding='same', use_bias=False, activation='tanh'))
+		# assert model.output_shape == (None, 28, 28, output_shape[-1])
+		# return model
 
 		model = Sequential()
-		model.add(Dense(7 * 7 * 256, use_bias=False, input_shape=(self.noise_dim,)))
-		model.add(BatchNormalization())
-		model.add(LeakyReLU())
-
-		model.add(Reshape((7, 7, 256)))
-		assert model.output_shape == (None, 7, 7, 256)  # Note: None is the batch size
-
-		model.add(Conv2DTranspose(128, (5, 5), strides=(1, 1), padding='same', use_bias=False))
+		model.add(Dense(7 * 7 * 128, input_shape=(self.noise_dim,)))
+		model.add(Reshape([7, 7, 128]))
 		assert model.output_shape == (None, 7, 7, 128)
-		model.add(BatchNormalization())
-		model.add(LeakyReLU())
 
-		model.add(Conv2DTranspose(64, (5, 5), strides=(2, 2), padding='same', use_bias=False))
+		model.add(BatchNormalization())
+		# Selu for faster convergence
+		model.add(Conv2DTranspose(64, kernel_size=(5, 5), strides=(2, 2), padding='same', activation='selu'))
 		assert model.output_shape == (None, 14, 14, 64)
-		model.add(BatchNormalization())
-		model.add(LeakyReLU())
 
-		model.add(Conv2DTranspose(output_shape[-1], (5, 5), strides=(2, 2), padding='same', use_bias=False, activation='tanh'))
+		model.add(BatchNormalization())
+		model.add(Conv2DTranspose(output_shape[-1], kernel_size=(5, 5), strides=(2, 2), padding='same', activation='tanh'))
 		assert model.output_shape == (None, 28, 28, output_shape[-1])
+
 		return model
 
-	def __discriminator(self, input_shape):
 
-		# inputs = Input(shape=input_shape, name='discriminator_input')
-		# x = Conv2D(64, (5, 5), strides=(2, 2), padding='same')(inputs)
-		# x = LeakyReLU()(x)
-		# x = Dropout(0.3)(x)
-		# x = Conv2D(128, (5, 5), strides=(2, 2), padding='same')(x)
-		# x = LeakyReLU()(x)
-		# x = Dropout(0.3)(x)
-		# x = Flatten()(x)
-		# discriminated = Dense(1)(x)
-		# discriminator = Model(inputs=inputs, outputs=discriminated)
-		# discriminator.summary()
-		# return discriminator
+	def __discriminator(self, input_shape):
+		# LeakyReLU with slope=0.2 according to paper
 
 		model = Sequential()
 		model.add(Conv2D(64, (5, 5), strides=(2, 2), padding='same', input_shape=input_shape))
-		model.add(LeakyReLU())
+		model.add(LeakyReLU(0.2))
 		model.add(Dropout(0.3))
 
 		model.add(Conv2D(128, (5, 5), strides=(2, 2), padding='same'))
-		model.add(LeakyReLU())
+		model.add(LeakyReLU(0.2))
 		model.add(Dropout(0.3))
 
 		model.add(Flatten())
-		model.add(Dense(1))
+		model.add(Dense(1, activation='sigmoid'))
 		return model
+
 
 	### LOSS FUNCTIONS
 	def __generator_loss(self, fake_output):
@@ -155,7 +154,7 @@ class DCGAN:
 			plt.imshow(predictions[i, :, :, 0] * 127.5 + 127.5, cmap='gray')
 			plt.axis('off')
 
-		plt.savefig('image_at_epoch_{:04d}.png'.format(epoch))
+		plt.savefig('./imgs/dcgan/image_at_epoch_{:04d}.png'.format(epoch))
 		plt.show()
 
 	@tf.function
@@ -209,6 +208,6 @@ class DCGAN:
 
 if __name__ == "__main__":
 	gen = StackedMNISTData(mode=DataMode.MONO_BINARY_COMPLETE, default_batch_size=9)
-	dcgan = DCGAN(gen)
+	dcgan = DCGAN(gen, epochs=20)
 
 

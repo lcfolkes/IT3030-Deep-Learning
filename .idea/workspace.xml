@@ -2,19 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment3/dcgan.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/dcgan_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-10.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-10.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-12.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-12.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-13.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-13.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-14.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-14.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-15.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-15.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-16.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-16.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-17.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-17.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-18.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-18.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-19.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-19.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-6.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-6.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-7.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-7.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-8.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-8.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-9.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-9.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Autoencoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/VAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/VAE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/dcgan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/dcgan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0001.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0001.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0002.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0002.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0003.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0003.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0004.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0004.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0005.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/image_at_epoch_0005.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.index" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -69,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dcgan">
+  <component name="RunManager" selected="Python.dcgan_script">
     <configuration name="VAE2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,6 +185,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="dcgan_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Deep Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/dcgan_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run_files" type="PythonConfigurationType" factoryName="Python">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,28 +218,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/run_files_L.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="stacked_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Deep Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/stacked_mnist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,8 +250,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dcgan" />
-        <item itemvalue="Python.dcgan" />
+        <item itemvalue="Python.dcgan_script" />
+        <item itemvalue="Python.dcgan_script" />
         <item itemvalue="Python.dcgan" />
         <item itemvalue="Python.dcgan" />
         <item itemvalue="Python.dcgan" />
@@ -261,7 +310,8 @@
       <workItem from="1587643349542" duration="5965000" />
       <workItem from="1587652444257" duration="1131000" />
       <workItem from="1587653818497" duration="267000" />
-      <workItem from="1587666508946" duration="9345000" />
+      <workItem from="1587666508946" duration="9704000" />
+      <workItem from="1587683523447" duration="10105000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
@@ -299,6 +349,7 @@
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Preprocessing.coverage" NAME="Preprocessing Coverage Results" MODIFIED="1583836959579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files.coverage" NAME="run_files Coverage Results" MODIFIED="1584289627657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$verification_net.coverage" NAME="verification_net Coverage Results" MODIFIED="1587047828105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$dcgan_script.coverage" NAME="dcgan_script Coverage Results" MODIFIED="1587721910604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$stacked_mnist.coverage" NAME="stacked_mnist Coverage Results" MODIFIED="1587375714145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files_M.coverage" NAME="run_files_M Coverage Results" MODIFIED="1585054325481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder_seq.coverage" NAME="Autoencoder_seq Coverage Results" MODIFIED="1586856142213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />

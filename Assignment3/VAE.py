@@ -12,7 +12,7 @@ import os
 
 class VAE:
     def __init__(self, gen, learning_rate=0.001, optimizer='rmsprop',
-                 epochs=15, latent_dim=16, batch_size=512, force_learn=False):
+                 epochs=15, force_learn=False):
         model_name = 'vae'
         dir_name = os.path.join('./models', model_name)
         os.makedirs(dir_name, exist_ok=True)
@@ -22,20 +22,22 @@ class VAE:
         self.x_train, self.y_train = gen.get_full_data_set(training=True)
         self.x_test, self.y_test = gen.get_full_data_set(training=False)
 
-        self.latent_dim = latent_dim
         # input image dimensions
         img_shape = self.x_train.shape[1:]
+
+        self.latent_dim = 16
+        batch_size = 246
 
         # Clear previous sessions
         K.clear_session()
 
         # Encoder
-        self.encoder = self.__encoder(input_shape=img_shape, latent_dim=latent_dim)
+        self.encoder = self.__encoder(input_shape=img_shape, latent_dim=self.latent_dim)
         filename = os.path.join(dir_name, 'encoder_model.png')
         plot_model(self.encoder, to_file=filename, show_shapes=True)
 
         # Decoder
-        self.decoder = self.__decoder(output_shape=img_shape, latent_dim=latent_dim)
+        self.decoder = self.__decoder(output_shape=img_shape, latent_dim=self.latent_dim)
         filename = os.path.join(dir_name, 'decoder_model.png')
         plot_model(self.encoder, to_file=filename, show_shapes=True)
 

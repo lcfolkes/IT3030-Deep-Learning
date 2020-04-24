@@ -11,8 +11,7 @@ import os
 # This class creates an encoder model
 
 class Autoencoder:
-    def __init__(self, gen, learning_rate=0.001, loss_function='binary_crossentropy', optimizer='adam',
-                 epochs=15, latent_dim=16, batch_size=512, force_learn=False):
+    def __init__(self, gen, learning_rate=0.001, epochs=15, force_learn=False):
 
         model_name = 'autoencoder'
         dir_name = os.path.join('./models', model_name)
@@ -24,16 +23,19 @@ class Autoencoder:
         self.x_train, self.y_train = gen.get_full_data_set(training=True)
         self.x_test, self.y_test = gen.get_full_data_set(training=False)
 
-        self.latent_dim = latent_dim
         data_shape = self.x_train.shape[1:]
+        loss_function = 'binary_crossentropy'
+        optimizer = 'adam'
+        batch_size = 256
+        self.latent_dim = 16
 
         # Encoder
-        self.encoder = self.__encoder(input_shape=data_shape, latent_dim=latent_dim)
+        self.encoder = self.__encoder(input_shape=data_shape, latent_dim=self.latent_dim)
         filename = os.path.join(dir_name, 'encoder_model.png')
         plot_model(self.encoder, to_file=filename, show_shapes=True)
 
         # Decoder
-        self.decoder = self.__decoder(output_shape=data_shape, latent_dim=latent_dim)
+        self.decoder = self.__decoder(output_shape=data_shape, latent_dim=self.latent_dim)
         filename = os.path.join(dir_name, 'decoder_model.png')
         plot_model(self.decoder, to_file=filename, show_shapes=True)
 
