@@ -7,19 +7,15 @@ import os
 from tensorflow.keras.layers import Input, Dense, Flatten, Reshape, BatchNormalization, LeakyReLU, Conv2DTranspose, Conv2D, Dropout
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.losses import BinaryCrossentropy
-from Assignment3.stacked_mnist import StackedMNISTData, DataMode
+import stacked_mnist
 import time
 import datetime
 from IPython import display
+import Help_functions
+
 
 class DCGAN:
-	def __init__(self, gen, epochs):
-
-		model_name = 'dcgan'
-		dir_name = os.path.join('./models', model_name)
-		os.makedirs(dir_name, exist_ok=True)
-		gen_name = gen.get_gen_name()
-		self.file_name = os.path.join(dir_name, gen_name + ".h5")
+	def __init__(self, gen, epochs=30, force_learn=False):
 
 		# Data
 		x_train, y_train = gen.get_full_data_set(training=True)
@@ -29,6 +25,9 @@ class DCGAN:
 		img_shape = x_train.shape[1:]
 		# noise dimension
 		self.noise_dim = 100
+
+		num_examples_to_generate = 16
+		self.seed = tf.random.normal(shape=[num_examples_to_generate, self.noise_dim])
 
 		# initialize models
 		self.generator = self.__generator(output_shape=img_shape)
@@ -40,28 +39,35 @@ class DCGAN:
 		self.cross_entropy = BinaryCrossentropy(from_logits=True)
 
 		# Optimizers
-		#learning_rate = 0.0002
-		#momentum = 0.5
-		#self.generator_optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate, beta_1=momentum)
-		#self.discriminator_optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate, beta_1=momentum)
-		self.generator_optimizer = tf.keras.optimizers.RMSprop()
-		self.discriminator_optimizer = tf.keras.optimizers.RMSprop()
+		learning_rate = 0.0002
+		momentum = 0.5
+		self.generator_optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate, beta_1=momentum)
+		self.discriminator_optimizer = tf.keras.optimizers.Adam(learning_rate=learning_rate, beta_1=momentum)
+		#self.generator_optimizer = tf.keras.optimizers.RMSprop()
+		#self.discriminator_optimizer = tf.keras.optimizers.RMSprop()
 
 		# Create checkpoints for training
-		checkpoint_dir = './training_checkpoints'
+		dir_name = './models/dcgan'
+		os.makedirs(dir_name, exist_ok=True)
+		self.gen_name = gen.get_gen_name()
+		checkpoint_dir = os.path.join(dir_name, self.gen_name)
 		os.makedirs(checkpoint_dir, exist_ok=True)
+
 		self.checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
 		self.checkpoint = tf.train.Checkpoint(generator_optimizer=self.generator_optimizer,
 										 discriminator_optimizer=self.discriminator_optimizer,
 										 generator=self.generator,
 										 discriminator=self.discriminator)
 
-		num_examples_to_generate = 16
-		# Params according to paper
-		#mean = 0.
-		#stddev = 0.02
-		self.seed = tf.random.normal(shape=[num_examples_to_generate, self.noise_dim])
-		self.__train(self.train_dataset, epochs=epochs)
+		if force_learn:
+			self.__train(self.train_dataset, epochs=epochs)
+		else:
+			try:
+				status = self.checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
+				status.assert_existing_objects_matched()
+			except Exception as e:
+				print(e)
+				self.__train(self.train_dataset, epochs=epochs)
 
 	### PREPROCESS DATA AND CREATE BATCHES
 	def __get_train_dataset(self, x_train):
@@ -77,28 +83,6 @@ class DCGAN:
 	### MODELS
 	def __generator(self, output_shape):
 		# ReLU and TanH activation according to paper
-
-		# model = Sequential()
-		# model.add(Dense(7 * 7 * 256, use_bias=False, input_shape=(self.noise_dim,)))
-		# model.add(BatchNormalization())
-		# model.add(ReLU())
-		#
-		# model.add(Reshape((7, 7, 256)))
-		# assert model.output_shape == (None, 7, 7, 256)  # Note: None is the batch size
-		#
-		# model.add(Conv2DTranspose(128, (5, 5), strides=(1, 1), padding='same', use_bias=False))
-		# assert model.output_shape == (None, 7, 7, 128)
-		# model.add(BatchNormalization())
-		# model.add(ReLU())
-		#
-		# model.add(Conv2DTranspose(64, (5, 5), strides=(2, 2), padding='same', use_bias=False))
-		# assert model.output_shape == (None, 14, 14, 64)
-		# model.add(BatchNormalization())
-		# model.add(ReLU())
-		#
-		# model.add(Conv2DTranspose(output_shape[-1], (5, 5), strides=(2, 2), padding='same', use_bias=False, activation='tanh'))
-		# assert model.output_shape == (None, 28, 28, output_shape[-1])
-		# return model
 
 		model = Sequential()
 		model.add(Dense(7 * 7 * 128, input_shape=(self.noise_dim,)))
@@ -147,14 +131,22 @@ class DCGAN:
 	def __generate_and_save_images(self, model, epoch, test_input):
 
 		predictions = model(test_input, training=False)
+		channels = predictions.shape[-1]
 		fig = plt.figure(figsize=(4, 4))
 
 		for i in range(predictions.shape[0]):
 			plt.subplot(4, 4, i + 1)
-			plt.imshow(predictions[i, :, :, 0] * 127.5 + 127.5, cmap='gray')
+			if channels == 1:
+				plt.imshow(predictions[i, :, :, 0], cmap="binary")
+			else:
+				plt.imshow((predictions[i, :, :, :].numpy()*255).astype(np.uint8))
 			plt.axis('off')
 
-		plt.savefig('./imgs/dcgan/image_at_epoch_{:04d}.png'.format(epoch))
+		if epoch % 10 == 0:
+			img_dir = os.path.join('./imgs/dcgan', self.gen_name)
+			os.makedirs(img_dir, exist_ok=True)
+			file_path = os.path.join(img_dir, 'image_at_epoch_{:04d}.png'.format(epoch))
+			plt.savefig(file_path)
 		plt.show()
 
 	@tf.function
@@ -177,28 +169,21 @@ class DCGAN:
 		self.discriminator_optimizer.apply_gradients(zip(gradients_of_discriminator, self.discriminator.trainable_variables))
 
 	def __train(self, dataset, epochs):
-		no_batches = np.floor_divide(self.BUFFER_SIZE, self.BATCH_SIZE)
 		for epoch in range(epochs):
 			print("[INFO] starting epoch {}/{}...".format(epoch + 1, epochs))
 			sys.stdout.flush()
 
 			start = time.time()
-			i = 0
 			for image_batch in dataset:
-				if i == 0:
-					print("image_batch {}/{}...".format(i + 1, no_batches))
-				elif (i+1) % 10 == 0:
-					print("image_batch {}/{}...".format(i+1, no_batches))
 				self.__train_step(image_batch)
-				i += 1
 
 			# Produce images for the GIF as we go
 			display.clear_output(wait=True)
 			self.__generate_and_save_images(self.generator, epoch + 1, self.seed)
 
-			# Save the model every 15 epochs
-			#if (epoch + 1) % 15 == 0:
-			self.checkpoint.save(file_prefix=self.checkpoint_prefix)
+			# Save the model every 10 epochs
+			if (epoch + 1) % 10 == 0:
+				self.checkpoint.save(file_prefix=self.checkpoint_prefix)
 
 			print('Time for epoch {} is {}'.format(epoch + 1, datetime.timedelta(seconds=time.time() - start)))
 
@@ -206,8 +191,24 @@ class DCGAN:
 		display.clear_output(wait=True)
 		self.__generate_and_save_images(self.generator, epochs, self.seed)
 
+	def generate(self, n=60000):
+		noise = tf.random.normal(shape=[n, self.noise_dim])
+		noise_dataset = tf.data.Dataset.from_tensor_slices(noise).batch(self.BATCH_SIZE)
+		i = 0
+		for noise_batch in noise_dataset:
+			generated_img_batch = self.generator(noise_batch, training=False).numpy()
+			if i == 0:
+				generated_imgs = generated_img_batch
+			else:
+				generated_imgs = np.concatenate((generated_imgs, generated_img_batch), axis=0)
+			i += 1
+		return generated_imgs
+
+
 if __name__ == "__main__":
-	gen = StackedMNISTData(mode=DataMode.MONO_BINARY_COMPLETE, default_batch_size=9)
-	dcgan = DCGAN(gen, epochs=20)
+	gen_standard = stacked_mnist.StackedMNISTData(mode=stacked_mnist.DataMode.MONO_FLOAT_COMPLETE, default_batch_size=2048)
+	dcgan = DCGAN(gen_standard, force_learn=False)
+	generated_imgs = dcgan.generate(n=60000)
+	Help_functions.display_images(generated_imgs)
 
 

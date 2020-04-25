@@ -4,7 +4,7 @@ from keras.models import Model
 from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Reshape, UpSampling2D, Conv2DTranspose
 from keras.utils import plot_model
 
-from Assignment3 import Help_functions
+import Help_functions
 import numpy as np
 import os
 

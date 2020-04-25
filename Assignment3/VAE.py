@@ -5,7 +5,7 @@ from keras.layers import Input, Dense, Lambda, Flatten, Reshape, Layer, MaxPooli
 from keras.layers import Conv2D, Conv2DTranspose
 from keras.models import Model
 from keras import backend as K
-from Assignment3 import Help_functions
+import Help_functions
 import numpy as np
 import os
 
@@ -26,7 +26,7 @@ class VAE:
         img_shape = self.x_train.shape[1:]
 
         self.latent_dim = 16
-        batch_size = 246
+        batch_size = 784
 
         # Clear previous sessions
         K.clear_session()

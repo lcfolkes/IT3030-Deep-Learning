@@ -105,7 +105,7 @@ def vae_get_anomalous(data, model, n=16):
 		df_loss = df_loss.append({'index': i, 'loss': loss}, ignore_index=True)
 		i += 1
 		if(i % 1000 == 0):
-			print('i: ', i)
+			print('{}/{} encoding samples'.format(i,N))
 	df_loss = df_loss.sort_values(['loss'], ascending=False)
 	df_loss = df_loss.astype({'index': 'int32'})
 	idx = df_loss['index'].values[:n]

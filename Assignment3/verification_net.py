@@ -3,11 +3,12 @@ from tensorflow import keras
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 import numpy as np
+import os
 
 
 class VerificationNet:
 
-    def __init__(self, force_learn: bool = False, file_name: str = "./models/verification_model") -> None:
+    def __init__(self, force_learn: bool = False, file_name: str = "./models/verification_net/verification_model") -> None:
         """
         Define model and set some parameters.
         The model is  made for classifying one channel only -- if we are looking at a
@@ -15,6 +16,7 @@ class VerificationNet:
         """
         self.force_relearn = force_learn
         self.file_name = file_name
+        os.makedirs("./models/verification_net/", exist_ok=True)
 
         model = Sequential()
         model.add(Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)))
