@@ -70,7 +70,7 @@ def display_images(images,labels=None, n=16, title=None):
 		if channels == 1:
 			plt.imshow(images[img_idx, :, :, 0], cmap="binary")
 		else:
-			plt.imshow(images[img_idx, :, :, :].astype(np.float))
+			plt.imshow((images[img_idx, :, :, :]*255).astype(np.uint8))#.astype(np.float))
 		plt.xticks([])
 		plt.yticks([])
 		if labels is not None:

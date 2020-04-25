@@ -61,13 +61,16 @@ class DCGAN:
 
 		if force_learn:
 			self.__train(self.train_dataset, epochs=epochs)
+			print("Saved weights to: " + checkpoint_dir)
 		else:
 			try:
 				status = self.checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
 				status.assert_existing_objects_matched()
+				print("Loaded weights from: " + checkpoint_dir)
 			except Exception as e:
 				print(e)
 				self.__train(self.train_dataset, epochs=epochs)
+				print("Saved weights to: " + checkpoint_dir)
 
 	### PREPROCESS DATA AND CREATE BATCHES
 	def __get_train_dataset(self, x_train):
@@ -206,7 +209,7 @@ class DCGAN:
 
 
 if __name__ == "__main__":
-	gen_standard = stacked_mnist.StackedMNISTData(mode=stacked_mnist.DataMode.MONO_FLOAT_COMPLETE, default_batch_size=2048)
+	gen_standard = stacked_mnist.StackedMNISTData(mode=stacked_mnist.DataMode.COLOR_FLOAT_COMPLETE, default_batch_size=2048)
 	dcgan = DCGAN(gen_standard, force_learn=False)
 	generated_imgs = dcgan.generate(n=60000)
 	Help_functions.display_images(generated_imgs)
