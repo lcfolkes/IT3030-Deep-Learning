@@ -23,11 +23,6 @@ def get_data_predictions_labels(autoencoder, n=None):
 	x, x_pred, label = autoencoder.x_train[:n], model.predict(autoencoder.x_train[:n]), autoencoder.y_train[:n]
 	return x, x_pred, label
 
-def nll(x_true, x_pred):
-	""" Negative log likelihood (Bernoulli). """
-	x_true, x_pred = K.reshape(x_true, (-1, 784)), K.reshape(x_pred, (-1, 784))
-	return K.sum(K.binary_crossentropy(x_true, x_pred), axis=-1)
-
 def reshape_img(img):
 	if(img.shape[-1]==1):
 		return img.reshape(img.shape[:-1])
