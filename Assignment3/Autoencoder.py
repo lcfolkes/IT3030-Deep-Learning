@@ -3,7 +3,6 @@ from keras.callbacks import TensorBoard
 from keras.models import Model
 from keras.layers import Input, Dense, Dropout, Flatten, Conv2D, MaxPooling2D, Reshape, UpSampling2D, Conv2DTranspose
 from keras.utils import plot_model
-
 import Help_functions
 import numpy as np
 import os
@@ -11,7 +10,7 @@ import os
 # This class creates an encoder model
 
 class Autoencoder:
-    def __init__(self, gen, learning_rate=0.001, epochs=15, force_learn=False):
+    def __init__(self, gen, learning_rate=0.001, epochs=30, force_learn=False):
 
         model_name = 'autoencoder'
         dir_name = os.path.join('./models', model_name)
@@ -74,14 +73,10 @@ class Autoencoder:
 
     def __encoder(self, input_shape, latent_dim):
         inputs = Input(shape=input_shape)
-        x = Conv2D(16, kernel_size=(3, 3), activation='relu', padding='same')(inputs)
-        x = MaxPooling2D((2, 2), padding='same')(x)
-        x = Conv2D(8, kernel_size=(3, 3), activation='relu', padding='same')(x)
-        x = MaxPooling2D((2, 2), padding='same')(x)
-        #x = Dropout(0.25)(x)
+        x = Conv2D(32, kernel_size=(3, 3), strides=(2, 2), activation='relu', padding='same')(inputs)
+        x = Conv2D(16, kernel_size=(3, 3), strides=(2, 2), activation='relu', padding='same')(x)
         x = Flatten()(x)
         x = Dense(128, activation='relu')(x)
-        #x = Dropout(0.5)(x)
         encoded = Dense(latent_dim, activation='relu')(x)
         encoder = Model(inputs=inputs, outputs=encoded)
         # print(encoder.summary())
@@ -92,11 +87,8 @@ class Autoencoder:
         dense_dim, conv_shape = Help_functions.get_dense_conv_shape(self.encoder)
         x = Dense(dense_dim, activation='relu')(inputs)
         x = Reshape(conv_shape)(x)
-        #x = Dropout(0.25)(x)
-        x = UpSampling2D((2, 2))(x)
-        x = Conv2DTranspose(8, kernel_size=(3, 3), activation='relu', padding='same')(x)
-        x = Conv2DTranspose(16, kernel_size=(3, 3), activation='relu', padding='same')(x)
-        x = UpSampling2D((2, 2))(x)
+        x = Conv2DTranspose(16, kernel_size=(3, 3), strides=(2, 2), activation='relu', padding='same')(x)
+        x = Conv2DTranspose(32, kernel_size=(3, 3), strides=(2, 2), activation='relu', padding='same')(x)
         decoded = Conv2DTranspose(output_shape[-1], (3, 3), activation='sigmoid', padding='same')(x)
         decoder = Model(inputs=inputs, outputs=decoded)
         return decoder

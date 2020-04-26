@@ -95,8 +95,8 @@ def vae_get_anomalous(data, model, n=16):
 	x_gen = model.generate(n=N).astype('float32')
 	i = 0
 	for x in data:
-		x_arr = np.repeat(x[np.newaxis,...], N, axis=0).astype('float32')
-		loss = np.mean(nll(x_arr, x_gen))
+		x_arr = np.repeat(x[np.newaxis, ...], N, axis=0).astype('float32')
+		loss = np.mean(model.nll(x_arr, x_gen))
 		df_loss = df_loss.append({'index': i, 'loss': loss}, ignore_index=True)
 		i += 1
 		if(i % 1000 == 0):

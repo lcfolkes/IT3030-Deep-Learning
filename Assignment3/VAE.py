@@ -14,7 +14,7 @@ import stacked_mnist
 
 class VAE:
     def __init__(self, gen, learning_rate=0.001, optimizer='rmsprop',
-                 epochs=15, force_learn=False):
+                 epochs=30, force_learn=False):
         model_name = 'vae'
         dir_name = os.path.join('./models', model_name)
         os.makedirs(dir_name, exist_ok=True)
@@ -53,7 +53,7 @@ class VAE:
         plot_model(self.model, to_file=filename, show_shapes=True)
 
         optimizer = Help_functions.set_optimizer(optimizer, learning_rate)
-        self.model.compile(optimizer=optimizer, loss=self.__nll)
+        self.model.compile(optimizer=optimizer, loss=self.nll)
 
         # Define Tensorboard for accuracy and loss plots
         logdir = "logs/scalars/" + model_name + "_" + gen_name + "_" + str(learning_rate) + "-" + \
@@ -119,7 +119,7 @@ class VAE:
         z = np.random.normal(0, 1, (n, self.latent_dim))
         return self.decoder.predict(z, verbose=2)
 
-    def __nll(self, x_true, x_pred):
+    def nll(self, x_true, x_pred):
         """ Negative log likelihood (Bernoulli). """
         x_true, x_pred = K.reshape(x_true, (-1, 784 * self.channels)), K.reshape(x_pred, (-1, 784 * self.channels))
         return K.sum(K.binary_crossentropy(x_true, x_pred), axis=-1)
