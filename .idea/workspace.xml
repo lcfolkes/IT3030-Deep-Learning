@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/Main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0010.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0013.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0014.png" afterDir="false" />
@@ -45,6 +46,8 @@
       <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-151135/validation/events.out.tfevents.1587741103.0fd9a4756a7c.137.1053438.v2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-162910/train/events.out.tfevents.1587745751.0fd9a4756a7c.137.1815520.v2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-162910/validation/events.out.tfevents.1587745758.0fd9a4756a7c.137.1818377.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200425-094620/train/events.out.tfevents.1587807981.6e2e5f20697f.139.3072.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200425-094620/validation/events.out.tfevents.1587807991.6e2e5f20697f.139.5929.v2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-132902/train/events.out.tfevents.1587734943.f5e9df8020cd.121.257683.v2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-132902/validation/events.out.tfevents.1587734946.f5e9df8020cd.121.260264.v2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-133128/train/events.out.tfevents.1587735089.f5e9df8020cd.121.392129.v2" afterDir="false" />
@@ -100,16 +103,17 @@
       <change afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/MONO_BINARY_COMPLETE.h5" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/MONO_BINARY_MISSING.h5" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00000-of-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00001-of-00002" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.data-00000-of-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.data-00001-of-00002" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.data-00000-of-00002" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.data-00000-of-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.data-00001-of-00002" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.data-00000-of-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.data-00001-of-00002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Autoencoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Help_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/VAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/VAE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/dcgan.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/dcgan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/dcgan.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0001.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0002.png" beforeDir="false" />
@@ -144,14 +148,14 @@
       <change beforePath="$PROJECT_DIR$/Assignment3/models/vae/encoder_model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/encoder_model.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/models/vae/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/model.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/results" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/testing.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/checkpoint" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00000-of-00001" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-10.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-10.data-00000-of-00001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-10.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-10.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-12.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-12.data-00000-of-00001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-12.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-12.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-13.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-13.data-00000-of-00001" afterDir="false" />
@@ -172,11 +176,11 @@
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.data-00000-of-00001" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00001-of-00002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.data-00001-of-00002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.data-00001-of-00002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.data-00001-of-00002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-6.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.data-00001-of-00002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-6.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.data-00001-of-00002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-6.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-7.data-00000-of-00001" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-7.index" beforeDir="false" />
@@ -243,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.dcgan">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -311,9 +315,6 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -375,7 +376,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.dcgan" />
         <item itemvalue="Python.Main" />
         <item itemvalue="Python.Main" />
         <item itemvalue="Python.Main" />
@@ -438,7 +439,8 @@
       <workItem from="1587666508946" duration="9704000" />
       <workItem from="1587683523447" duration="10105000" />
       <workItem from="1587729192795" duration="5587000" />
-      <workItem from="1587744263791" duration="2920000" />
+      <workItem from="1587744263791" duration="2945000" />
+      <workItem from="1587806190241" duration="5024000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
