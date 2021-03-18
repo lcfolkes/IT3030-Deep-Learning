@@ -2,199 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0013.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0030.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0040.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0050.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_COLOR_FLOAT_COMPLETE_0.001-20200424-154541/train/events.out.tfevents.1587743142.0fd9a4756a7c.137.1669083.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_COLOR_FLOAT_COMPLETE_0.001-20200424-154541/validation/events.out.tfevents.1587743151.0fd9a4756a7c.137.1671940.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_COLOR_FLOAT_COMPLETE_0.001-20200424-163638/train/events.out.tfevents.1587746199.0fd9a4756a7c.137.2078655.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_COLOR_FLOAT_COMPLETE_0.001-20200424-163638/validation/events.out.tfevents.1587746208.0fd9a4756a7c.137.2081512.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_COLOR_FLOAT_MISSING_0.001-20200424-154711/train/events.out.tfevents.1587743232.0fd9a4756a7c.137.1701244.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_COLOR_FLOAT_MISSING_0.001-20200424-154711/validation/events.out.tfevents.1587743240.0fd9a4756a7c.137.1703825.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_COLOR_FLOAT_MISSING_0.001-20200424-164102/train/events.out.tfevents.1587746463.0fd9a4756a7c.137.2181716.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_COLOR_FLOAT_MISSING_0.001-20200424-164102/validation/events.out.tfevents.1587746471.0fd9a4756a7c.137.2184297.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-132756/train/events.out.tfevents.1587734877.f5e9df8020cd.121.197101.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-132756/validation/events.out.tfevents.1587734880.f5e9df8020cd.121.199958.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-133028/train/events.out.tfevents.1587735029.f5e9df8020cd.121.339296.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-133028/validation/events.out.tfevents.1587735033.f5e9df8020cd.121.342153.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-141207/train/events.out.tfevents.1587737528.f5e9df8020cd.121.484150.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-141207/validation/events.out.tfevents.1587737531.f5e9df8020cd.121.487007.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-141557/train/events.out.tfevents.1587737758.f5e9df8020cd.121.545340.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-141557/validation/events.out.tfevents.1587737762.f5e9df8020cd.121.548197.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-142238/train/events.out.tfevents.1587738159.f5e9df8020cd.121.768475.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-142238/validation/events.out.tfevents.1587738163.f5e9df8020cd.121.771332.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-142650/train/events.out.tfevents.1587738411.0fd9a4756a7c.137.3072.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-142650/validation/events.out.tfevents.1587738423.0fd9a4756a7c.137.5929.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-143118/train/events.out.tfevents.1587738679.0fd9a4756a7c.137.48909.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-143118/validation/events.out.tfevents.1587738685.0fd9a4756a7c.137.51766.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-143922/train/events.out.tfevents.1587739163.0fd9a4756a7c.137.231964.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-143922/validation/events.out.tfevents.1587739170.0fd9a4756a7c.137.234821.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-144037/train/events.out.tfevents.1587739238.0fd9a4756a7c.137.253373.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-144037/validation/events.out.tfevents.1587739244.0fd9a4756a7c.137.256230.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-145731/train/events.out.tfevents.1587740252.0fd9a4756a7c.137.699010.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-145731/validation/events.out.tfevents.1587740258.0fd9a4756a7c.137.701867.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-150041/train/events.out.tfevents.1587740442.0fd9a4756a7c.137.771728.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-150041/validation/events.out.tfevents.1587740449.0fd9a4756a7c.137.774585.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-151135/train/events.out.tfevents.1587741096.0fd9a4756a7c.137.1050581.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-151135/validation/events.out.tfevents.1587741103.0fd9a4756a7c.137.1053438.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-162910/train/events.out.tfevents.1587745751.0fd9a4756a7c.137.1815520.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200424-162910/validation/events.out.tfevents.1587745758.0fd9a4756a7c.137.1818377.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200425-094620/train/events.out.tfevents.1587807981.6e2e5f20697f.139.3072.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_COMPLETE_0.001-20200425-094620/validation/events.out.tfevents.1587807991.6e2e5f20697f.139.5929.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-132902/train/events.out.tfevents.1587734943.f5e9df8020cd.121.257683.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-132902/validation/events.out.tfevents.1587734946.f5e9df8020cd.121.260264.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-133128/train/events.out.tfevents.1587735089.f5e9df8020cd.121.392129.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-133128/validation/events.out.tfevents.1587735092.f5e9df8020cd.121.394710.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-141913/train/events.out.tfevents.1587737954.f5e9df8020cd.121.648462.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-141913/validation/events.out.tfevents.1587737957.f5e9df8020cd.121.651043.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-143614/train/events.out.tfevents.1587738975.0fd9a4756a7c.137.152031.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-143614/validation/events.out.tfevents.1587738980.0fd9a4756a7c.137.154612.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-144324/train/events.out.tfevents.1587739406.0fd9a4756a7c.137.340978.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-144324/validation/events.out.tfevents.1587739411.0fd9a4756a7c.137.343559.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-144848/train/events.out.tfevents.1587739729.0fd9a4756a7c.137.460383.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-144848/validation/events.out.tfevents.1587739735.0fd9a4756a7c.137.462964.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-145239/train/events.out.tfevents.1587739961.0fd9a4756a7c.137.579788.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-145239/validation/events.out.tfevents.1587739966.0fd9a4756a7c.137.582369.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-145428/train/events.out.tfevents.1587740069.0fd9a4756a7c.137.635193.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-145439/train/events.out.tfevents.1587740080.0fd9a4756a7c.137.638368.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-145439/validation/events.out.tfevents.1587740086.0fd9a4756a7c.137.640949.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-145555/train/events.out.tfevents.1587740156.0fd9a4756a7c.137.667813.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-145555/validation/events.out.tfevents.1587740162.0fd9a4756a7c.137.670394.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-145814/train/events.out.tfevents.1587740295.0fd9a4756a7c.137.715715.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-145814/validation/events.out.tfevents.1587740301.0fd9a4756a7c.137.718296.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-150131/train/events.out.tfevents.1587740492.0fd9a4756a7c.137.788433.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-150131/validation/events.out.tfevents.1587740498.0fd9a4756a7c.137.791014.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-150420/train/events.out.tfevents.1587740661.0fd9a4756a7c.137.843838.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-150420/validation/events.out.tfevents.1587740667.0fd9a4756a7c.137.846419.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-150657/train/events.out.tfevents.1587740818.0fd9a4756a7c.137.859163.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-150657/validation/events.out.tfevents.1587740825.0fd9a4756a7c.137.861744.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-150915/train/events.out.tfevents.1587740957.0fd9a4756a7c.137.954568.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-150915/validation/events.out.tfevents.1587740963.0fd9a4756a7c.137.957149.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-151442/train/events.out.tfevents.1587741283.0fd9a4756a7c.137.1075054.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-151442/validation/events.out.tfevents.1587741290.0fd9a4756a7c.137.1077635.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-151749/train/events.out.tfevents.1587741470.0fd9a4756a7c.137.1130459.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-151749/validation/events.out.tfevents.1587741477.0fd9a4756a7c.137.1133040.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-163225/train/events.out.tfevents.1587745946.0fd9a4756a7c.137.1918642.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/autoencoder_MONO_BINARY_MISSING_0.001-20200424-163225/validation/events.out.tfevents.1587745952.0fd9a4756a7c.137.1921223.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_COLOR_FLOAT_COMPLETE_0.001-20200424-160123/train/events.out.tfevents.1587744084.0fd9a4756a7c.137.1812424.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_COLOR_FLOAT_COMPLETE_0.001-20200424-180720/train/events.out.tfevents.1587744442.Larsintosh-Pro.5556.3035.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_COLOR_FLOAT_COMPLETE_0.001-20200424-182110/train/events.out.tfevents.1587745271.Larsintosh-Pro.5701.3035.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_COLOR_FLOAT_COMPLETE_0.001-20200424-182346/train/events.out.tfevents.1587745427.Larsintosh-Pro.5737.3035.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_COLOR_FLOAT_COMPLETE_0.001-20200424-205542/train/events.out.tfevents.1587754543.Larsintosh-Pro.6018.406535.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200424-133215/train/events.out.tfevents.1587735136.f5e9df8020cd.121.433547.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200424-133215/validation/events.out.tfevents.1587735140.f5e9df8020cd.121.435700.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200424-152032/train/events.out.tfevents.1587741634.0fd9a4756a7c.137.1226357.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200424-152032/validation/events.out.tfevents.1587741643.0fd9a4756a7c.137.1228510.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200424-164619/train/events.out.tfevents.1587746780.0fd9a4756a7c.137.2341614.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_COMPLETE_0.001-20200424-164619/validation/events.out.tfevents.1587746789.0fd9a4756a7c.137.2343767.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_MISSING_0.001-20200424-152353/train/events.out.tfevents.1587741835.0fd9a4756a7c.137.1276277.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_MISSING_0.001-20200424-152353/validation/events.out.tfevents.1587741843.0fd9a4756a7c.137.1278246.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_MISSING_0.001-20200424-153542/train/events.out.tfevents.1587742544.0fd9a4756a7c.137.1578705.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_MISSING_0.001-20200424-153542/validation/events.out.tfevents.1587742551.0fd9a4756a7c.137.1580674.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_MISSING_0.001-20200424-165051/train/events.out.tfevents.1587747052.0fd9a4756a7c.137.2423514.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/logs/scalars/vae_MONO_FLOAT_MISSING_0.001-20200424-165051/validation/events.out.tfevents.1587747060.0fd9a4756a7c.137.2425483.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/MONO_BINARY_COMPLETE.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/MONO_BINARY_MISSING.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00000-of-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00001-of-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.data-00000-of-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.data-00001-of-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.data-00000-of-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.data-00000-of-00002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.data-00000-of-00002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-102805/train/events.out.tfevents.1616059687.MacBook-Pro.local.91220.3114.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-102805/validation/events.out.tfevents.1616059722.MacBook-Pro.local.91220.3390.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103045/train/events.out.tfevents.1616059846.MacBook-Pro.local.91327.3114.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103045/validation/events.out.tfevents.1616059883.MacBook-Pro.local.91327.3390.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103627/train/events.out.tfevents.1616060188.MacBook-Pro.local.91327.7765.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103627/validation/events.out.tfevents.1616060191.MacBook-Pro.local.91327.7897.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103705/train/events.out.tfevents.1616060225.MacBook-Pro.local.91327.16252.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103705/validation/events.out.tfevents.1616060228.MacBook-Pro.local.91327.16384.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/Encoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/Help_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/processed/test.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/processed/training.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/t10k-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/t10k-images-idx3-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/t10k-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/t10k-labels-idx1-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/train-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/train-images-idx3-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/train-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/train-labels-idx1-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/Preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Deep Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deep Learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Autoencoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Help_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/VAE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/VAE.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/dcgan.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/dcgan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/dcgan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0005.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0006.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0007.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0009.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0010.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0012.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0013.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0014.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0015.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0017.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0018.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/image_at_epoch_0019.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/imgs/dcgan/image_at_epoch_0003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/autoencoder/COLOR_FLOAT_COMPLETE.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/COLOR_FLOAT_COMPLETE.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/autoencoder/COLOR_FLOAT_MISSING.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/COLOR_FLOAT_MISSING.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/autoencoder/decoder_model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/decoder_model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/autoencoder/encoder_model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/encoder_model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/autoencoder/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/autoencoder/model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/vae/MONO_FLOAT_COMPLETE.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/MONO_FLOAT_COMPLETE.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/vae/MONO_FLOAT_MISSING.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/MONO_FLOAT_MISSING.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/vae/decoder_model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/decoder_model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/vae/encoder_model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/encoder_model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/models/vae/model.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/models/vae/model.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/results" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/testing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-1.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-10.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-10.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-10.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-10.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-11.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-12.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-12.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-12.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-12.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-13.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-13.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-13.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-13.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-14.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-14.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-14.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-14.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-15.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-15.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-15.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-15.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-16.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-16.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-17.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-17.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-18.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-18.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-19.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-19.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-2.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.data-00001-of-00002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-3.data-00001-of-00002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-5.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-6.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-4.data-00001-of-00002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-6.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-7.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-7.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-8.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-8.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-9.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-9.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-9.index" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/training_checkpoints/ckpt-9.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install-3.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Assignment_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Assignment_2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Autoencoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Encoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Help_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Preprocessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/SemiSupervisedLearner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/SemiSupervisedLearner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/SupervisedLearner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/SupervisedLearner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/imgs/reconstruct_mnist_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/imgs/reconstruct_mnist_08.png" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,6 +51,17 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -215,8 +69,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -235,23 +95,58 @@
       <recent name="$PROJECT_DIR$/Assignment3" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Python.dcgan">
+    <configuration name="Encoder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2_pytorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2_pytorch/Encoder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -267,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="VAE2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,34 +170,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2_pytorch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/VAE2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="VAE3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Deep Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/VAE3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2_pytorch/Preprocessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,28 +195,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/dcgan.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dcgan_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Deep Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/dcgan_script.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,13 +228,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.dcgan" />
-        <item itemvalue="Python.Main" />
-        <item itemvalue="Python.Main" />
-        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Preprocessing" />
+        <item itemvalue="Python.Encoder" />
+        <item itemvalue="Python.Main (1)" />
         <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -441,6 +293,7 @@
       <workItem from="1587729192795" duration="5587000" />
       <workItem from="1587744263791" duration="2945000" />
       <workItem from="1587806190241" duration="5024000" />
+      <workItem from="1616056861499" duration="11464000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
@@ -453,20 +306,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -474,24 +326,24 @@
     <option name="LAST_COMMIT_MESSAGE" value="imported datasets in preprocessing. started to build encoder" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE3.coverage" NAME="VAE3 Coverage Results" MODIFIED="1587225654007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Preprocessing.coverage" NAME="Preprocessing Coverage Results" MODIFIED="1583836959579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files.coverage" NAME="run_files Coverage Results" MODIFIED="1584289627657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$verification_net.coverage" NAME="verification_net Coverage Results" MODIFIED="1587047828105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$dcgan_script.coverage" NAME="dcgan_script Coverage Results" MODIFIED="1587721910604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$stacked_mnist.coverage" NAME="stacked_mnist Coverage Results" MODIFIED="1587375714145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files_M.coverage" NAME="run_files_M Coverage Results" MODIFIED="1585054325481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder_seq.coverage" NAME="Autoencoder_seq Coverage Results" MODIFIED="1586856142213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE.coverage" NAME="VAE Coverage Results" MODIFIED="1587306055108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder.coverage" NAME="Autoencoder Coverage Results" MODIFIED="1587378502146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Classifier.coverage" NAME="Classifier Coverage Results" MODIFIED="1585310153452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE2.coverage" NAME="VAE2 Coverage Results" MODIFIED="1587308900060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$dcgan.coverage" NAME="dcgan Coverage Results" MODIFIED="1587632855709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$vae_script.coverage" NAME="vae_script Coverage Results" MODIFIED="1587115611674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/Deep_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1581252030524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 1" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584096299309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Encoder.coverage" NAME="Encoder Coverage Results" MODIFIED="1583768888720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$encoder2.coverage" NAME="encoder2 Coverage Results" MODIFIED="1584034363611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1585312784960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2 2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1616059837567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$dcgan_script.coverage" NAME="dcgan_script Coverage Results" MODIFIED="1587721910604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files.coverage" NAME="run_files Coverage Results" MODIFIED="1584289627657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$stacked_mnist.coverage" NAME="stacked_mnist Coverage Results" MODIFIED="1587375714145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder.coverage" NAME="Autoencoder Coverage Results" MODIFIED="1587378502146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Preprocessing.coverage" NAME="Preprocessing Coverage Results" MODIFIED="1616069395789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2_pytorch" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files_M.coverage" NAME="run_files_M Coverage Results" MODIFIED="1585054325481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE3.coverage" NAME="VAE3 Coverage Results" MODIFIED="1587225654007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$verification_net.coverage" NAME="verification_net Coverage Results" MODIFIED="1587047828105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$dcgan.coverage" NAME="dcgan Coverage Results" MODIFIED="1587632855709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE2.coverage" NAME="VAE2 Coverage Results" MODIFIED="1587308900060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/Deep_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1581252030524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 1" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder_seq.coverage" NAME="Autoencoder_seq Coverage Results" MODIFIED="1586856142213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Encoder.coverage" NAME="Encoder Coverage Results" MODIFIED="1616060567045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2_pytorch" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Classifier.coverage" NAME="Classifier Coverage Results" MODIFIED="1585310153452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE.coverage" NAME="VAE Coverage Results" MODIFIED="1587306055108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584096299309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
   </component>
 </project>
