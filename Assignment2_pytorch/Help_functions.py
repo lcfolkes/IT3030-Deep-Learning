@@ -56,7 +56,7 @@ def normalize_image_data(images):
 	return images / 255.0
 
 
-def one_hot_encode(images, num_classes=None, dtype='float32'):
+def one_hot_encode(images: object, num_classes: object = None, dtype: object = 'float32') -> object:
 	#return np_utils.to_categorical(images)
 	y = np.array(images, dtype='int')
 	input_shape = y.shape

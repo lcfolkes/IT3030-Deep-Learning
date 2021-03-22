@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from Assignment2_pytorch import Help_functions
 from torchvision import transforms, datasets
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, Subset
 
 
 # This class takes in the specified dataset, formats it and splits it into
@@ -17,8 +17,8 @@ class Data:
 		self.d2_train_frac = d2_train_frac
 		self.d2_val_frac = d2_val_frac
 		self.dataset_name = dataset_name
-		self.training_data = Help_functions.get_dataset(dataset_name=dataset_name, train=True)
-		self.testing_data = Help_functions.get_dataset(dataset_name=dataset_name, train=False)
+		self.data = Help_functions.get_dataset(dataset_name=dataset_name, train=True)
+		#self.testing_data = Help_functions.get_dataset(dataset_name=dataset_name, train=False)
 
 		# Retrieve data
 		self.d1_x, self.d1_y, self.d2_x_train, self.d2_y_train, self.d2_x_val, self.d2_y_val, \
@@ -26,38 +26,40 @@ class Data:
 
 	def __split_data(self):
 
-		# load data with pytorch dataloader function DataLoader()
-		(x_train, y_train) = DataLoader(self.training_data, batch_size=10, shuffle=True)
-		(x_test, y_test) = DataLoader(self.testing_data, batch_size=10, shuffle=True)
+		# Create data sample (DSS) by discarding (1-dss_frac)
+		dss_idx, trow_away_idx = train_test_split(list(range(len(self.data))), test_size=1-self.dss_frac)
+		dss = Subset(self.data, dss_idx)
 
-		# Normalize images for better predictions
-		x_train = Help_functions.normalize_image_data(x_train)
-		x_test = Help_functions.normalize_image_data(x_test)
+		# Split DSS into D1 and D2
+		d1_idx, d2_idx = train_test_split(list(range(len(dss))), test_size=1-self.dss_d1_frac)
+		d1 = DataLoader(Subset(dss, d1_idx), batch_size=10, shuffle=True)
+		d2 = Subset(dss, d2_idx)
 
-		# one-hot encode
-		y_train = Help_functions.one_hot_encode(y_train)
-		y_test = Help_functions.one_hot_encode(y_test)
+		# Split D2 into training, validation and testing partitions
+		d2_train_idx, d2_val_idx = train_test_split(list(range(len(d2))), test_size=1 - self.d2_train_frac)
+		d2_train = DataLoader(Subset(d2, d2_train_idx), batch_size=10, shuffle=True)
+		d2_val = Subset(d2, d2_val_idx)
+		d2_val_idx, d2_test_idx = train_test_split(list(range(len(d2_val))), test_size=1 - self.d2_val_frac)
+		d2_test = DataLoader(Subset(d2_val, d2_test_idx), batch_size=10, shuffle=True)
+		d2_val = DataLoader(Subset(d2_val, d2_val_idx), batch_size=10, shuffle=True)
 
-		# concatenate dataset to data and labels
-		data = np.concatenate([x_train, x_test])
-		labels = np.concatenate([y_train, y_test])
+		# Separate input and labels
+		(d1_x, d1_y) = next(iter(d1))
+		(d2_train_x, d2_train_y) = next(iter(d2_train))
+		(d2_val_x, d2_val_y) = next(iter(d2_val))
+		(d2_test_x, d2_test_y) = next(iter(d2_test))
 
-		# split data to make sample for faster training. Cut away (1 - self.dss_frac) as given in __init__.
-		# stratify attribute ensures balanced dataset
-		data_sample, data_throwaway, labels_sample, labels_throwaway = \
-			train_test_split(data, labels, stratify=labels, test_size=1-self.dss_frac)
 
-		# Split into D1 and D2
-		d1_x, d2_x, d1_y, d2_y = train_test_split(data_sample, labels_sample, stratify=labels_sample,test_size=1-self.dss_d1_frac)
+		# One-hot encode labels
+		d1_y = Help_functions.one_hot_encode(d1_y)
+		d2_train_y = Help_functions.one_hot_encode(d2_train_y)
+		d2_val_y = Help_functions.one_hot_encode(d2_val_y)
+		d2_test_y = Help_functions.one_hot_encode(d2_test_y)
 
-		# Split D2 in D2 into training, validation and testing sets
-		d2_x_train, d2_x_val, d2_y_train, d2_y_val = train_test_split(d2_x, d2_y, stratify=d2_y, test_size=1-self.d2_train_frac)
-		d2_x_val, d2_x_test, d2_y_val, d2_y_test = train_test_split(d2_x_val, d2_y_val, stratify=d2_y_val, test_size=1-self.d2_val_frac)
-
-		return d1_x, d1_y, d2_x_train, d2_y_train, d2_x_val, d2_y_val, d2_x_test, d2_y_test
+		return d1_x, d1_y, d2_train_x, d2_train_y, d2_val_x, d2_val_y, d2_test_x, d2_test_y
 
 	def describe(self):
-		dataset_size = 70000 if (self.dataset_name == 'mnist' or self.dataset_name == 'fashion_mnist') else 60000
+		dataset_size = len(self.data)
 		dss_size = dataset_size*self.dss_frac
 		d1_size = self.d1_x.shape[0]
 		d2_size = self.d2_x_train.shape[0] + self.d2_x_test.shape[0] + self.d2_x_val.shape[0]
@@ -71,34 +73,33 @@ class Data:
 			(1-self.d2_train_frac)*(1-self.d2_val_frac),
 			self.d2_x_train.shape[0], self.d2_x_val.shape[0], self.d2_x_test.shape[0]))
 		print("Shapes of all subsets:")
-		print("d1_x: {1}\nd1_y: {1}\nd2_x_train: {2}\nd2_y_train: {3}\nd2_x_val: {4}\nd2_y_val: {5}\n"
+		print("d1_x: {0}\nd1_y: {1}\nd2_x_train: {2}\nd2_y_train: {3}\nd2_x_val: {4}\nd2_y_val: {5}\n"
 			  "d2_y_test: {6}\nd2_y_test: {7}".format(self.d1_x.shape, self.d1_y.shape, self.d2_x_train.shape,
 													  self.d2_y_train.shape, self.d2_x_val.shape, self.d2_y_val.shape,
 													  self.d2_x_test.shape, self.d2_y_test.shape))
+
+		print(self.d1_x.shape)
 
 
 
 if __name__ == "__main__":
 	# Dataset parameters
 	dataset_name = 'mnist'
-	fraction_of_data_used = 0.4
-	fraction_d1 = 0.7
-	fraction_d2_training = 0.7
-	fraction_rest_of_d2_validation = 0.7
+	dss_frac = 0.4
+	dss_d1_frac = 0.6
+	d2_train_frac = 0.5
+	d2_val_frac = 0.7
 
 	# Create and split dataset
-	#data = Data(dataset_name=dataset_name, dss_frac=fraction_of_data_used, dss_d1_frac=fraction_d1,
-	#			d2_train_frac=fraction_d2_training, d2_val_frac=fraction_rest_of_d2_validation)
+	data = Data(dataset_name=dataset_name, dss_frac=dss_frac, dss_d1_frac=dss_d1_frac,
+				d2_train_frac=d2_train_frac, d2_val_frac=d2_val_frac)
 
 	# Print data summary
-	#data.describe()
-	training_data = Help_functions.get_dataset("mnist", train=True)
-	testing_data = Help_functions.get_dataset("mnist", train=False)
-	train_set = DataLoader(training_data, batch_size=10, shuffle=True)
-	test_set = DataLoader(testing_data, batch_size=10, shuffle=True)
+	data.describe()
 
-	x_train, y_train = train_set
-	#for data in train_set:
-	#	(x, y) = data
-	#	print(y)
-	#	break
+
+
+
+
+
+

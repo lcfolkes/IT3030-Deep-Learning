@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-102805/train/events.out.tfevents.1616059687.MacBook-Pro.local.91220.3114.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-102805/validation/events.out.tfevents.1616059722.MacBook-Pro.local.91220.3390.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103045/train/events.out.tfevents.1616059846.MacBook-Pro.local.91327.3114.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103045/validation/events.out.tfevents.1616059883.MacBook-Pro.local.91327.3390.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103627/train/events.out.tfevents.1616060188.MacBook-Pro.local.91327.7765.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103627/validation/events.out.tfevents.1616060191.MacBook-Pro.local.91327.7897.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103705/train/events.out.tfevents.1616060225.MacBook-Pro.local.91327.16252.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210318-103705/validation/events.out.tfevents.1616060228.MacBook-Pro.local.91327.16384.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/Encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/Help_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/processed/test.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/processed/training.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/t10k-images-idx3-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/t10k-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/t10k-labels-idx1-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/t10k-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/train-images-idx3-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/train-images-idx3-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/train-labels-idx1-ubyte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/MNIST/raw/train-labels-idx1-ubyte.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/Preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Deep Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Deep Learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Assignment_2.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Assignment_2.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Autoencoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Encoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Help_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/SemiSupervisedLearner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/SemiSupervisedLearner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/SupervisedLearner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/SupervisedLearner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/imgs/reconstruct_mnist_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/imgs/reconstruct_mnist_08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2_pytorch/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_pytorch/Encoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2_pytorch/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_pytorch/Help_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2_pytorch/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_pytorch/Preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +65,7 @@
       <recent name="$PROJECT_DIR$/Assignment3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dcgan">
+  <component name="RunManager" selected="Python.Encoder">
     <configuration name="Encoder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,6 +158,9 @@
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -227,9 +200,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dcgan" />
-        <item itemvalue="Python.Preprocessing" />
         <item itemvalue="Python.Encoder" />
+        <item itemvalue="Python.Preprocessing" />
+        <item itemvalue="Python.dcgan" />
         <item itemvalue="Python.Main (1)" />
         <item itemvalue="Python.Main" />
       </list>
@@ -294,6 +267,8 @@
       <workItem from="1587744263791" duration="2945000" />
       <workItem from="1587806190241" duration="5024000" />
       <workItem from="1616056861499" duration="11464000" />
+      <workItem from="1616072672966" duration="437000" />
+      <workItem from="1616403609284" duration="9349000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
@@ -333,7 +308,7 @@
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files.coverage" NAME="run_files Coverage Results" MODIFIED="1584289627657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$stacked_mnist.coverage" NAME="stacked_mnist Coverage Results" MODIFIED="1587375714145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder.coverage" NAME="Autoencoder Coverage Results" MODIFIED="1587378502146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Preprocessing.coverage" NAME="Preprocessing Coverage Results" MODIFIED="1616069395789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2_pytorch" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Preprocessing.coverage" NAME="Preprocessing Coverage Results" MODIFIED="1616409896605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2_pytorch" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$run_files_M.coverage" NAME="run_files_M Coverage Results" MODIFIED="1585054325481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE3.coverage" NAME="VAE3 Coverage Results" MODIFIED="1587225654007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$verification_net.coverage" NAME="verification_net Coverage Results" MODIFIED="1587047828105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
@@ -341,7 +316,7 @@
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE2.coverage" NAME="VAE2 Coverage Results" MODIFIED="1587308900060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/Deep_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1581252030524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 1" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder_seq.coverage" NAME="Autoencoder_seq Coverage Results" MODIFIED="1586856142213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Encoder.coverage" NAME="Encoder Coverage Results" MODIFIED="1616060567045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2_pytorch" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Encoder.coverage" NAME="Encoder Coverage Results" MODIFIED="1616415576630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2_pytorch" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Classifier.coverage" NAME="Classifier Coverage Results" MODIFIED="1585310153452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE.coverage" NAME="VAE Coverage Results" MODIFIED="1587306055108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584096299309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
