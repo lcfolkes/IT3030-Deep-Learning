@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a85e73cb-79cf-4535-b63f-4a0add44361e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210408-115301/train/events.out.tfevents.1617875582.MacBook-Pro.local.52900.3114.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210408-115301/validation/events.out.tfevents.1617875622.MacBook-Pro.local.52900.3390.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210408-115938/train/events.out.tfevents.1617875980.MacBook-Pro.local.52900.7765.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210408-115938/validation/events.out.tfevents.1617875985.MacBook-Pro.local.52900.7897.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210408-120025/train/events.out.tfevents.1617876026.MacBook-Pro.local.52900.16252.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_keras/logs/scalars/20210408-120025/validation/events.out.tfevents.1617876030.MacBook-Pro.local.52900.16384.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/Autoencoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2_pytorch/Decoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2_keras/Autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Autoencoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2_keras/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_keras/Encoder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment2_pytorch/Encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_pytorch/Encoder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2_pytorch/Help_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_pytorch/Help_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2_pytorch/Preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2_pytorch/Preprocessing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +41,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1XZO3C0NrWueDpRhsqb54TOTc6q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -65,7 +80,29 @@
       <recent name="$PROJECT_DIR$/Assignment3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Encoder">
+  <component name="RunManager" selected="Python.Decoder">
+    <configuration name="Decoder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2_pytorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2_pytorch/Decoder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Encoder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deep Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,36 +133,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment2_keras" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2/Main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment2_keras/Main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Deep Learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment3/Main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -200,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Decoder" />
         <item itemvalue="Python.Encoder" />
+        <item itemvalue="Python.Main" />
         <item itemvalue="Python.Preprocessing" />
         <item itemvalue="Python.dcgan" />
-        <item itemvalue="Python.Main (1)" />
-        <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +283,8 @@
       <workItem from="1587806190241" duration="5024000" />
       <workItem from="1616056861499" duration="11464000" />
       <workItem from="1616072672966" duration="437000" />
-      <workItem from="1616403609284" duration="9349000" />
+      <workItem from="1616403609284" duration="12739000" />
+      <workItem from="1617869066673" duration="8657000" />
     </task>
     <task id="LOCAL-00001" summary="imported datasets in preprocessing. started to build encoder">
       <created>1583921525325</created>
@@ -316,8 +332,10 @@
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE2.coverage" NAME="VAE2 Coverage Results" MODIFIED="1587308900060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/Deep_Learning$main.coverage" NAME="main Coverage Results" MODIFIED="1581252030524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment 1" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Autoencoder_seq.coverage" NAME="Autoencoder_seq Coverage Results" MODIFIED="1586856142213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
-    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Encoder.coverage" NAME="Encoder Coverage Results" MODIFIED="1616415576630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2_pytorch" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Encoder.coverage" NAME="Encoder Coverage Results" MODIFIED="1617882571255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2_pytorch" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Decoder.coverage" NAME="Decoder Coverage Results" MODIFIED="1617882682627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2_pytorch" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Classifier.coverage" NAME="Classifier Coverage Results" MODIFIED="1585310153452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
+    <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$Main.coverage" NAME="Main Coverage Results" MODIFIED="1617875564574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2_keras" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$VAE.coverage" NAME="VAE Coverage Results" MODIFIED="1587306055108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/IT3030_Deep_Learning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584096299309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
   </component>

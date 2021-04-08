@@ -1,8 +1,5 @@
 from datetime import datetime
-from keras.models import Model
-from keras.layers import Input, Dense, Dropout, UpSampling2D, Reshape, Conv2DTranspose
-from keras.callbacks import TensorBoard
-from Assignment2_keras import Help_functions
+from Assignment2_pytorch import Help_functions
 
 # This class combines an encoder model with a decoder model to create an autoencoder model
 
@@ -15,8 +12,6 @@ class Autoencoder:
         decoder = self.__decode()
 
         # Define autoencoder
-        enc_input_layer = encoder.model.get_input_at(0)
-        enc_output_layer = encoder.model.get_output_at(-1)
         self.model = Model(inputs=enc_input_layer, outputs=decoder(enc_output_layer))
         self.optimizer = Help_functions.set_optimizer(optimizer, learning_rate)
         self.model.compile(optimizer=self.optimizer, loss=loss_function, metrics=['accuracy'])
@@ -38,10 +33,10 @@ class Autoencoder:
         x = Dense(dense_dim, activation='relu')(inputs)
         x = Reshape(conv_shape)(x)
         x = Dropout(0.25)(x)
-        x = UpSampling2D((2, 2))(x)
+        x = UpSampling2D((2,2))(x)
         x = Conv2DTranspose(8, kernel_size=(3, 3), activation='relu', padding='same')(x)
         x = Conv2DTranspose(16, kernel_size=(3, 3), activation='relu', padding='same')(x)
-        x = UpSampling2D((2, 2))(x)
+        x = UpSampling2D((2,2))(x)
         decoded = Conv2DTranspose(self.encoder.channels, (3, 3), activation='sigmoid', padding='same')(x)
         decoder = Model(inputs=inputs, outputs=decoded)
         return decoder
