@@ -32,9 +32,12 @@ class Decoder(nn.Module):
         return model
 
     def forward(self, x):
+        print("Decoder")
+        print(x.size())
+
         for name, layer in self.model.named_modules():
             layer.auto_name = name
-        print(x.size())
+
         for layer in self.model:
             if layer.auto_name == "conv_t_1":
                 x = layer(x.view(x.size(0), 8, 5, 5))
@@ -58,10 +61,8 @@ if __name__ == "__main__":
 
     # Print data summary
     #data.describe()
-    print("Encoder")
     encoder = Encoder(64)
     encoded_data = encoder.forward(data.d2_x_test)
-    print("Decoder")
     decoder = Decoder(64)
     decoded_data = decoder.forward(encoded_data, )
 

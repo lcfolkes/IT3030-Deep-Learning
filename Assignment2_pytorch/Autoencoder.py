@@ -1,50 +1,44 @@
 from datetime import datetime
 from Assignment2_pytorch import Help_functions
+import torch
+import torch.nn as nn
+from Assignment2_pytorch.Preprocessing import Data
+from Assignment2_pytorch.Encoder import Encoder
+from Assignment2_pytorch.Decoder import Decoder
+
 
 # This class combines an encoder model with a decoder model to create an autoencoder model
 
-class Autoencoder:
-    def __init__(self, data, encoder, learning_rate=0.01, loss_function='binary_crossentropy', optimizer='adam',
+class Autoencoder(nn.Module):
+    def __init__(self, encoder, decoder, learning_rate=0.01, loss_function='binary_crossentropy', optimizer='adam',
                  epochs=20):
-
-        # Define encoder and decoder
+        super(Autoencoder, self).__init__()
         self.encoder = encoder
-        decoder = self.__decode()
+        self.decoder = decoder
 
-        # Define autoencoder
-        self.model = Model(inputs=enc_input_layer, outputs=decoder(enc_output_layer))
-        self.optimizer = Help_functions.set_optimizer(optimizer, learning_rate)
-        self.model.compile(optimizer=self.optimizer, loss=loss_function, metrics=['accuracy'])
-        self.x_train = Help_functions.modify_input_shape(data.d1_x)
+    def forward(self, x):
+        x = self.encoder(x)
+        x = self.decoder(x)
+        return x
 
-        # Define Tensorboard for accuracy and loss plots
-        logdir = "logs/scalars/" + datetime.now().strftime("%Y%m%d-%H%M%S")
-        tensorboard = TensorBoard(log_dir=logdir, profile_batch=0)
+if __name__ == "__main__":
+    # Dataset parameters
+    dataset_name = 'mnist'
+    dss_frac = 0.4
+    dss_d1_frac = 0.6
+    d2_train_frac = 0.5
+    d2_val_frac = 0.7
 
-        print("Autoencoder training")
-        self.model.fit(self.x_train, self.x_train, epochs=epochs, batch_size=1000,
-                       validation_data=(self.x_train, self.x_train), callbacks=[tensorboard])
+    # Create and split dataset
+    data = Data(dataset_name=dataset_name, dss_frac=dss_frac, dss_d1_frac=dss_d1_frac,
+                d2_train_frac=d2_train_frac, d2_val_frac=d2_val_frac)
 
-    def __decode(self):
-        # Create decoder model
-        encoded_output_shape = self.encoder.model.get_output_shape_at(-1)[1:]
-        inputs = Input(encoded_output_shape)
-        dense_dim, conv_shape = self.__get_dense_conv_shape()
-        x = Dense(dense_dim, activation='relu')(inputs)
-        x = Reshape(conv_shape)(x)
-        x = Dropout(0.25)(x)
-        x = UpSampling2D((2,2))(x)
-        x = Conv2DTranspose(8, kernel_size=(3, 3), activation='relu', padding='same')(x)
-        x = Conv2DTranspose(16, kernel_size=(3, 3), activation='relu', padding='same')(x)
-        x = UpSampling2D((2,2))(x)
-        decoded = Conv2DTranspose(self.encoder.channels, (3, 3), activation='sigmoid', padding='same')(x)
-        decoder = Model(inputs=inputs, outputs=decoded)
-        return decoder
+    # Print data summary
+    #data.describe()
+    encoder = Encoder(64)
+    #encoded_data = encoder.forward(data.d2_x_test)
+    decoder = Decoder(64)
+    #decoded_data = decoder.forward(encoded_data, )
+    autoencoder = Autoencoder(encoder, decoder)
+    autoencoder.forward(data.d2_x_test)
 
-    def __get_dense_conv_shape(self):
-        for l in self.encoder.model.layers:
-            if (len(l.input_shape) > len(l.output_shape)):
-                return l.output_shape[1], l.input_shape[1:]
-
-    def get_data_predictions(self, n):
-        return self.x_train[:n], self.model.predict(self.x_train[:n])

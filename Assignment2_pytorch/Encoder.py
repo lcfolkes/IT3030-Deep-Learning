@@ -30,6 +30,7 @@ class Encoder(nn.Module):
         return model
 
     def forward(self, x):
+        print("Encoder")
         print(x.size())
         for layer in self.model:
             if isinstance(layer, nn.Linear):
