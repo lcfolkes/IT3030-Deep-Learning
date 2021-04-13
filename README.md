@@ -1,4 +1,4 @@
-# Repo for IT3030-Deep-Learning
+# [IT3030-Deep-Learning](https://www.idi.ntnu.no/emner/it3030/)
 ## The repo consists of three large programming projects: 
 **Project 1:** Vanilla Neural Network from scratch with numpy
 
